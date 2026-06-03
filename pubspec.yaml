@@ -1,0 +1,72 @@
+name: pln_click_design_system
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: null
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  cached_network_image: ^3.4.1
+  custom_refresh_indicator: ^4.0.1
+  dotted_border: ^3.0.1
+  flutter:
+    sdk: flutter
+  flutter_html: ^3.0.0
+  flutter_markdown_plus: ^1.0.7
+  flutter_svg: ^2.2.4
+  intl: ^0.20.2
+  lottie: ^3.3.2
+  pin_code_fields: ^8.0.1
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+
+  assets:
+    - assets/animations/gif/
+    - assets/animations/lottie/
+    - assets/fonts/
+    - assets/icons/png/
+    - assets/icons/png/brands/
+    - assets/icons/svg/
+    - assets/icons/svg/colored/
+    - assets/icons/svg/menu/
+    - assets/icons/svg/outlined/
+    - assets/icons/svg/solid/
+    - assets/images/png/
+    - assets/images/png/backgrounds/
+    - assets/images/svg/
+    - assets/images/svg/placeholders/
+    - assets/sounds/
+
+  fonts:
+    - family: Figtree
+      fonts:
+        - asset: assets/fonts/Figtree-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Figtree-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Figtree-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Figtree-Bold.ttf
+          weight: 700
+    - family: Fustat
+      fonts:
+        - asset: assets/fonts/Fustat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Fustat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Fustat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Fustat-Bold.ttf
+          weight: 700
