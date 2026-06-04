@@ -320,4 +320,5 @@ abstract class AppAssets {
 
   // --- AppSounds Mapping ---
   static const soundChargingCompletion = '$_basePath/${AppSounds.chargingCompletion}';
+
 }
