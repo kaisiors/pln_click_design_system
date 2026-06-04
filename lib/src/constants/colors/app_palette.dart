@@ -8,6 +8,56 @@ abstract class AppPalette {
   static const Color black = Color(0xFF000000);
   static const Color greyDark = Color(0xFF47494D);
   static const Color greyMedium = Color(0xFFAFB3BB);
+  static const Color greySoft = Color(0xFFDFE1E4);
+  static const Color greyLight = Color(0xFFF7F7F8);
+
+  static const Color toscaDark = Color(0xFF003138);
+  static const Color toscaMedium = Color(0xFF00616F);
+  static const Color tosca = Color(0xFF00A2B9);
+  static const Color toscaSoft = Color(0xFF99DAE3);
+  static const Color toscaLight = Color(0xFFE6F6F8);
+
+  static const Color greenDark = Color(0xFF003223);
+  static const Color greenMedium = Color(0xFF006547);
+  static const Color green = Color(0xFF00A876);
+  static const Color greenSoft = Color(0xFF99DCC8);
+  static const Color greenLight = Color(0xFFE6F6F1);
+
+  static const Color yellowDark = Color(0xFF4D3709);
+  static const Color yellowMedium = Color(0xFF996E13);
+  static const Color yellow = Color(0xFFFFB81F);
+  static const Color yellowSoft = Color(0xFFFFE3A5);
+  static const Color yellowLight = Color(0xFFFFF8E9);
+
+  static const Color redDark = Color(0xFF431003);
+  static const Color redMedium = Color(0xFF852007);
+  static const Color red = Color(0xFFDE350B);
+  static const Color redSoft = Color(0xFFF2AE9D);
+  static const Color redLight = Color(0xFFFCEBE7);
+
+  static const Color purpleDark = Color(0xFF1C0038);
+  static const Color purpleMedium = Color(0xFF37006F);
+  static const Color purple = Color(0xFF5C00B9);
+  static const Color purpleSoft = Color(0xFFBE99E3);
+  static const Color purpleLight = Color(0xFFEFE6F8);
+
+  static const Color blueDark = Color(0xFF00193D);
+  static const Color blueMedium = Color(0xFF00317A);
+  static const Color blue = Color(0xFF0052CC);
+  static const Color blueSoft = Color(0xFF99BAEB);
+  static const Color blueLight = Color(0xFFE6EEFA);
+
+  static const Color bluePln1Dark = Color(0xFF0A2131);
+  static const Color bluePln1Medium = Color(0xFF144361);
+  static const Color bluePln1 = Color(0xFF226FA2);
+  static const Color bluePln1Soft = Color(0xFFA7C5DA);
+  static const Color bluePln1Light = Color(0xFFE9F1F6);
+
+  static const Color bluePln2Dark = Color(0xFF081B22);
+  static const Color bluePln2Medium = Color(0xFF103644);
+  static const Color bluePln2 = Color(0xFF1A5A71);
+  static const Color bluePln2Soft = Color(0xFFA3BDC6);
+  static const Color bluePln2Light = Color(0xFFE8EFF1);
 
   static const Color slate50 = Color(0xFFF8FAFC);
   static const Color slate100 = Color(0xFFF1F5F9);
