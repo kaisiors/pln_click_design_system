@@ -7,6 +7,7 @@ abstract class AppPalette {
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF000000);
   static const Color greyDark = Color(0xFF47494D);
+  static const Color greyHard = Color(0xFF666666);
   static const Color greyMedium = Color(0xFFAFB3BB);
   static const Color greySoft = Color(0xFFDFE1E4);
   static const Color greyLight = Color(0xFFF7F7F8);

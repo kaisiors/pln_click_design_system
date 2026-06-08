@@ -11,6 +11,7 @@ abstract class AppColors {
   static const Color white = AppPalette.white;
   static const Color black = AppPalette.black;
   static const Color greyDark = AppPalette.greyDark;
+  static const Color greyHard = AppPalette.greyHard;
   static const Color greyMedium = AppPalette.greyMedium;
   static const Color greySoft = AppPalette.greySoft;
   static const Color greyLight = AppPalette.greyLight;
