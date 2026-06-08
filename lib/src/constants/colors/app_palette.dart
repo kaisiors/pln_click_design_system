@@ -3,6 +3,15 @@ import 'package:flutter/material.dart';
 /// Define raw tokens
 abstract class AppPalette {
   AppPalette._();
+
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color black = Color(0xFF000000);
+  static const Color greyDark = Color(0xFF47494D);
+  static const Color greyHard = Color(0xFF666666);
+  static const Color greyMedium = Color(0xFFAFB3BB);
+  static const Color greySoft = Color(0xFFDFE1E4);
+  static const Color greyLight = Color(0xFFF7F7F8);
+
   static const Color bluePln250 = Color(0xFFE8EFF1);
   static const Color bluePln2100 = Color(0xFFD1DEE3);
   static const Color bluePln2150 = Color(0xFFBACED4);
