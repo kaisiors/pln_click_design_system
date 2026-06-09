@@ -4,61 +4,63 @@ import 'package:flutter/material.dart';
 abstract class AppPalette {
   AppPalette._();
 
-  static const Color white = Color(0xFFFFFFFF);
-  static const Color black = Color(0xFF000000);
-  static const Color greyDark = Color(0xFF47494D);
-  static const Color greyHard = Color(0xFF666666);
-  static const Color greyMedium = Color(0xFFAFB3BB);
-  static const Color greySoft = Color(0xFFDFE1E4);
-  static const Color greyLight = Color(0xFFF7F7F8);
+  static const Color neutral = Color(0xFFFFFFFF);
+  static const Color neutral50 = Color(0xFFF7F7F8);
+  static const Color neutral100 = Color(0xFFEFF0F1);
+  static const Color neutral150 = Color(0xFFE7E8EB);
+  static const Color neutral200 = Color(0xFFDFE1E4);
+  static const Color neutral300 = Color(0xFFCFD1D6);
+  static const Color neutral400 = Color(0xFFBFC2C9);
+  static const Color neutral500 = Color(0xFFAFB3BB);
+  static const Color neutral600 = Color(0xFF91959C);
+  static const Color neutral700 = Color(0xFF73767C);
+  static const Color neutral800 = Color(0xFF56585D);
+  static const Color neutral850 = Color(0xFF47494D);
+  static const Color neutral900 = Color(0xFF38393D);
+  static const Color neutral950 = Color(0xFF292A2E);
+  static const Color neutral1000 = Color(0xFF000000);
 
-  static const Color toscaDark = Color(0xFF003138);
-  static const Color toscaMedium = Color(0xFF00616F);
-  static const Color tosca = Color(0xFF00A2B9);
-  static const Color toscaSoft = Color(0xFF99DAE3);
-  static const Color toscaLight = Color(0xFFE6F6F8);
+  static const Color primary50 = Color(0xFFE6F6F8);
+  static const Color primary100 = Color(0xFFCCECF1);
+  static const Color primary150 = Color(0xFFB3E3EA);
+  static const Color primary200 = Color(0xFF99DAE3);
+  static const Color primary300 = Color(0xFF66C7D5);
+  static const Color primary400 = Color(0xFF33B5C7);
+  static const Color primary500 = Color(0xFF00A2B9);
+  static const Color primary600 = Color(0xFF008294);
+  static const Color primary700 = Color(0xFF00616F);
+  static const Color primary800 = Color(0xFF00414A);
+  static const Color primary850 = Color(0xFF003138);
+  static const Color primary900 = Color(0xFF002025);
+  static const Color primary950 = Color(0xFF001013);
 
-  static const Color greenDark = Color(0xFF003223);
-  static const Color greenMedium = Color(0xFF006547);
-  static const Color green = Color(0xFF00A876);
-  static const Color greenSoft = Color(0xFF99DCC8);
-  static const Color greenLight = Color(0xFFE6F6F1);
+  static const Color green50 = Color(0xFFE6F6F1);
+  static const Color green100 = Color(0xFFCCEEE4);
+  static const Color green150 = Color(0xFFB3E5D6);
+  static const Color green200 = Color(0xFF99DCC8);
+  static const Color green300 = Color(0xFF66CBAD);
+  static const Color green400 = Color(0xFF33B991);
+  static const Color green500 = Color(0xFF00A876);
+  static const Color green600 = Color(0xFF00865E);
+  static const Color green700 = Color(0xFF006547);
+  static const Color green800 = Color(0xFF00432F);
+  static const Color green850 = Color(0xFF003223);
+  static const Color green900 = Color(0xFF002218);
+  static const Color green950 = Color(0xFF00110C);
 
-  static const Color yellowDark = Color(0xFF4D3709);
-  static const Color yellowMedium = Color(0xFF996E13);
-  static const Color yellow = Color(0xFFFFB81F);
-  static const Color yellowSoft = Color(0xFFFFE3A5);
-  static const Color yellowLight = Color(0xFFFFF8E9);
-
-  static const Color redDark = Color(0xFF431003);
-  static const Color redMedium = Color(0xFF852007);
-  static const Color red = Color(0xFFDE350B);
-  static const Color redSoft = Color(0xFFF2AE9D);
-  static const Color redLight = Color(0xFFFCEBE7);
-
-  static const Color purpleDark = Color(0xFF1C0038);
-  static const Color purpleMedium = Color(0xFF37006F);
-  static const Color purple = Color(0xFF5C00B9);
-  static const Color purpleSoft = Color(0xFFBE99E3);
-  static const Color purpleLight = Color(0xFFEFE6F8);
-
-  static const Color blueDark = Color(0xFF00193D);
-  static const Color blueMedium = Color(0xFF00317A);
-  static const Color blue = Color(0xFF0052CC);
-  static const Color blueSoft = Color(0xFF99BAEB);
-  static const Color blueLight = Color(0xFFE6EEFA);
-
-  static const Color bluePln1Dark = Color(0xFF0A2131);
-  static const Color bluePln1Medium = Color(0xFF144361);
-  static const Color bluePln1 = Color(0xFF226FA2);
-  static const Color bluePln1Soft = Color(0xFFA7C5DA);
-  static const Color bluePln1Light = Color(0xFFE9F1F6);
-
-  static const Color bluePln2Dark = Color(0xFF081B22);
-  static const Color bluePln2Medium = Color(0xFF103644);
-  static const Color bluePln2 = Color(0xFF1A5A71);
-  static const Color bluePln2Soft = Color(0xFFA3BDC6);
-  static const Color bluePln2Light = Color(0xFFE8EFF1);
+  static const Color yellow50 = Color(0xFFFFF8E9);
+  static const Color yellow100 = Color(0xFFFFF1D2);
+  static const Color yellow150 = Color(0xFFFFEABC);
+  static const Color yellow200 = Color(0xFFFFE3A5);
+  static const Color yellow300 = Color(0xFFFFD479);
+  static const Color yellow400 = Color(0xFFFFC64C);
+  static const Color yellow500 = Color(0xFFFFB81F);
+  static const Color yellow600 = Color(0xFFCC9319);
+  static const Color yellow700 = Color(0xFF996E13);
+  static const Color yellow800 = Color(0xFF664A0C);
+  static const Color yellow850 = Color(0xFF4D3709);
+  static const Color yellow900 = Color(0xFF332506);
+  static const Color yellow950 = Color(0xFF1A1203);
 
   static const Color slate50 = Color(0xFFF8FAFC);
   static const Color slate100 = Color(0xFFF1F5F9);
@@ -114,18 +116,6 @@ abstract class AppPalette {
   static const Color lemon900 = Color(0xFF6A4619);
   static const Color lemon950 = Color(0xFF3E260A);
 
-  static const Color green50 = Color(0xFFF0FDF3);
-  static const Color green100 = Color(0xFFDCFCE6);
-  static const Color green200 = Color(0xFFBAF8CD);
-  static const Color green300 = Color(0xFF85F0A8);
-  static const Color green400 = Color(0xFF48E079);
-  static const Color green500 = Color(0xFF20C756);
-  static const Color green600 = Color(0xFF14A544);
-  static const Color green700 = Color(0xFF16913F);
-  static const Color green800 = Color(0xFF156631);
-  static const Color green900 = Color(0xFF13542A);
-  static const Color green950 = Color(0xFF042F14);
-
   static const Color blue50 = Color(0xFFEFF7FF);
   static const Color blue100 = Color(0xFFDBEBFE);
   static const Color blue200 = Color(0xFFBEDDFF);
@@ -138,18 +128,6 @@ abstract class AppPalette {
   static const Color blue900 = Color(0xFF1D3D8B);
   static const Color blue950 = Color(0xFF172858);
   static const Color blue1000 = Color(0xFF004573);
-
-  static const Color yellow50 = Color(0xFFFFFCE7);
-  static const Color yellow100 = Color(0xFFFFF9C1);
-  static const Color yellow200 = Color(0xFFFFEF86);
-  static const Color yellow300 = Color(0xFFFFDD41);
-  static const Color yellow400 = Color(0xFFFFC80D);
-  static const Color yellow500 = Color(0xFFF3AF00);
-  static const Color yellow600 = Color(0xFFD18400);
-  static const Color yellow700 = Color(0xFFA65D02);
-  static const Color yellow800 = Color(0xFF89480A);
-  static const Color yellow900 = Color(0xFF743B0F);
-  static const Color yellow950 = Color(0xFF441E04);
 
   static const Color red50 = Color(0xFFFFF1F1);
   static const Color red100 = Color(0xFFFFE0E0);
