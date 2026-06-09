@@ -7,7 +7,9 @@ abstract class AppAnimations {
   static const String animationOnBoarding2 = 'assets/animations/gif/animation-on-boarding-2.gif';
 
   // Group: LOTTIE
+  static const String animationLoadingDotGreyLight = 'assets/animations/lottie/animation-loading-dot-grey-light.json';
   static const String animationLoadingPrimary = 'assets/animations/lottie/animation-loading-primary.json';
+  static const String animationLoadingTosca = 'assets/animations/lottie/animation-loading-tosca.json';
   static const String animationLoadingWhite = 'assets/animations/lottie/animation-loading-white.json';
   static const String animationLottieBiometrics2 = 'assets/animations/lottie/animation-lottie-biometrics-2.json';
   static const String animationLottieBiometrics = 'assets/animations/lottie/animation-lottie-biometrics.json';
