@@ -19,10 +19,10 @@ abstract class AppImages {
   static const String imageGojekText = 'assets/images/png/image-gojek-text.png';
   static const String imageGrabBgblue = 'assets/images/png/image-grab-bgblue.png';
   static const String imageLogoKsatria = 'assets/images/png/image-logo-ksatria.png';
-  static const String imageLogoSmall = 'assets/images/png/image-logo-small.png';
+  static const String imageLogoSmall1 = 'assets/images/png/image-logo-small-1.png';
   static const String imageLogo = 'assets/images/png/image-logo.png';
   static const String imageMapPinBgblue = 'assets/images/png/image-map-pin-bgblue.png';
-  static const String imageMeetingOnlineDetail = 'assets/images/png/image-meeting_online_detail.png';
+  static const String imageMeetingOnlineDetail = 'assets/images/png/image-meeting-online-detail.png';
   static const String imageNoPhotos = 'assets/images/png/image-no-photos.png';
   static const String imagePoolVehicleBgblue = 'assets/images/png/image-pool-vehicle-bgblue.png';
   static const String imageProfileGrey = 'assets/images/png/image-profile-grey.png';
@@ -31,19 +31,9 @@ abstract class AppImages {
   static const String imageSample2 = 'assets/images/png/image-sample-2.png';
   static const String imageSample = 'assets/images/png/image-sample.png';
   static const String imageSehat = 'assets/images/png/image-sehat.png';
-  static const String imageSuperApp = 'assets/images/png/image_super_app.png';
+  static const String imageSuperApp = 'assets/images/png/image-super-app.png';
 
   // Group: SVG
-  static const String airplaneDisable = 'assets/images/svg/airplane-disable.svg';
-  static const String backgroundDoc = 'assets/images/svg/background-doc.svg';
-  static const String backgroundPerangkatSaya = 'assets/images/svg/background-perangkat-saya.svg';
-  static const String backgroundVoucher = 'assets/images/svg/background-voucher.svg';
-  static const String co2Active = 'assets/images/svg/co2-active.svg';
-  static const String co2Inactive = 'assets/images/svg/co2-inactive.svg';
-  static const String flexiPattern = 'assets/images/svg/flexi-pattern.svg';
-  static const String headerBackground = 'assets/images/svg/header-background.svg';
-  static const String icBigFolderEarsip = 'assets/images/svg/ic-big-folder-earsip.svg';
-  static const String icAtasan = 'assets/images/svg/ic_atasan.svg';
   static const String illustrationComplaintDetailHeaderFront = 'assets/images/svg/illustration-complaint-detail-header-front.svg';
   static const String imageIllustrationCannotUse = 'assets/images/svg/image-Illustration-cannot-use.svg';
   static const String imageIlustrasiDataEmpty = 'assets/images/svg/image-Ilustrasi-data-empty.svg';
@@ -53,13 +43,21 @@ abstract class AppImages {
   static const String imageIlustrasiTidakBisaCorrectionAttendance = 'assets/images/svg/image-Ilustrasi-tidak-bisa-correction-attendance.svg';
   static const String imageIlustrasiErrorToken = 'assets/images/svg/image-IlustrasiErrorToken.svg';
   static const String imageIlustrationWarning = 'assets/images/svg/image-Ilustration-warning.svg';
+  static const String imageAirplaneDisable = 'assets/images/svg/image-airplane-disable.svg';
   static const String imageAkunInactive = 'assets/images/svg/image-akun-inactive.svg';
+  static const String imageAtasan = 'assets/images/svg/image-atasan.svg';
   static const String imageAtkLoading = 'assets/images/svg/image-atk-loading.svg';
   static const String imageAttendanceNotYetLengkap = 'assets/images/svg/image-attendance-not-yet-lengkap.svg';
+  static const String imageBackgroundDoc = 'assets/images/svg/image-background-doc.svg';
+  static const String imageBackgroundPerangkatSaya = 'assets/images/svg/image-background-perangkat-saya.svg';
+  static const String imageBackgroundVoucher = 'assets/images/svg/image-background-voucher.svg';
   static const String imageBacklogEmpty = 'assets/images/svg/image-backlog-empty.svg';
   static const String imageBgProfile = 'assets/images/svg/image-bg-profile.svg';
+  static const String imageBigFolderEarsip = 'assets/images/svg/image-big-folder-earsip.svg';
   static const String imageChecklist = 'assets/images/svg/image-checklist.svg';
   static const String imageCicoFooter = 'assets/images/svg/image-cico-footer.svg';
+  static const String imageCo2Active = 'assets/images/svg/image-co2-active.svg';
+  static const String imageCo2Inactive = 'assets/images/svg/image-co2-inactive.svg';
   static const String imageDetailAgenda = 'assets/images/svg/image-detail-agenda.svg';
   static const String imageDeviceError = 'assets/images/svg/image-device-error.svg';
   static const String imageDonationEmpty = 'assets/images/svg/image-donation-empty.svg';
@@ -68,7 +66,9 @@ abstract class AppImages {
   static const String imageEmptySchedule = 'assets/images/svg/image-empty-schedule.svg';
   static const String imageEmptySearchResult = 'assets/images/svg/image-empty-search-result.svg';
   static const String imageError = 'assets/images/svg/image-error.svg';
+  static const String imageFlexiPattern = 'assets/images/svg/image-flexi-pattern.svg';
   static const String imageGetPoints = 'assets/images/svg/image-get-points.svg';
+  static const String imageHeaderBackground = 'assets/images/svg/image-header-background.svg';
   static const String imageHelp = 'assets/images/svg/image-help.svg';
   static const String imageIllustrationDoubleDevice = 'assets/images/svg/image-illustration-double-device.svg';
   static const String imageIllustrationEfisiensiBbmFalse = 'assets/images/svg/image-illustration-efisiensi-bbm-false.svg';
@@ -89,7 +89,7 @@ abstract class AppImages {
   static const String imageInfo = 'assets/images/svg/image-info.svg';
   static const String imageKuotaDonation = 'assets/images/svg/image-kuota-donation.svg';
   static const String imageLaptop = 'assets/images/svg/image-laptop.svg';
-  static const String imageLogoSmall = 'assets/images/svg/image-logo-small.svg';
+  static const String imageLogoSmall2 = 'assets/images/svg/image-logo-small-2.svg';
   static const String imageManConfused = 'assets/images/svg/image-man-confused.svg';
   static const String imageMeetingDefault = 'assets/images/svg/image-meeting-default.svg';
   static const String imageMeetingDetail = 'assets/images/svg/image-meeting-detail.svg';
