@@ -31,46 +31,46 @@ abstract class AppColors {
   static const Color greenLight = AppPalette.green50;
 
   // --- YELLOW ---
-  static const Color yellowDark = AppPalette.yellowDark;
-  static const Color yellowMedium = AppPalette.yellowMedium;
-  static const Color yellow = AppPalette.yellow;
-  static const Color yellowSoft = AppPalette.yellowSoft;
-  static const Color yellowLight = AppPalette.yellowLight;
+  static const Color yellowDark = AppPalette.yellow850;
+  static const Color yellowMedium = AppPalette.yellow700;
+  static const Color yellow = AppPalette.yellow500;
+  static const Color yellowSoft = AppPalette.yellow200;
+  static const Color yellowLight = AppPalette.yellow50;
 
   // --- RED ---
-  static const Color redDark = AppPalette.redDark;
-  static const Color redMedium = AppPalette.redMedium;
-  static const Color red = AppPalette.red;
-  static const Color redSoft = AppPalette.redSoft;
-  static const Color redLight = AppPalette.redLight;
+  static const Color redDark = AppPalette.red850;
+  static const Color redMedium = AppPalette.red700;
+  static const Color red = AppPalette.red500;
+  static const Color redSoft = AppPalette.red200;
+  static const Color redLight = AppPalette.red50;
 
   // --- PURPLE ---
-  static const Color purpleDark = AppPalette.purpleDark;
-  static const Color purpleMedium = AppPalette.purpleMedium;
-  static const Color purple = AppPalette.purple;
-  static const Color purpleSoft = AppPalette.purpleSoft;
-  static const Color purpleLight = AppPalette.purpleLight;
+  static const Color purpleDark = AppPalette.purple850;
+  static const Color purpleMedium = AppPalette.purple700;
+  static const Color purple = AppPalette.purple500;
+  static const Color purpleSoft = AppPalette.purple200;
+  static const Color purpleLight = AppPalette.purple50;
 
   // --- BLUE ---
-  static const Color blueDark = AppPalette.blueDark;
-  static const Color blueMedium = AppPalette.blueMedium;
-  static const Color blue = AppPalette.blue;
-  static const Color blueSoft = AppPalette.blueSoft;
-  static const Color blueLight = AppPalette.blueLight;
+  static const Color blueDark = AppPalette.blue850;
+  static const Color blueMedium = AppPalette.blue700;
+  static const Color blue = AppPalette.blue500;
+  static const Color blueSoft = AppPalette.blue200;
+  static const Color blueLight = AppPalette.blue50;
 
   // --- BLUE PLN 1 ---
-  static const Color bluePln1Dark = AppPalette.bluePln1Dark;
-  static const Color bluePln1Medium = AppPalette.bluePln1Medium;
-  static const Color bluePln1 = AppPalette.bluePln1;
-  static const Color bluePln1Soft = AppPalette.bluePln1Soft;
-  static const Color bluePln1Light = AppPalette.bluePln1Light;
+  static const Color bluePln1Dark = AppPalette.bluePln1850;
+  static const Color bluePln1Medium = AppPalette.bluePln1700;
+  static const Color bluePln1 = AppPalette.bluePln1500;
+  static const Color bluePln1Soft = AppPalette.bluePln1200;
+  static const Color bluePln1Light = AppPalette.bluePln150;
 
   // --- BLUE PLN 2 ---
-  static const Color bluePln2Dark = AppPalette.bluePln2Dark;
-  static const Color bluePln2Medium = AppPalette.bluePln2Medium;
-  static const Color bluePln2 = AppPalette.bluePln2;
-  static const Color bluePln2Soft = AppPalette.bluePln2Soft;
-  static const Color bluePln2Light = AppPalette.bluePln2Light;
+  static const Color bluePln2Dark = AppPalette.bluePln2850;
+  static const Color bluePln2Medium = AppPalette.bluePln2700;
+  static const Color bluePln2 = AppPalette.bluePln2500;
+  static const Color bluePln2Soft = AppPalette.bluePln2200;
+  static const Color bluePln2Light = AppPalette.bluePln250;
 
   //* PLN MOBILE
   // --- BACKGROUND ---
