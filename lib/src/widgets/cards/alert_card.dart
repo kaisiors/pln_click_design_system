@@ -51,13 +51,13 @@ class AppAlertCard extends StatelessWidget {
   Widget get _icon {
     switch (type) {
       case AppAlertType.success:
-        return SvgPicture.asset(AppAssets.iconCheckRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconSuccess, BlendMode.srcIn));
+        return SvgPicture.asset(AppAssets.iconChecklistSquare, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconSuccess, BlendMode.srcIn));
       case AppAlertType.error:
-        return SvgPicture.asset(AppAssets.iconWarningRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconError, BlendMode.srcIn));
+        return SvgPicture.asset(AppAssets.iconCloseOutlined, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconError, BlendMode.srcIn));
       case AppAlertType.info:
-        return SvgPicture.asset(AppAssets.iconInfoRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconInfo, BlendMode.srcIn));
+        return SvgPicture.asset(AppAssets.iconInfo, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconInfo, BlendMode.srcIn));
       case AppAlertType.warning:
-        return SvgPicture.asset(AppAssets.iconWarningRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconWarning, BlendMode.srcIn));
+        return SvgPicture.asset(AppAssets.iconWarningSolid, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconWarning, BlendMode.srcIn));
       default:
         return SizedBox();
     }
