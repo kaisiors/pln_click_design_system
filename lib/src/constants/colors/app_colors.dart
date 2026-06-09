@@ -74,13 +74,13 @@ abstract class AppColors {
 
   //* PLN MOBILE
   // --- BACKGROUND ---
-  static const Color background = AppPalette.greyLight;
+  static const Color background = AppPalette.neutral50;
 
   // --- FONT COLORS PRIMARY ---
-  static const Color textPrimary = AppPalette.tosca;
+  static const Color textPrimary = AppPalette.primary500;
 
   // --- BORDER PRIMARY ---
-  static const Color borderPrimaryPressed = AppPalette.toscaMedium;
+  static const Color borderPrimaryPressed = AppPalette.primary700;
 
   //* OLD
   // --- PRIMARY ---
@@ -120,7 +120,7 @@ abstract class AppColors {
   static const Color warningSubtlePressed = AppPalette.yellow100;
 
   // --- DISABLED ---
-  static const Color disabled = AppPalette.greyMedium;
+  static const Color disabled = AppPalette.neutral500;
 
   // --------------------------------------------- FONT COLORS ---------------------------------------------
 
@@ -167,7 +167,7 @@ abstract class AppColors {
   static const Color textOnWarningPressed = AppPalette.yellow200;
 
   // --- FONT COLORS DISABLED ---
-  static const Color textDisabled = AppPalette.white;
+  static const Color textDisabled = AppPalette.neutral;
   static const Color textOnDisabled = AppPalette.slate200;
 
   // --------------------------------------------- ICON COLORS ---------------------------------------------
@@ -287,5 +287,5 @@ abstract class AppColors {
 
   static const LinearGradient progressIndicatorGradient = LinearGradient(begin: Alignment.centerLeft, end: Alignment.centerRight, colors: [AppPalette.cyan200, AppPalette.cyan400]);
 
-  static const LinearGradient bgProgressIndicatorGradient = LinearGradient(begin: Alignment(-1.2, -0.6), end: Alignment(3.8, 0.5), colors: [AppPalette.sky1050, AppPalette.sky1000, AppPalette.blue1000, AppPalette.teal550, AppPalette.teal450], stops: [0.0, 0.45, 0.75, 0.85, 1.0]);
+  static const LinearGradient bgProgressIndicatorGradient = LinearGradient(begin: Alignment(-1.2, -0.6), end: Alignment(3.8, 0.5), colors: [AppPalette.sky1050, AppPalette.sky1000, AppPalette.blue900, AppPalette.teal550, AppPalette.teal450], stops: [0.0, 0.45, 0.75, 0.85, 1.0]);
 }
