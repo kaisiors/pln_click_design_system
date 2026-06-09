@@ -1,0 +1,36 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter0_bdi_7961_80653" x="10" y="13" width="40" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="2.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7961_80653"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.380392 0 0 0 0 0.435294 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_7961_80653" result="effect2_dropShadow_7961_80653"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_7961_80653" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.380392 0 0 0 0 0.435294 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_7961_80653"/>
+</filter>
+<linearGradient id="paint0_linear_7961_80653" x1="30" y1="18" x2="30" y2="42" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3AF00" stop-opacity="0.5"/>
+<stop offset="0.5" stop-color="#26B5CA"/>
+<stop offset="1" stop-color="#00A2B9"/>
+</linearGradient>
+<clipPath id="clip0_7961_80653">
+<rect width="36" height="36" fill="white" transform="translate(12 12)"/>
+</clipPath>
+</defs>
+<rect width="60" height="60" rx="16" fill="#00A2B9" fill-opacity="0.1"/>
+<g clip-path="url(#clip0_7961_80653)">
+<g filter="url(#filter0_bdi_7961_80653)">
+<path d="M42 18H18C16.35 18 15.015 19.35 15.015 21L15 39C15 40.65 16.35 42 18 42H42C43.65 42 45 40.65 45 39V21C45 19.35 43.65 18 42 18ZM41.4 24.375L30.795 31.005C30.315 31.305 29.685 31.305 29.205 31.005L18.6 24.375C18.4496 24.2906 18.3179 24.1765 18.2128 24.0397C18.1078 23.9029 18.0316 23.7462 17.9889 23.5791C17.9461 23.4119 17.9378 23.2379 17.9642 23.0675C17.9907 22.897 18.0515 22.7337 18.1429 22.5875C18.2343 22.4412 18.3545 22.315 18.4961 22.2165C18.6377 22.118 18.7978 22.0493 18.9667 22.0144C19.1357 21.9796 19.3099 21.9794 19.4789 22.0139C19.6479 22.0484 19.8082 22.1168 19.95 22.215L30 28.5L40.05 22.215C40.1918 22.1168 40.3521 22.0484 40.5211 22.0139C40.6901 21.9794 40.8643 21.9796 41.0333 22.0144C41.2022 22.0493 41.3623 22.118 41.5039 22.2165C41.6455 22.315 41.7657 22.4412 41.8571 22.5875C41.9485 22.7337 42.0093 22.897 42.0358 23.0675C42.0622 23.2379 42.0539 23.4119 42.0111 23.5791C41.9684 23.7462 41.8922 23.9029 41.7872 24.0397C41.6821 24.1765 41.5504 24.2906 41.4 24.375Z" fill="url(#paint0_linear_7961_80653)" fill-opacity="0.95" shape-rendering="crispEdges"/>
+</g>
+</g>
+</svg>
