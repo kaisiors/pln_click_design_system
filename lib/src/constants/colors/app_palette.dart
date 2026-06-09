@@ -19,6 +19,7 @@ abstract class AppPalette {
   static const Color neutral900 = Color(0xFF38393D);
   static const Color neutral950 = Color(0xFF292A2E);
   static const Color neutral1000 = Color(0xFF000000);
+  static const Color neutral1100 = Color(0xFF1A1B1E);
 
   static const Color primary50 = Color(0xFFE6F6F8);
   static const Color primary100 = Color(0xFFCCECF1);
