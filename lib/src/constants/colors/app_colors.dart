@@ -12,6 +12,7 @@ abstract class AppColors {
   static const Color black = AppPalette.neutral1100;
   static const Color greyDark = AppPalette.neutral850;
   static const Color greyHard = AppPalette.neutral1000;
+  static const Color grey = AppPalette.neutral700;
   static const Color greyMedium = AppPalette.neutral500;
   static const Color greySoft = AppPalette.neutral200;
   static const Color greyLight = AppPalette.neutral50;
@@ -133,9 +134,15 @@ abstract class AppColors {
 
   // --- FONT COLORS ON-COLOR ---
   static const Color textOnColorHeading = AppPalette.slate50;
-  static final Color textOnColorBody = AppPalette.slate50.withValues(alpha: 0.75);
-  static final Color textOnColorCaption = AppPalette.slate50.withValues(alpha: 0.75);
-  static final Color textOnColorPlaceholder = AppPalette.slate50.withValues(alpha: 0.50);
+  static final Color textOnColorBody = AppPalette.slate50.withValues(
+    alpha: 0.75,
+  );
+  static final Color textOnColorCaption = AppPalette.slate50.withValues(
+    alpha: 0.75,
+  );
+  static final Color textOnColorPlaceholder = AppPalette.slate50.withValues(
+    alpha: 0.50,
+  );
 
   // --- FONT COLORS PRIMARY ---
   static const Color textPrimaryPressed = AppPalette.teal800;
@@ -218,7 +225,9 @@ abstract class AppColors {
   // --- BORDER DEFAULT ---
   static const Color border = AppPalette.slate200;
   static const Color borderOnColor = AppPalette.slate200;
-  static final Color borderOnColorAlpha = AppPalette.slate50.withValues(alpha: 0.20);
+  static final Color borderOnColorAlpha = AppPalette.slate50.withValues(
+    alpha: 0.20,
+  );
 
   // --- BORDER PRIMARY ---
   static const Color borderPrimary = AppPalette.teal600;
@@ -226,10 +235,16 @@ abstract class AppColors {
   static const Color borderPrimarySubtlePressed = AppPalette.teal100;
 
   // --- BORDER PRIMARY ON-COLOR ---
-  static final Color borderOnColorPrimary = AppPalette.teal600.withValues(alpha: 0.50);
-  static final Color borderOnColorPrimaryPressed = AppPalette.teal700.withValues(alpha: 0.75);
-  static final Color borderOnColorPrimarySubtle = AppPalette.teal50.withValues(alpha: 0.75);
-  static final Color borderOnColorPrimarySubtlePressed = AppPalette.teal100.withValues(alpha: 0.75);
+  static final Color borderOnColorPrimary = AppPalette.teal600.withValues(
+    alpha: 0.50,
+  );
+  static final Color borderOnColorPrimaryPressed = AppPalette.teal700
+      .withValues(alpha: 0.75);
+  static final Color borderOnColorPrimarySubtle = AppPalette.teal50.withValues(
+    alpha: 0.75,
+  );
+  static final Color borderOnColorPrimarySubtlePressed = AppPalette.teal100
+      .withValues(alpha: 0.75);
 
   // --- BORDER ERROR ---
   static const Color borderError = AppPalette.red500;
@@ -275,8 +290,12 @@ abstract class AppColors {
   static const Color shimmerHighlight = AppPalette.slate50;
 
   // --- SHIMMER ON-COLOR ---
-  static final Color shimmerBaseOnColor = AppPalette.teal600.withValues(alpha: 0.5);
-  static final Color shimmerHighlightOnColor = AppPalette.teal400.withValues(alpha: 0.5);
+  static final Color shimmerBaseOnColor = AppPalette.teal600.withValues(
+    alpha: 0.5,
+  );
+  static final Color shimmerHighlightOnColor = AppPalette.teal400.withValues(
+    alpha: 0.5,
+  );
 
   // --- DISCOUNT ---
   static const Color discount = AppPalette.orange50;
@@ -285,7 +304,22 @@ abstract class AppColors {
 
   // --------------------------------------------- GRADIENT COLORS ---------------------------------------------
 
-  static const LinearGradient progressIndicatorGradient = LinearGradient(begin: Alignment.centerLeft, end: Alignment.centerRight, colors: [AppPalette.cyan200, AppPalette.cyan400]);
+  static const LinearGradient progressIndicatorGradient = LinearGradient(
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight,
+    colors: [AppPalette.cyan200, AppPalette.cyan400],
+  );
 
-  static const LinearGradient bgProgressIndicatorGradient = LinearGradient(begin: Alignment(-1.2, -0.6), end: Alignment(3.8, 0.5), colors: [AppPalette.sky1050, AppPalette.sky1000, AppPalette.blue900, AppPalette.teal550, AppPalette.teal450], stops: [0.0, 0.45, 0.75, 0.85, 1.0]);
+  static const LinearGradient bgProgressIndicatorGradient = LinearGradient(
+    begin: Alignment(-1.2, -0.6),
+    end: Alignment(3.8, 0.5),
+    colors: [
+      AppPalette.sky1050,
+      AppPalette.sky1000,
+      AppPalette.blue900,
+      AppPalette.teal550,
+      AppPalette.teal450,
+    ],
+    stops: [0.0, 0.45, 0.75, 0.85, 1.0],
+  );
 }
