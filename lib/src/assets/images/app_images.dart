@@ -3,6 +3,36 @@ abstract class AppImages {
   AppImages._();
 
   // Group: PNG
+  static const String illustrationCannotUse = 'assets/images/png/illustration-cannot-use.png';
+  static const String illustrationCicoHeader = 'assets/images/png/illustration-cico-header.png';
+  static const String illustrationCityAfternoon = 'assets/images/png/illustration-city-afternoon.png';
+  static const String illustrationCityMorning = 'assets/images/png/illustration-city-morning.png';
+  static const String illustrationCityNight = 'assets/images/png/illustration-city-night.png';
+  static const String illustrationDigitalId = 'assets/images/png/illustration-digital-id.png';
+  static const String illustrationDonasi = 'assets/images/png/illustration-donasi.png';
+  static const String illustrationFailedAtkFacility = 'assets/images/png/illustration-failed-atk-facility.png';
+  static const String illustrationFailed = 'assets/images/png/illustration-failed.png';
+  static const String illustrationGiveWordClear = 'assets/images/png/illustration-give-word-clear.png';
+  static const String illustrationGiveWord = 'assets/images/png/illustration-give-word.png';
+  static const String illustrationHealthy = 'assets/images/png/illustration-healthy.png';
+  static const String illustrationInfo = 'assets/images/png/illustration-info.png';
+  static const String illustrationLogin = 'assets/images/png/illustration-login.png';
+  static const String illustrationNewVersion = 'assets/images/png/illustration-new-version.png';
+  static const String illustrationNews = 'assets/images/png/illustration-news.png';
+  static const String illustrationOfficeNotClickable = 'assets/images/png/illustration-office-not-clickable.png';
+  static const String illustrationPaidOff = 'assets/images/png/illustration-paid-off.png';
+  static const String illustrationPopupHln = 'assets/images/png/illustration-popup-hln.png';
+  static const String illustrationPopupNataru = 'assets/images/png/illustration-popup-nataru.png';
+  static const String illustrationRoom = 'assets/images/png/illustration-room.png';
+  static const String illustrationScanSuccess = 'assets/images/png/illustration-scan-success.png';
+  static const String illustrationSubmissionSuccess = 'assets/images/png/illustration-submission-success.png';
+  static const String illustrationSuccessAtkFacility = 'assets/images/png/illustration-success-atk-facility.png';
+  static const String illustrationSuccessHotel = 'assets/images/png/illustration-success-hotel.png';
+  static const String illustrationSuccessOffice = 'assets/images/png/illustration-success-office.png';
+  static const String illustrationSuccessPlane = 'assets/images/png/illustration-success-plane.png';
+  static const String illustrationSuccessTokenDefault = 'assets/images/png/illustration-success-token-default.png';
+  static const String illustrationSuccessTransportFacility = 'assets/images/png/illustration-success-transport-facility.png';
+  static const String illustrationVideoLoading = 'assets/images/png/illustration-video-loading.png';
   static const String imageBannerEcoForm = 'assets/images/png/image-banner-eco-form.png';
   static const String imageBannerEco = 'assets/images/png/image-banner-eco.png';
   static const String imageBannerPlnEcc = 'assets/images/png/image-banner-pln-ecc.png';
@@ -35,14 +65,6 @@ abstract class AppImages {
 
   // Group: SVG
   static const String illustrationComplaintDetailHeaderFront = 'assets/images/svg/illustration-complaint-detail-header-front.svg';
-  static const String imageIllustrationCannotUse = 'assets/images/svg/image-Illustration-cannot-use.svg';
-  static const String imageIlustrasiDataEmpty = 'assets/images/svg/image-Ilustrasi-data-empty.svg';
-  static const String imageIlustrasiExceededQuotaFlexible = 'assets/images/svg/image-Ilustrasi-exceeded-quota-flexible.svg';
-  static const String imageIlustrasiHelp = 'assets/images/svg/image-Ilustrasi-help.svg';
-  static const String imageIlustrasiNotYetOrderMejaWork = 'assets/images/svg/image-Ilustrasi-not-yet-order-meja-work.svg';
-  static const String imageIlustrasiTidakBisaCorrectionAttendance = 'assets/images/svg/image-Ilustrasi-tidak-bisa-correction-attendance.svg';
-  static const String imageIlustrasiErrorToken = 'assets/images/svg/image-IlustrasiErrorToken.svg';
-  static const String imageIlustrationWarning = 'assets/images/svg/image-Ilustration-warning.svg';
   static const String imageAirplaneDisable = 'assets/images/svg/image-airplane-disable.svg';
   static const String imageAkunInactive = 'assets/images/svg/image-akun-inactive.svg';
   static const String imageAtasan = 'assets/images/svg/image-atasan.svg';
@@ -70,14 +92,21 @@ abstract class AppImages {
   static const String imageGetPoints = 'assets/images/svg/image-get-points.svg';
   static const String imageHeaderBackground = 'assets/images/svg/image-header-background.svg';
   static const String imageHelp = 'assets/images/svg/image-help.svg';
+  static const String imageIllustrationCannotCorrectionAttendance = 'assets/images/svg/image-illustration-cannot-correction-attendance.svg';
+  static const String imageIllustrationCannotUse2 = 'assets/images/svg/image-illustration-cannot-use-2.svg';
+  static const String imageIllustrationDataEmpty = 'assets/images/svg/image-illustration-data-empty.svg';
   static const String imageIllustrationDoubleDevice = 'assets/images/svg/image-illustration-double-device.svg';
   static const String imageIllustrationEfisiensiBbmFalse = 'assets/images/svg/image-illustration-efisiensi-bbm-false.svg';
   static const String imageIllustrationEfisiensiBbmTrue = 'assets/images/svg/image-illustration-efisiensi-bbm-true.svg';
+  static const String imageIllustrationErrorToken = 'assets/images/svg/image-illustration-error-token.svg';
+  static const String imageIllustrationExceededQuotaFlexible = 'assets/images/svg/image-illustration-exceeded-quota-flexible.svg';
   static const String imageIllustrationFailedReimburse = 'assets/images/svg/image-illustration-failed-reimburse.svg';
-  static const String imageIllustrationInfo = 'assets/images/svg/image-illustration-info.svg';
+  static const String imageIllustrationHelp = 'assets/images/svg/image-illustration-help.svg';
+  static const String imageIllustrationInfo2 = 'assets/images/svg/image-illustration-info-2.svg';
   static const String imageIllustrationLocationPermission = 'assets/images/svg/image-illustration-location-permission.svg';
   static const String imageIllustrationNoPhonenumber = 'assets/images/svg/image-illustration-no-phonenumber.svg';
   static const String imageIllustrationNotYetBisaLogin = 'assets/images/svg/image-illustration-not-yet-bisa-login.svg';
+  static const String imageIllustrationNotYetOrderMejaWork = 'assets/images/svg/image-illustration-not-yet-order-meja-work.svg';
   static const String imageIllustrationPdpSuccess = 'assets/images/svg/image-illustration-pdp-success.svg';
   static const String imageIllustrationPdp = 'assets/images/svg/image-illustration-pdp.svg';
   static const String imageIllustrationSubmissionActiveEtransport = 'assets/images/svg/image-illustration-submission-active-etransport.svg';
@@ -86,6 +115,7 @@ abstract class AppImages {
   static const String imageIllustrationSuccessFacility2 = 'assets/images/svg/image-illustration-success-facility-2.svg';
   static const String imageIllustrationSuccessFacility = 'assets/images/svg/image-illustration-success-facility.svg';
   static const String imageIllustrationSuccessMultitrip = 'assets/images/svg/image-illustration-success-multitrip.svg';
+  static const String imageIllustrationWarning = 'assets/images/svg/image-illustration-warning.svg';
   static const String imageInfo = 'assets/images/svg/image-info.svg';
   static const String imageKuotaDonation = 'assets/images/svg/image-kuota-donation.svg';
   static const String imageLaptop = 'assets/images/svg/image-laptop.svg';
@@ -123,7 +153,7 @@ abstract class AppImages {
   static const String imageWorkingRoom = 'assets/images/svg/image-working-room.svg';
 
   // Group: BACKGROUNDS
-  static const String backgroudnCloudAirplane = 'assets/images/png/backgrounds/backgroudn-cloud-airplane.png';
+  static const String backgroundCloudAirplane = 'assets/images/png/backgrounds/background-cloud-airplane.png';
   static const String backgroundDigitCt = 'assets/images/png/backgrounds/background-digit-ct.png';
   static const String backgroundEsppdDestination = 'assets/images/png/backgrounds/background-esppd-destination.png';
   static const String backgroundHeader = 'assets/images/png/backgrounds/background-header.png';
