@@ -9,9 +9,9 @@ abstract class AppColors {
   //* NEW
   static const Color transparent = Colors.transparent;
   static const Color white = AppPalette.neutral;
-  static const Color black = AppPalette.neutral1100;
+  static const Color black = AppPalette.neutral1000;
   static const Color greyDark = AppPalette.neutral850;
-  static const Color greyHard = AppPalette.neutral1000;
+  static const Color greyHard = AppPalette.neutral1100;
   static const Color greyMedium = AppPalette.neutral500;
   static const Color greySoft = AppPalette.neutral200;
   static const Color greyLight = AppPalette.neutral50;

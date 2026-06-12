@@ -27,7 +27,7 @@ abstract class AppTheme {
         disabledBackgroundColor: AppColors.disabled,
         disabledForegroundColor: AppColors.white.withValues(alpha: 0.75),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         elevation: 0,
         shadowColor: Colors.transparent,
       ),
