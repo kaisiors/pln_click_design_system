@@ -64,7 +64,7 @@ class AppInformationBottomSheet extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(title.toString(), style: context.textTheme.headingSmall.copyWith(color: titleColor)),
-                          AppBackButton(icon: AppAssets.iconClose),
+                          AppBackButton(icon: AppAssets.iconCloseOutlined),
                         ],
                       ),
                       AppSpacing.h16,

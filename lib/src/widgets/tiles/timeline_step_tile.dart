@@ -50,7 +50,7 @@ class AppTimelineStepTile extends StatelessWidget {
                   padding: !isError ? EdgeInsets.all(AppSizes.s4) : EdgeInsets.all(AppSizes.zero),
                   decoration: BoxDecoration(color: badgeBackgroundColor, borderRadius: AppRadius.rounded),
                   child: Center(
-                    child: SvgPicture.asset(isError ? AppAssets.iconClose : AppAssets.iconCheck, width: AppSizes.s16, height: AppSizes.s16, colorFilter: ColorFilter.mode(iconColor, BlendMode.srcIn)),
+                    child: SvgPicture.asset(isError ? AppAssets.iconCloseOutlined : AppAssets.iconChecklistSquare, width: AppSizes.s16, height: AppSizes.s16, colorFilter: ColorFilter.mode(iconColor, BlendMode.srcIn)),
                   ),
                 ),
                 SizedBox(height: AppSizes.s4),

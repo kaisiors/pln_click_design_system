@@ -6,108 +6,245 @@ abstract class AppTheme {
 
   static ThemeData get light => ThemeData(
     useMaterial3: true,
-    fontFamily: AppFonts.primary,
-    scaffoldBackgroundColor: AppColors.background,
-    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
-    extensions: <ThemeExtension<dynamic>>[AppTextTheme.lightTextTheme],
-    dividerTheme: DividerThemeData(color: AppColors.border),
+    sliderTheme: const SliderThemeData(overlappingShapeStrokeColor: AppColors.black, overlayColor: AppColors.white, thumbColor: AppColors.tosca, activeTrackColor: AppColors.tosca),
+    visualDensity: VisualDensity.adaptivePlatformDensity,
+    primaryColor: AppColors.tosca,
+    appBarTheme: const AppBarTheme(
+      titleTextStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, fontFamily: 'Roboto'),
+      surfaceTintColor: AppColors.white,
+    ),
+    buttonTheme: ButtonThemeData(
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+      buttonColor: AppColors.tosca,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+    ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded),
-        disabledBackgroundColor: AppColors.disabled,
-        disabledForegroundColor: AppColors.textDisabled,
-        foregroundColor: AppColors.textOnColorHeading,
-        backgroundColor: AppColors.primary,
-        padding: EdgeInsets.symmetric(vertical: AppSizes.s10, horizontal: AppSizes.s24),
-        elevation: 0,
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        minimumSize: const Size(120, 32),
+        backgroundColor: AppColors.tosca,
+        foregroundColor: AppColors.white,
+        disabledBackgroundColor: AppColors.greySoft,
+        disabledForegroundColor: AppColors.greyMedium,
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        shadowColor: AppColors.transparent,
-        textStyle: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+        elevation: 0,
+        shadowColor: Colors.transparent,
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
-      style: OutlinedButton.styleFrom(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded),
-        side: BorderSide(color: AppColors.borderPrimaryPressed.withValues(alpha: .5)),
-        foregroundColor: AppColors.textPrimary,
-        padding: EdgeInsets.symmetric(vertical: AppSizes.s10, horizontal: AppSizes.s24),
-        elevation: 0,
-        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        textStyle: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
-      ),
+      style:
+          OutlinedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            backgroundColor: AppColors.white,
+            disabledBackgroundColor: AppColors.white,
+            disabledForegroundColor: AppColors.greyMedium,
+            elevation: 0,
+            textStyle: const TextStyle(color: AppColors.white),
+            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+            // side: const BorderSide(color: AppColors.tosca),
+          ).copyWith(
+            side: WidgetStateProperty.resolveWith<BorderSide>((Set<WidgetState> states) {
+              if (states.contains(WidgetState.disabled)) {
+                return const BorderSide(color: AppColors.greySoft);
+              }
+              return const BorderSide(color: AppColors.tosca);
+            }),
+          ),
     ),
-    textButtonTheme: TextButtonThemeData(
-      style: TextButton.styleFrom(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded8),
-        foregroundColor: AppColors.textPrimary,
-        padding: EdgeInsets.symmetric(vertical: AppSizes.s4, horizontal: AppSizes.s8),
-        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        textStyle: AppTextTheme.lightTextTheme.bodyCaptionSemiBold,
-        minimumSize: Size.zero,
-      ),
-    ),
-    iconButtonTheme: IconButtonThemeData(
-      style: IconButton.styleFrom(iconSize: AppSizes.s24, visualDensity: VisualDensity.compact, tapTargetSize: MaterialTapTargetSize.shrinkWrap, padding: EdgeInsets.zero),
-    ),
-    appBarTheme: AppBarThemeData(
-      centerTitle: false,
-      backgroundColor: AppColors.background,
-      iconTheme: IconThemeData(color: AppColors.icon),
-      titleTextStyle: AppTextTheme.lightTextTheme.headingSmall,
-      scrolledUnderElevation: 0,
-      titleSpacing: 8,
-      elevation: 0,
-    ),
-    cardTheme: CardThemeData(shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded12)),
-    checkboxTheme: CheckboxThemeData(
-      side: BorderSide(color: AppColors.borderOnColorPrimary),
-      checkColor: WidgetStateProperty.resolveWith((states) {
-        if (states.contains(WidgetState.selected)) {
-          return AppColors.white;
-        } else {
-          return AppColors.transparent;
-        }
-      }),
-      fillColor: WidgetStateProperty.resolveWith((states) {
-        if (states.contains(WidgetState.selected)) {
-          return AppColors.primary;
-        } else {
-          return AppColors.white;
-        }
-      }),
-    ),
-    inputDecorationTheme: InputDecorationThemeData(
-      filled: true,
-      isDense: true,
-      fillColor: Colors.white,
-      labelStyle: AppTextTheme.lightTextTheme.bodyMedium.copyWith(color: AppColors.black),
-      hintStyle: AppTextTheme.lightTextTheme.bodyMedium.copyWith(color: AppColors.textPlaceholder),
-      helperStyle: AppTextTheme.lightTextTheme.bodyCaption.copyWith(color: AppColors.textPlaceholder),
-      errorStyle: AppTextTheme.lightTextTheme.bodyCaption.copyWith(color: AppColors.textError),
-      floatingLabelBehavior: FloatingLabelBehavior.auto,
-      focusColor: AppColors.primary,
+    inputDecorationTheme: InputDecorationTheme(
       enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: AppColors.border),
         borderRadius: AppRadius.rounded8,
-      ),
-      disabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: AppColors.border),
-        borderRadius: AppRadius.rounded8,
+        borderSide: const BorderSide(color: AppColors.greySoft),
       ),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: AppColors.border),
         borderRadius: AppRadius.rounded8,
+        borderSide: const BorderSide(color: AppColors.toscaLight),
       ),
-      errorBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: AppColors.borderError),
-        borderRadius: AppRadius.rounded8,
-      ),
-      focusedErrorBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: AppColors.borderError),
-        borderRadius: AppRadius.rounded8,
-      ),
+      hintStyle: TextStyle(color: AppColors.greyMedium),
     ),
-    textTheme: TextTheme(displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall, bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium),
-    primaryTextTheme: TextTheme(displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall, bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium),
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: MaterialColor(AppColors.tosca.toARGB32(), const <int, Color>{50: AppColors.tosca, 100: AppColors.tosca, 200: AppColors.tosca, 300: AppColors.tosca, 400: AppColors.tosca, 500: AppColors.tosca, 600: AppColors.tosca, 700: AppColors.tosca, 800: AppColors.tosca, 900: AppColors.tosca})).copyWith(surface: AppColors.white),
+    primaryTextTheme: TextTheme(bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall),
+    textTheme: TextTheme(bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall),
+    //   appBarTheme: AppBarThemeData(
+    //     backgroundColor: AppColors.background,
+    //     centerTitle: false,
+    //     elevation: 0,
+    //     iconTheme: IconThemeData(color: AppColors.icon),
+    //     scrolledUnderElevation: 0,
+    //     titleSpacing: 8,
+    //     titleTextStyle: AppTextTheme.lightTextTheme.headingSmall,
+    //   ),
+    //   buttonTheme: ButtonThemeData(
+    //     padding: const EdgeInsets.symmetric(vertical: 10),
+    //     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    //     buttonColor: AppColors.primaryPressed,
+    //     shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded8),
+    //   ),
+    //   cardTheme: CardThemeData(
+    //     shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded12),
+    //   ),
+    //   checkboxTheme: CheckboxThemeData(
+    //     checkColor: WidgetStateProperty.resolveWith((states) {
+    //       if (states.contains(WidgetState.selected)) {
+    //         return AppColors.white;
+    //       } else {
+    //         return AppColors.transparent;
+    //       }
+    //     }),
+    //     fillColor: WidgetStateProperty.resolveWith((states) {
+    //       if (states.contains(WidgetState.selected)) {
+    //         return AppColors.primary;
+    //       } else {
+    //         return AppColors.white;
+    //       }
+    //     }),
+    //     side: BorderSide(color: AppColors.borderOnColorPrimary),
+    //   ),
+    //   colorScheme: ColorScheme.fromSeed(seedColor: AppColors.tosca),
+    //   dividerTheme: DividerThemeData(color: AppColors.border),
+    //   elevatedButtonTheme: ElevatedButtonThemeData(
+    //     style: ElevatedButton.styleFrom(
+    //       backgroundColor: AppColors.primaryPressed,
+    //       disabledBackgroundColor: AppColors.disabled,
+    //       disabledForegroundColor: AppColors.textDisabled,
+    //       elevation: 0,
+    //       foregroundColor: AppColors.textOnColorHeading,
+    //       minimumSize: const Size(120, 32),
+    //       padding: EdgeInsets.symmetric(
+    //         horizontal: AppSizes.s24,
+    //         vertical: AppSizes.s12,
+    //       ),
+    //       shadowColor: AppColors.transparent,
+    //       shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded8),
+    //       tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    //       textStyle: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
+    //     ),
+    //   ),
+    //   extensions: <ThemeExtension<dynamic>>[AppTextTheme.lightTextTheme],
+    //   fontFamily: AppFonts.primary,
+    //   iconButtonTheme: IconButtonThemeData(
+    //     style: IconButton.styleFrom(
+    //       iconSize: AppSizes.s24,
+    //       padding: EdgeInsets.zero,
+    //       tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    //       visualDensity: VisualDensity.compact,
+    //     ),
+    //   ),
+    //   inputDecorationTheme: InputDecorationThemeData(
+    //     disabledBorder: OutlineInputBorder(
+    //       borderRadius: AppRadius.rounded8,
+    //       borderSide: BorderSide(color: AppColors.disabled),
+    //     ),
+    //     enabledBorder: OutlineInputBorder(
+    //       borderRadius: AppRadius.rounded8,
+    //       borderSide: BorderSide(color: AppColors.tosca),
+    //     ),
+    //     errorBorder: OutlineInputBorder(
+    //       borderRadius: AppRadius.rounded8,
+    //       borderSide: BorderSide(color: AppColors.borderError),
+    //     ),
+    //     errorStyle: AppTextTheme.lightTextTheme.bodyCaption.copyWith(
+    //       color: AppColors.textError,
+    //     ),
+    //     fillColor: Colors.white,
+    //     filled: true,
+    //     floatingLabelBehavior: FloatingLabelBehavior.auto,
+    //     focusColor: AppColors.primary,
+    //     focusedBorder: OutlineInputBorder(
+    //       borderRadius: AppRadius.rounded8,
+    //       borderSide: BorderSide(color: AppColors.tosca),
+    //     ),
+    //     focusedErrorBorder: OutlineInputBorder(
+    //       borderRadius: AppRadius.rounded8,
+    //       borderSide: BorderSide(color: AppColors.borderError),
+    //     ),
+    //     helperStyle: AppTextTheme.lightTextTheme.bodyCaption.copyWith(
+    //       color: AppColors.textPlaceholder,
+    //     ),
+    //     hintStyle: AppTextTheme.lightTextTheme.bodyMedium.copyWith(
+    //       color: AppColors.textPlaceholder,
+    //     ),
+    //     isDense: true,
+    //     labelStyle: AppTextTheme.lightTextTheme.bodyMedium.copyWith(
+    //       color: AppColors.black,
+    //     ),
+    //   ),
+    //   outlinedButtonTheme: OutlinedButtonThemeData(
+    //     style: OutlinedButton.styleFrom(
+    //       backgroundColor: AppColors.white,
+    //       disabledBackgroundColor: AppColors.disabled,
+    //       disabledForegroundColor: AppColors.white.withValues(alpha: 0.75),
+    //       elevation: 0,
+    //       foregroundColor: AppColors.textPrimary,
+    //       padding: EdgeInsets.symmetric(
+    //         horizontal: AppSizes.s24,
+    //         vertical: AppSizes.s12,
+    //       ),
+    //       shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded8),
+    //       side: const BorderSide(color: AppColors.primary),
+    //       tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    //       textStyle: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
+    //     ),
+    //   ),
+    //   primaryColor: AppColors.primaryPressed,
+    // primaryTextTheme: TextTheme(
+    //   bodyLarge: AppTextTheme.lightTextTheme.bodyLarge,
+    //   bodyMedium: AppTextTheme.lightTextTheme.bodyMedium,
+    //   bodySmall: AppTextTheme.lightTextTheme.bodySmall,
+    //   displayLarge: AppTextTheme.lightTextTheme.headingLarge,
+    //   displayMedium: AppTextTheme.lightTextTheme.headingMedium,
+    //   displaySmall: AppTextTheme.lightTextTheme.headingSmall,
+    //   headlineLarge: AppTextTheme.lightTextTheme.headingLarge,
+    //   headlineMedium: AppTextTheme.lightTextTheme.headingMedium,
+    //   headlineSmall: AppTextTheme.lightTextTheme.headingSmall,
+    //   labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
+    //   labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium,
+    //   labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium,
+    //   titleLarge: AppTextTheme.lightTextTheme.titleLarge,
+    //   titleMedium: AppTextTheme.lightTextTheme.titleMedium,
+    //   titleSmall: AppTextTheme.lightTextTheme.titleSmall,
+    // ),
+    //   scaffoldBackgroundColor: AppColors.background,
+    //   sliderTheme: const SliderThemeData(
+    //     overlappingShapeStrokeColor: AppColors.black,
+    //     overlayColor: AppColors.white,
+    //     thumbColor: AppColors.primary,
+    //     activeTrackColor: AppColors.primary,
+    //   ),
+    //   textButtonTheme: TextButtonThemeData(
+    //     style: TextButton.styleFrom(
+    //       foregroundColor: AppColors.textPrimary,
+    //       minimumSize: Size.zero,
+    //       padding: EdgeInsets.symmetric(
+    //         horizontal: AppSizes.s8,
+    //         vertical: AppSizes.s4,
+    //       ),
+    //       shape: RoundedRectangleBorder(borderRadius: AppRadius.rounded8),
+    //       tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+    //       textStyle: AppTextTheme.lightTextTheme.bodyCaptionSemiBold,
+    //     ),
+    //   ),
+    // textTheme: TextTheme(
+    //   bodyLarge: AppTextTheme.lightTextTheme.bodyLarge,
+    //   bodyMedium: AppTextTheme.lightTextTheme.bodyMedium,
+    //   bodySmall: AppTextTheme.lightTextTheme.bodySmall,
+    //   displayLarge: AppTextTheme.lightTextTheme.headingLarge,
+    //   displayMedium: AppTextTheme.lightTextTheme.headingMedium,
+    //   displaySmall: AppTextTheme.lightTextTheme.headingSmall,
+    //   headlineLarge: AppTextTheme.lightTextTheme.headingLarge,
+    //   headlineMedium: AppTextTheme.lightTextTheme.headingMedium,
+    //   headlineSmall: AppTextTheme.lightTextTheme.headingSmall,
+    //   labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
+    //   labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium,
+    //   labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium,
+    //   titleLarge: AppTextTheme.lightTextTheme.titleLarge,
+    //   titleMedium: AppTextTheme.lightTextTheme.titleMedium,
+    //   titleSmall: AppTextTheme.lightTextTheme.titleSmall,
+    // ),
+    //   visualDensity: VisualDensity.adaptivePlatformDensity,
+    //   useMaterial3: true,
   );
 }

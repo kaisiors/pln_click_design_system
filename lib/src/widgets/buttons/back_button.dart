@@ -13,7 +13,7 @@ class AppBackButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       onPressed: onPressed ?? () => context.safePop(),
-      icon: SvgPicture.asset(icon ?? AppAssets.iconArrowShortLeft, width: AppSizes.s24, height: AppSizes.s24, colorFilter: color != null ? ColorFilter.mode(color ?? AppColors.icon, BlendMode.srcIn) : null),
+      icon: SvgPicture.asset(icon ?? AppAssets.iconArrowRightOutlined, width: AppSizes.s24, height: AppSizes.s24, colorFilter: color != null ? ColorFilter.mode(color ?? AppColors.icon, BlendMode.srcIn) : null),
     );
   }
 }

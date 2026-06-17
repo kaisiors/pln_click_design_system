@@ -47,7 +47,7 @@ class AppSnackBar {
             spacing: AppSizes.s12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SvgPicture.asset(AppAssets.iconCheckRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnSuccess, BlendMode.srcIn)),
+              SvgPicture.asset(AppAssets.iconChecklistSquare, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnSuccess, BlendMode.srcIn)),
               Expanded(
                 child: Column(
                   spacing: AppSizes.s2,
@@ -89,7 +89,7 @@ class AppSnackBar {
             spacing: AppSizes.s12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SvgPicture.asset(AppAssets.iconInfoRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnError, BlendMode.srcIn)),
+              SvgPicture.asset(AppAssets.iconCloseOutlined, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnError, BlendMode.srcIn)),
               Expanded(
                 child: Column(
                   spacing: AppSizes.s2,
@@ -131,7 +131,7 @@ class AppSnackBar {
             spacing: AppSizes.s12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SvgPicture.asset(AppAssets.iconInfoRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnInfo, BlendMode.srcIn)),
+              SvgPicture.asset(AppAssets.iconChecklistSquare, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnSuccess, BlendMode.srcIn)),
               Expanded(
                 child: Column(
                   spacing: AppSizes.s2,
@@ -173,7 +173,7 @@ class AppSnackBar {
             spacing: AppSizes.s12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SvgPicture.asset(AppAssets.iconWarning, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnWarning, BlendMode.srcIn)),
+              SvgPicture.asset(AppAssets.iconWarningSolid, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnWarning, BlendMode.srcIn)),
               Expanded(
                 child: Column(
                   spacing: AppSizes.s2,
@@ -215,7 +215,7 @@ class AppSnackBar {
             spacing: AppSizes.s12,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SvgPicture.asset(AppAssets.iconCheckRounded, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnSuccess, BlendMode.srcIn)),
+              SvgPicture.asset(AppAssets.iconChecklistSquare, width: AppSizes.s20, colorFilter: ColorFilter.mode(AppColors.iconOnSuccess, BlendMode.srcIn)),
               Expanded(
                 child: Column(
                   spacing: AppSizes.s2,
