@@ -6,20 +6,12 @@ abstract class AppTheme {
 
   static ThemeData get light => ThemeData(
     useMaterial3: true,
-    sliderTheme: const SliderThemeData(
-      overlappingShapeStrokeColor: AppColors.black,
-      overlayColor: AppColors.white,
-      thumbColor: AppColors.tosca,
-      activeTrackColor: AppColors.tosca,
-    ),
+    sliderTheme: const SliderThemeData(overlappingShapeStrokeColor: AppColors.black, overlayColor: AppColors.white, thumbColor: AppColors.tosca, activeTrackColor: AppColors.tosca),
     visualDensity: VisualDensity.adaptivePlatformDensity,
     primaryColor: AppColors.tosca,
     appBarTheme: const AppBarTheme(
-      titleTextStyle: TextStyle(
-        fontSize: 18,
-        fontWeight: FontWeight.w600,
-        fontFamily: 'Roboto',
-      ),
+      titleTextStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, fontFamily: 'Roboto'),
+      surfaceTintColor: AppColors.white,
     ),
     buttonTheme: ButtonThemeData(
       padding: const EdgeInsets.symmetric(vertical: 10),
@@ -33,8 +25,8 @@ abstract class AppTheme {
         minimumSize: const Size(120, 32),
         backgroundColor: AppColors.tosca,
         foregroundColor: AppColors.white,
-        disabledBackgroundColor: AppColors.disabled,
-        disabledForegroundColor: AppColors.white.withValues(alpha: 0.75),
+        disabledBackgroundColor: AppColors.greySoft,
+        disabledForegroundColor: AppColors.greyMedium,
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         elevation: 0,
@@ -42,17 +34,25 @@ abstract class AppTheme {
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
-      style: OutlinedButton.styleFrom(
-        padding: const EdgeInsets.symmetric(vertical: 10),
-        backgroundColor: AppColors.white,
-        disabledBackgroundColor: AppColors.greyMedium,
-        disabledForegroundColor: AppColors.white.withValues(alpha: 0.75),
-        elevation: 0,
-        textStyle: const TextStyle(color: AppColors.white),
-        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-        side: const BorderSide(color: AppColors.tosca),
-      ),
+      style:
+          OutlinedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            backgroundColor: AppColors.white,
+            disabledBackgroundColor: AppColors.white,
+            disabledForegroundColor: AppColors.greyMedium,
+            elevation: 0,
+            textStyle: const TextStyle(color: AppColors.white),
+            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+            // side: const BorderSide(color: AppColors.tosca),
+          ).copyWith(
+            side: WidgetStateProperty.resolveWith<BorderSide>((Set<WidgetState> states) {
+              if (states.contains(WidgetState.disabled)) {
+                return const BorderSide(color: AppColors.greySoft);
+              }
+              return const BorderSide(color: AppColors.tosca);
+            }),
+          ),
     ),
     inputDecorationTheme: InputDecorationTheme(
       enabledBorder: OutlineInputBorder(
@@ -65,55 +65,9 @@ abstract class AppTheme {
       ),
       hintStyle: TextStyle(color: AppColors.greyMedium),
     ),
-    colorScheme: ColorScheme.fromSwatch(
-      primarySwatch:
-          MaterialColor(AppColors.tosca.toARGB32(), const <int, Color>{
-            50: AppColors.tosca,
-            100: AppColors.tosca,
-            200: AppColors.tosca,
-            300: AppColors.tosca,
-            400: AppColors.tosca,
-            500: AppColors.tosca,
-            600: AppColors.tosca,
-            700: AppColors.tosca,
-            800: AppColors.tosca,
-            900: AppColors.tosca,
-          }),
-    ).copyWith(surface: AppColors.white),
-    primaryTextTheme: TextTheme(
-      bodyLarge: AppTextTheme.lightTextTheme.bodyLarge,
-      bodyMedium: AppTextTheme.lightTextTheme.bodyMedium,
-      bodySmall: AppTextTheme.lightTextTheme.bodySmall,
-      displayLarge: AppTextTheme.lightTextTheme.headingLarge,
-      displayMedium: AppTextTheme.lightTextTheme.headingMedium,
-      displaySmall: AppTextTheme.lightTextTheme.headingSmall,
-      headlineLarge: AppTextTheme.lightTextTheme.headingLarge,
-      headlineMedium: AppTextTheme.lightTextTheme.headingMedium,
-      headlineSmall: AppTextTheme.lightTextTheme.headingSmall,
-      labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
-      labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium,
-      labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium,
-      titleLarge: AppTextTheme.lightTextTheme.titleLarge,
-      titleMedium: AppTextTheme.lightTextTheme.titleMedium,
-      titleSmall: AppTextTheme.lightTextTheme.titleSmall,
-    ),
-    textTheme: TextTheme(
-      bodyLarge: AppTextTheme.lightTextTheme.bodyLarge,
-      bodyMedium: AppTextTheme.lightTextTheme.bodyMedium,
-      bodySmall: AppTextTheme.lightTextTheme.bodySmall,
-      displayLarge: AppTextTheme.lightTextTheme.headingLarge,
-      displayMedium: AppTextTheme.lightTextTheme.headingMedium,
-      displaySmall: AppTextTheme.lightTextTheme.headingSmall,
-      headlineLarge: AppTextTheme.lightTextTheme.headingLarge,
-      headlineMedium: AppTextTheme.lightTextTheme.headingMedium,
-      headlineSmall: AppTextTheme.lightTextTheme.headingSmall,
-      labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold,
-      labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium,
-      labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium,
-      titleLarge: AppTextTheme.lightTextTheme.titleLarge,
-      titleMedium: AppTextTheme.lightTextTheme.titleMedium,
-      titleSmall: AppTextTheme.lightTextTheme.titleSmall,
-    ),
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: MaterialColor(AppColors.tosca.toARGB32(), const <int, Color>{50: AppColors.tosca, 100: AppColors.tosca, 200: AppColors.tosca, 300: AppColors.tosca, 400: AppColors.tosca, 500: AppColors.tosca, 600: AppColors.tosca, 700: AppColors.tosca, 800: AppColors.tosca, 900: AppColors.tosca})).copyWith(surface: AppColors.white),
+    primaryTextTheme: TextTheme(bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall),
+    textTheme: TextTheme(bodyLarge: AppTextTheme.lightTextTheme.bodyLarge, bodyMedium: AppTextTheme.lightTextTheme.bodyMedium, bodySmall: AppTextTheme.lightTextTheme.bodySmall, displayLarge: AppTextTheme.lightTextTheme.headingLarge, displayMedium: AppTextTheme.lightTextTheme.headingMedium, displaySmall: AppTextTheme.lightTextTheme.headingSmall, headlineLarge: AppTextTheme.lightTextTheme.headingLarge, headlineMedium: AppTextTheme.lightTextTheme.headingMedium, headlineSmall: AppTextTheme.lightTextTheme.headingSmall, labelLarge: AppTextTheme.lightTextTheme.bodyMediumSemiBold, labelMedium: AppTextTheme.lightTextTheme.bodyCaptionMedium, labelSmall: AppTextTheme.lightTextTheme.bodySmallMedium, titleLarge: AppTextTheme.lightTextTheme.titleLarge, titleMedium: AppTextTheme.lightTextTheme.titleMedium, titleSmall: AppTextTheme.lightTextTheme.titleSmall),
     //   appBarTheme: AppBarThemeData(
     //     backgroundColor: AppColors.background,
     //     centerTitle: false,
