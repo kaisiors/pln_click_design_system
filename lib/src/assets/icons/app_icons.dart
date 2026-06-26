@@ -21,6 +21,10 @@ abstract class AppIcons {
   static const String iconAmsOfficialDocumentOther = 'assets/icons/svg/icon-ams-official-document-other.svg';
   static const String iconApprovalOutlined = 'assets/icons/svg/icon-approval-outlined.svg';
   static const String iconApprovalSolid = 'assets/icons/svg/icon-approval-solid.svg';
+  static const String iconArrowDown = 'assets/icons/svg/icon-arrow-down.svg';
+  static const String iconArrowLeft = 'assets/icons/svg/icon-arrow-left.svg';
+  static const String iconArrowRight = 'assets/icons/svg/icon-arrow-right.svg';
+  static const String iconArrowUp = 'assets/icons/svg/icon-arrow-up.svg';
   static const String iconArrowsExchange = 'assets/icons/svg/icon-arrows-exchange.svg';
   static const String iconAttachment = 'assets/icons/svg/icon-attachment.svg';
   static const String iconAttendanceBacklogInactive = 'assets/icons/svg/icon-attendance-backlog-inactive.svg';
@@ -51,11 +55,16 @@ abstract class AppIcons {
   static const String iconCalendarTeam = 'assets/icons/svg/icon-calendar-team.svg';
   static const String iconChairAlt = 'assets/icons/svg/icon-chair-alt.svg';
   static const String iconChat2 = 'assets/icons/svg/icon-chat-2.svg';
+  static const String iconChevronDown = 'assets/icons/svg/icon-chevron-down.svg';
+  static const String iconChevronLeft = 'assets/icons/svg/icon-chevron-left.svg';
+  static const String iconChevronRight = 'assets/icons/svg/icon-chevron-right.svg';
+  static const String iconChevronUp = 'assets/icons/svg/icon-chevron-up.svg';
   static const String iconClipper = 'assets/icons/svg/icon-clipper.svg';
   static const String iconClockSchedule = 'assets/icons/svg/icon-clock-schedule.svg';
   static const String iconClockTeam = 'assets/icons/svg/icon-clock-team.svg';
   static const String iconClock = 'assets/icons/svg/icon-clock.svg';
   static const String iconClockinClockout = 'assets/icons/svg/icon-clockin-clockout.svg';
+  static const String iconClose = 'assets/icons/svg/icon-close.svg';
   static const String iconCloudBottom = 'assets/icons/svg/icon-cloud-bottom.svg';
   static const String iconCollaboration = 'assets/icons/svg/icon-collaboration.svg';
   static const String iconCollapsibleCollapsed = 'assets/icons/svg/icon-collapsible-collapsed.svg';
@@ -116,6 +125,7 @@ abstract class AppIcons {
   static const String iconImage = 'assets/icons/svg/icon-image.svg';
   static const String iconInfo = 'assets/icons/svg/icon-info.svg';
   static const String iconInformationNotif = 'assets/icons/svg/icon-information-notif.svg';
+  static const String iconInformation = 'assets/icons/svg/icon-information.svg';
   static const String iconIntersect = 'assets/icons/svg/icon-intersect.svg';
   static const String iconJpg = 'assets/icons/svg/icon-jpg.svg';
   static const String iconKendaraan = 'assets/icons/svg/icon-kendaraan.svg';
@@ -142,6 +152,8 @@ abstract class AppIcons {
   static const String iconMeetingMyInactive = 'assets/icons/svg/icon-meeting-my-inactive.svg';
   static const String iconMeetingMy = 'assets/icons/svg/icon-meeting-my.svg';
   static const String iconMember = 'assets/icons/svg/icon-member.svg';
+  static const String iconMinusCircle = 'assets/icons/svg/icon-minus-circle.svg';
+  static const String iconMinus = 'assets/icons/svg/icon-minus.svg';
   static const String iconMkpCar = 'assets/icons/svg/icon-mkp-car.svg';
   static const String iconMkpCart = 'assets/icons/svg/icon-mkp-cart.svg';
   static const String iconMkpCc = 'assets/icons/svg/icon-mkp-cc.svg';
@@ -191,6 +203,8 @@ abstract class AppIcons {
   static const String iconOvertimeRealisation = 'assets/icons/svg/icon-overtime-realisation.svg';
   static const String iconPaperplane = 'assets/icons/svg/icon-paperplane.svg';
   static const String iconParkingSquare = 'assets/icons/svg/icon-parking-square.svg';
+  static const String iconPasswordOff = 'assets/icons/svg/icon-password-off.svg';
+  static const String iconPasswordOn = 'assets/icons/svg/icon-password-on.svg';
   static const String iconPdf = 'assets/icons/svg/icon-pdf.svg';
   static const String iconPencilRulerNotif = 'assets/icons/svg/icon-pencil-ruler-notif.svg';
   static const String iconPencilRuler = 'assets/icons/svg/icon-pencil-ruler.svg';
@@ -200,6 +214,8 @@ abstract class AppIcons {
   static const String iconPeriodePenukaran = 'assets/icons/svg/icon-periode-penukaran.svg';
   static const String iconPlaneFlight = 'assets/icons/svg/icon-plane-flight.svg';
   static const String iconPlaystore2 = 'assets/icons/svg/icon-playstore-2.svg';
+  static const String iconPlusCircle = 'assets/icons/svg/icon-plus-circle.svg';
+  static const String iconPlus = 'assets/icons/svg/icon-plus.svg';
   static const String iconPopupAttendanceSaya = 'assets/icons/svg/icon-popup-attendance-saya.svg';
   static const String iconPp = 'assets/icons/svg/icon-pp.svg';
   static const String iconPrinterNotif = 'assets/icons/svg/icon-printer-notif.svg';
@@ -219,6 +235,8 @@ abstract class AppIcons {
   static const String iconRoomBuilding = 'assets/icons/svg/icon-room-building.svg';
   static const String iconRoomWorkInactive = 'assets/icons/svg/icon-room-work-inactive.svg';
   static const String iconRoomWork = 'assets/icons/svg/icon-room-work.svg';
+  static const String iconRotateLeft = 'assets/icons/svg/icon-rotate-left.svg';
+  static const String iconRotateRight = 'assets/icons/svg/icon-rotate-right.svg';
   static const String iconScan = 'assets/icons/svg/icon-scan.svg';
   static const String iconSearch2 = 'assets/icons/svg/icon-search-2.svg';
   static const String iconSearch = 'assets/icons/svg/icon-search.svg';
@@ -227,6 +245,9 @@ abstract class AppIcons {
   static const String iconSekretaris = 'assets/icons/svg/icon-sekretaris.svg';
   static const String iconService = 'assets/icons/svg/icon-service.svg';
   static const String iconSession = 'assets/icons/svg/icon-session.svg';
+  static const String iconSettingFilter = 'assets/icons/svg/icon-setting-filter.svg';
+  static const String iconSettingOutlined = 'assets/icons/svg/icon-setting-outlined.svg';
+  static const String iconSettingSolid = 'assets/icons/svg/icon-setting-solid.svg';
   static const String iconSetting = 'assets/icons/svg/icon-setting.svg';
   static const String iconShield = 'assets/icons/svg/icon-shield.svg';
   static const String iconShiftActivity = 'assets/icons/svg/icon-shift-activity.svg';
