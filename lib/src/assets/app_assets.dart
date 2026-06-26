@@ -26,6 +26,8 @@ abstract class AppAssets {
   static const iconAmsMySecretary = '$_basePath/${AppIcons.iconAmsMySecretary}';
   static const iconAmsOfficialDocumentOtherInactive = '$_basePath/${AppIcons.iconAmsOfficialDocumentOtherInactive}';
   static const iconAmsOfficialDocumentOther = '$_basePath/${AppIcons.iconAmsOfficialDocumentOther}';
+  static const iconApprovalOutlined = '$_basePath/${AppIcons.iconApprovalOutlined}';
+  static const iconApprovalSolid = '$_basePath/${AppIcons.iconApprovalSolid}';
   static const iconArrowsExchange = '$_basePath/${AppIcons.iconArrowsExchange}';
   static const iconAttachment = '$_basePath/${AppIcons.iconAttachment}';
   static const iconAttendanceBacklogInactive = '$_basePath/${AppIcons.iconAttendanceBacklogInactive}';
@@ -90,6 +92,8 @@ abstract class AppAssets {
   static const iconEditDoc = '$_basePath/${AppIcons.iconEditDoc}';
   static const iconEdit = '$_basePath/${AppIcons.iconEdit}';
   static const iconExchangeShiftDetail = '$_basePath/${AppIcons.iconExchangeShiftDetail}';
+  static const iconExploreOutlined = '$_basePath/${AppIcons.iconExploreOutlined}';
+  static const iconExploreSolid = '$_basePath/${AppIcons.iconExploreSolid}';
   static const iconFavorite = '$_basePath/${AppIcons.iconFavorite}';
   static const iconFileDigitalSign = '$_basePath/${AppIcons.iconFileDigitalSign}';
   static const iconFileNotFound = '$_basePath/${AppIcons.iconFileNotFound}';
@@ -107,6 +111,8 @@ abstract class AppAssets {
   static const iconHistorySquareWorkingTime = '$_basePath/${AppIcons.iconHistorySquareWorkingTime}';
   static const iconHistorySquare = '$_basePath/${AppIcons.iconHistorySquare}';
   static const iconHomeHybridWorking = '$_basePath/${AppIcons.iconHomeHybridWorking}';
+  static const iconHomeOutlined = '$_basePath/${AppIcons.iconHomeOutlined}';
+  static const iconHomeSolid = '$_basePath/${AppIcons.iconHomeSolid}';
   static const iconHotel = '$_basePath/${AppIcons.iconHotel}';
   static const iconHybridWorkNotif = '$_basePath/${AppIcons.iconHybridWorkNotif}';
   static const iconHybridWorkingNotif = '$_basePath/${AppIcons.iconHybridWorkingNotif}';
@@ -168,6 +174,8 @@ abstract class AppAssets {
   static const iconMyTeamTeamSchedule = '$_basePath/${AppIcons.iconMyTeamTeamSchedule}';
   static const iconNotes = '$_basePath/${AppIcons.iconNotes}';
   static const iconNotificationHome = '$_basePath/${AppIcons.iconNotificationHome}';
+  static const iconNotificationOutlined = '$_basePath/${AppIcons.iconNotificationOutlined}';
+  static const iconNotificationSolid = '$_basePath/${AppIcons.iconNotificationSolid}';
   static const iconObsecureDigitalsign = '$_basePath/${AppIcons.iconObsecureDigitalsign}';
   static const iconOfficeSuppliesComputerInactive = '$_basePath/${AppIcons.iconOfficeSuppliesComputerInactive}';
   static const iconOfficeSuppliesComputer = '$_basePath/${AppIcons.iconOfficeSuppliesComputer}';
@@ -208,6 +216,8 @@ abstract class AppAssets {
   static const iconPriorityNormal = '$_basePath/${AppIcons.iconPriorityNormal}';
   static const iconPriorityUrgent = '$_basePath/${AppIcons.iconPriorityUrgent}';
   static const iconProfileAtasan = '$_basePath/${AppIcons.iconProfileAtasan}';
+  static const iconProfileOutlined = '$_basePath/${AppIcons.iconProfileOutlined}';
+  static const iconProfileSolid = '$_basePath/${AppIcons.iconProfileSolid}';
   static const iconRabNotEnough = '$_basePath/${AppIcons.iconRabNotEnough}';
   static const iconRecentActivity = '$_basePath/${AppIcons.iconRecentActivity}';
   static const iconReimburse = '$_basePath/${AppIcons.iconReimburse}';
