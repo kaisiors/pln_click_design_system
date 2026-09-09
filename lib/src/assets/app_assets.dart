@@ -650,57 +650,27 @@ abstract class AppAssets {
   static const iconHomeFasilitas = '$_basePath/${AppIcons.iconHomeFasilitas}';
   static const iconHomeMeeting = '$_basePath/${AppIcons.iconHomeMeeting}';
   static const iconHomeTask = '$_basePath/${AppIcons.iconHomeTask}';
-  static const iconMenuAbsen = '$_basePath/${AppIcons.iconMenuAbsen}';
-  static const iconMenuAbsenceActive =
-      '$_basePath/${AppIcons.iconMenuAbsenceActive}';
   static const iconMenuAbsence = '$_basePath/${AppIcons.iconMenuAbsence}';
-  static const iconMenuAllActive = '$_basePath/${AppIcons.iconMenuAllActive}';
   static const iconMenuAll = '$_basePath/${AppIcons.iconMenuAll}';
-  static const iconMenuApps = '$_basePath/${AppIcons.iconMenuApps}';
-  static const iconMenuAttendanceActive =
-      '$_basePath/${AppIcons.iconMenuAttendanceActive}';
+  static const iconMenuAmsCorporate =
+      '$_basePath/${AppIcons.iconMenuAmsCorporate}';
   static const iconMenuAttendance = '$_basePath/${AppIcons.iconMenuAttendance}';
-  static const iconMenuBalikNama = '$_basePath/${AppIcons.iconMenuBalikNama}';
-  static const iconMenuCalendarActive =
-      '$_basePath/${AppIcons.iconMenuCalendarActive}';
+  static const iconMenuAuthenticator =
+      '$_basePath/${AppIcons.iconMenuAuthenticator}';
   static const iconMenuCalendar = '$_basePath/${AppIcons.iconMenuCalendar}';
-  static const iconMenuECalendarActive =
-      '$_basePath/${AppIcons.iconMenuECalendarActive}';
-  static const iconMenuECalendar = '$_basePath/${AppIcons.iconMenuECalendar}';
-  static const iconMenuEntryBuildingActive =
-      '$_basePath/${AppIcons.iconMenuEntryBuildingActive}';
-  static const iconMenuEntryBuilding =
-      '$_basePath/${AppIcons.iconMenuEntryBuilding}';
-  static const iconMenuFacilityActive =
-      '$_basePath/${AppIcons.iconMenuFacilityActive}';
-  static const iconMenuFacility = '$_basePath/${AppIcons.iconMenuFacility}';
-  static const iconMenuFundraisingActive =
-      '$_basePath/${AppIcons.iconMenuFundraisingActive}';
-  static const iconMenuFundraising =
-      '$_basePath/${AppIcons.iconMenuFundraising}';
-  static const iconMenuHealthActive =
-      '$_basePath/${AppIcons.iconMenuHealthActive}';
-  static const iconMenuHealth = '$_basePath/${AppIcons.iconMenuHealth}';
-  static const iconMenuMailActive = '$_basePath/${AppIcons.iconMenuMailActive}';
-  static const iconMenuMail = '$_basePath/${AppIcons.iconMenuMail}';
-  static const iconMenuMeetingActive =
-      '$_basePath/${AppIcons.iconMenuMeetingActive}';
+  static const iconMenuEarchive = '$_basePath/${AppIcons.iconMenuEarchive}';
+  static const iconMenuEmployee = '$_basePath/${AppIcons.iconMenuEmployee}';
+  static const iconMenuEsppd = '$_basePath/${AppIcons.iconMenuEsppd}';
+  static const iconMenuLaptop = '$_basePath/${AppIcons.iconMenuLaptop}';
   static const iconMenuMeeting = '$_basePath/${AppIcons.iconMenuMeeting}';
-  static const iconMenuMkpActive = '$_basePath/${AppIcons.iconMenuMkpActive}';
-  static const iconMenuMkp = '$_basePath/${AppIcons.iconMenuMkp}';
-  static const iconMenuRoomActive = '$_basePath/${AppIcons.iconMenuRoomActive}';
+  static const iconMenuMyteam = '$_basePath/${AppIcons.iconMenuMyteam}';
+  static const iconMenuOvertime = '$_basePath/${AppIcons.iconMenuOvertime}';
   static const iconMenuRoom = '$_basePath/${AppIcons.iconMenuRoom}';
-  static const iconMenuShiftActive =
-      '$_basePath/${AppIcons.iconMenuShiftActive}';
-  static const iconMenuShiftDisable =
-      '$_basePath/${AppIcons.iconMenuShiftDisable}';
   static const iconMenuShift = '$_basePath/${AppIcons.iconMenuShift}';
-  static const iconMenuSppdActive = '$_basePath/${AppIcons.iconMenuSppdActive}';
-  static const iconMenuSppd = '$_basePath/${AppIcons.iconMenuSppd}';
-  static const iconMenuTaskActive = '$_basePath/${AppIcons.iconMenuTaskActive}';
+  static const iconMenuStationery = '$_basePath/${AppIcons.iconMenuStationery}';
   static const iconMenuTask = '$_basePath/${AppIcons.iconMenuTask}';
-  static const iconMenuTeamActive = '$_basePath/${AppIcons.iconMenuTeamActive}';
-  static const iconMenuTeam = '$_basePath/${AppIcons.iconMenuTeam}';
+  static const iconMenuTransportation =
+      '$_basePath/${AppIcons.iconMenuTransportation}';
   static const iconScanQr2 = '$_basePath/${AppIcons.iconScanQr2}';
   static const iconSubmenuAbsenceSubmit =
       '$_basePath/${AppIcons.iconSubmenuAbsenceSubmit}';
