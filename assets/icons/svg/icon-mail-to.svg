@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <g transform="translate(-8 8)">
+    <path
+      d="M61 39
+         C48 39 40 47 43 60
+         C44 65 47 69 51 73
+         L101 123
+         L113 177
+         C116 191 124 201 137 201
+         C149 201 156 195 162 184
+         L216 91
+         C224 77 231 63 230 53
+         C229 44 222 39 211 39
+         Z"
+      stroke="white"
+      stroke-width="18"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+    <path
+      d="M101 123 L181 80"
+      stroke="white"
+      stroke-width="18"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+  </g>
+</svg>

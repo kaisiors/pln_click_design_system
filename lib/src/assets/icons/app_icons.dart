@@ -225,6 +225,7 @@ abstract class AppIcons {
   static const String iconMailSearch = 'assets/icons/svg/icon-mail-search.svg';
   static const String iconMailSent = 'assets/icons/svg/icon-mail-sent.svg';
   static const String iconMail = 'assets/icons/svg/icon-mail.svg';
+  static const String iconMailTo = 'assets/icons/svg/icon-mail-to.svg';
   static const String iconManagerGrayscale =
       'assets/icons/svg/icon-manager-grayscale.svg';
   static const String iconMapMarker = 'assets/icons/svg/icon-map-marker.svg';

@@ -514,6 +514,7 @@ abstract class AppAssets {
       '$_basePath/${AppIcons.iconImageFrameOutlined}';
   static const iconListOutlined = '$_basePath/${AppIcons.iconListOutlined}';
   static const iconMailOutlined = '$_basePath/${AppIcons.iconMailOutlined}';
+  static const iconMailTo = '$_basePath/${AppIcons.iconMailTo}';
   static const iconManagerOutlined =
       '$_basePath/${AppIcons.iconManagerOutlined}';
   static const iconOfficeOutlined = '$_basePath/${AppIcons.iconOfficeOutlined}';
