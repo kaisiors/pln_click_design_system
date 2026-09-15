@@ -3,118 +3,75 @@ abstract class AppIcons {
   AppIcons._();
 
   // Group: SVG
-  static const String iconIconDeleteBox =
-      'assets/icons/svg/icon-Icon-delete-box.svg';
-  static const String iconAbsenceSubmitInactive =
-      'assets/icons/svg/icon-absence-submit-inactive.svg';
-  static const String iconAbsenceSubmit =
-      'assets/icons/svg/icon-absence-submit.svg';
+  static const String iconIconDeleteBox = 'assets/icons/svg/icon-Icon-delete-box.svg';
+  static const String iconAbsenceSubmitInactive = 'assets/icons/svg/icon-absence-submit-inactive.svg';
+  static const String iconAbsenceSubmit = 'assets/icons/svg/icon-absence-submit.svg';
   static const String iconAmsApprove = 'assets/icons/svg/icon-ams-approve.svg';
-  static const String iconAmsDigitalSignInactive =
-      'assets/icons/svg/icon-ams-digital-sign-inactive.svg';
-  static const String iconAmsDigitalSign =
-      'assets/icons/svg/icon-ams-digital-sign.svg';
-  static const String iconAmsLetterMemoIncomingInactive =
-      'assets/icons/svg/icon-ams-letter-memo-incoming-inactive.svg';
-  static const String iconAmsLetterMemoIncoming =
-      'assets/icons/svg/icon-ams-letter-memo-incoming.svg';
-  static const String iconAmsLetterMemoSentInactive =
-      'assets/icons/svg/icon-ams-letter-memo-sent-inactive.svg';
-  static const String iconAmsLetterMemoSent =
-      'assets/icons/svg/icon-ams-letter-memo-sent.svg';
-  static const String iconAmsLetterTrackInactive =
-      'assets/icons/svg/icon-ams-letter-track-inactive.svg';
-  static const String iconAmsLetterTrack =
-      'assets/icons/svg/icon-ams-letter-track.svg';
-  static const String iconAmsMySecretaryInactive =
-      'assets/icons/svg/icon-ams-my-secretary-inactive.svg';
-  static const String iconAmsMySecretary =
-      'assets/icons/svg/icon-ams-my-secretary.svg';
-  static const String iconAmsOfficialDocumentOtherInactive =
-      'assets/icons/svg/icon-ams-official-document-other-inactive.svg';
-  static const String iconAmsOfficialDocumentOther =
-      'assets/icons/svg/icon-ams-official-document-other.svg';
-  static const String iconApprovalOutlined =
-      'assets/icons/svg/icon-approval-outlined.svg';
-  static const String iconApprovalSolid =
-      'assets/icons/svg/icon-approval-solid.svg';
+  static const String iconAmsDigitalSignInactive = 'assets/icons/svg/icon-ams-digital-sign-inactive.svg';
+  static const String iconAmsDigitalSign = 'assets/icons/svg/icon-ams-digital-sign.svg';
+  static const String iconAmsLetterMemoIncomingInactive = 'assets/icons/svg/icon-ams-letter-memo-incoming-inactive.svg';
+  static const String iconAmsLetterMemoIncoming = 'assets/icons/svg/icon-ams-letter-memo-incoming.svg';
+  static const String iconAmsLetterMemoSentInactive = 'assets/icons/svg/icon-ams-letter-memo-sent-inactive.svg';
+  static const String iconAmsLetterMemoSent = 'assets/icons/svg/icon-ams-letter-memo-sent.svg';
+  static const String iconAmsLetterTrackInactive = 'assets/icons/svg/icon-ams-letter-track-inactive.svg';
+  static const String iconAmsLetterTrack = 'assets/icons/svg/icon-ams-letter-track.svg';
+  static const String iconAmsMySecretaryInactive = 'assets/icons/svg/icon-ams-my-secretary-inactive.svg';
+  static const String iconAmsMySecretary = 'assets/icons/svg/icon-ams-my-secretary.svg';
+  static const String iconAmsOfficialDocumentOtherInactive = 'assets/icons/svg/icon-ams-official-document-other-inactive.svg';
+  static const String iconAmsOfficialDocumentOther = 'assets/icons/svg/icon-ams-official-document-other.svg';
+  static const String iconApprovalOutlined = 'assets/icons/svg/icon-approval-outlined.svg';
+  static const String iconApprovalSolid = 'assets/icons/svg/icon-approval-solid.svg';
   static const String iconArrowDown = 'assets/icons/svg/icon-arrow-down.svg';
   static const String iconArrowLeft = 'assets/icons/svg/icon-arrow-left.svg';
   static const String iconArrowRight = 'assets/icons/svg/icon-arrow-right.svg';
   static const String iconArrowUp = 'assets/icons/svg/icon-arrow-up.svg';
-  static const String iconArrowsExchange =
-      'assets/icons/svg/icon-arrows-exchange.svg';
+  static const String iconArrowsExchange = 'assets/icons/svg/icon-arrows-exchange.svg';
   static const String iconAttachment = 'assets/icons/svg/icon-attachment.svg';
-  static const String iconAttendanceBacklogInactive =
-      'assets/icons/svg/icon-attendance-backlog-inactive.svg';
-  static const String iconAttendanceBacklog =
-      'assets/icons/svg/icon-attendance-backlog.svg';
-  static const String iconAttendanceCicoInactive =
-      'assets/icons/svg/icon-attendance-cico-inactive.svg';
-  static const String iconAttendanceCico =
-      'assets/icons/svg/icon-attendance-cico.svg';
-  static const String iconAttendanceCorrectionInactive =
-      'assets/icons/svg/icon-attendance-correction-inactive.svg';
-  static const String iconAttendanceCorrection =
-      'assets/icons/svg/icon-attendance-correction.svg';
-  static const String iconAttendanceHistoryInactive =
-      'assets/icons/svg/icon-attendance-history-inactive.svg';
-  static const String iconAttendanceHistory =
-      'assets/icons/svg/icon-attendance-history.svg';
-  static const String iconAttendanceMyInactive =
-      'assets/icons/svg/icon-attendance-my-inactive.svg';
-  static const String iconAttendanceMy =
-      'assets/icons/svg/icon-attendance-my.svg';
-  static const String iconAttendanceWorkTimeInactive =
-      'assets/icons/svg/icon-attendance-work-time-inactive.svg';
-  static const String iconAttendanceWorkTime =
-      'assets/icons/svg/icon-attendance-work-time.svg';
+  static const String iconAttendanceBacklogInactive = 'assets/icons/svg/icon-attendance-backlog-inactive.svg';
+  static const String iconAttendanceBacklog = 'assets/icons/svg/icon-attendance-backlog.svg';
+  static const String iconAttendanceCicoInactive = 'assets/icons/svg/icon-attendance-cico-inactive.svg';
+  static const String iconAttendanceCico = 'assets/icons/svg/icon-attendance-cico.svg';
+  static const String iconAttendanceCorrectionInactive = 'assets/icons/svg/icon-attendance-correction-inactive.svg';
+  static const String iconAttendanceCorrection = 'assets/icons/svg/icon-attendance-correction.svg';
+  static const String iconAttendanceHistoryInactive = 'assets/icons/svg/icon-attendance-history-inactive.svg';
+  static const String iconAttendanceHistory = 'assets/icons/svg/icon-attendance-history.svg';
+  static const String iconAttendanceMyInactive = 'assets/icons/svg/icon-attendance-my-inactive.svg';
+  static const String iconAttendanceMy = 'assets/icons/svg/icon-attendance-my.svg';
+  static const String iconAttendanceWorkTimeInactive = 'assets/icons/svg/icon-attendance-work-time-inactive.svg';
+  static const String iconAttendanceWorkTime = 'assets/icons/svg/icon-attendance-work-time.svg';
   static const String iconBed = 'assets/icons/svg/icon-bed.svg';
   static const String iconBookInfo = 'assets/icons/svg/icon-book-info.svg';
   static const String iconBookOpen = 'assets/icons/svg/icon-book-open.svg';
   static const String iconBublechat = 'assets/icons/svg/icon-bublechat.svg';
-  static const String iconBuildingOffice =
-      'assets/icons/svg/icon-building-office.svg';
+  static const String iconBuildingOffice = 'assets/icons/svg/icon-building-office.svg';
   static const String iconBuilding = 'assets/icons/svg/icon-building.svg';
   static const String iconCalendar2 = 'assets/icons/svg/icon-calendar-2.svg';
-  static const String iconCalendarArrow =
-      'assets/icons/svg/icon-calendar-arrow.svg';
-  static const String iconCalendarMyInactive =
-      'assets/icons/svg/icon-calendar-my-inactive.svg';
-  static const String iconCalendarMyTeamInactive =
-      'assets/icons/svg/icon-calendar-my-team-inactive.svg';
-  static const String iconCalendarMyTeam =
-      'assets/icons/svg/icon-calendar-my-team.svg';
+  static const String iconCalendarArrow = 'assets/icons/svg/icon-calendar-arrow.svg';
+  static const String iconCalendarMyInactive = 'assets/icons/svg/icon-calendar-my-inactive.svg';
+  static const String iconCalendarMyTeamInactive = 'assets/icons/svg/icon-calendar-my-team-inactive.svg';
+  static const String iconCalendarMyTeam = 'assets/icons/svg/icon-calendar-my-team.svg';
   static const String iconCalendarMy = 'assets/icons/svg/icon-calendar-my.svg';
-  static const String iconCalendarRotatedCropped =
-      'assets/icons/svg/icon-calendar-rotated-cropped.svg';
-  static const String iconCalendarTeam =
-      'assets/icons/svg/icon-calendar-team.svg';
+  static const String iconCalendarRotatedCropped = 'assets/icons/svg/icon-calendar-rotated-cropped.svg';
+  static const String iconCalendarTeam = 'assets/icons/svg/icon-calendar-team.svg';
   static const String iconChairAlt = 'assets/icons/svg/icon-chair-alt.svg';
   static const String iconChat2 = 'assets/icons/svg/icon-chat-2.svg';
-  static const String iconChevronDown =
-      'assets/icons/svg/icon-chevron-down.svg';
-  static const String iconChevronLeft =
-      'assets/icons/svg/icon-chevron-left.svg';
-  static const String iconChevronRight =
-      'assets/icons/svg/icon-chevron-right.svg';
+  static const String iconCheckSolidBlue = 'assets/icons/svg/icon-check-solid-blue.svg';
+  static const String iconChevronDown = 'assets/icons/svg/icon-chevron-down.svg';
+  static const String iconChevronLeft = 'assets/icons/svg/icon-chevron-left.svg';
+  static const String iconChevronRight = 'assets/icons/svg/icon-chevron-right.svg';
   static const String iconChevronUp = 'assets/icons/svg/icon-chevron-up.svg';
   static const String iconClipper = 'assets/icons/svg/icon-clipper.svg';
-  static const String iconClockSchedule =
-      'assets/icons/svg/icon-clock-schedule.svg';
+  static const String iconClockSchedule = 'assets/icons/svg/icon-clock-schedule.svg';
   static const String iconClockTeam = 'assets/icons/svg/icon-clock-team.svg';
   static const String iconClock = 'assets/icons/svg/icon-clock.svg';
-  static const String iconClockinClockout =
-      'assets/icons/svg/icon-clockin-clockout.svg';
+  static const String iconClockinClockout = 'assets/icons/svg/icon-clockin-clockout.svg';
+  static const String iconCloseOutlinedCircleRed = 'assets/icons/svg/icon-close-outlined-circle-red.svg';
+  static const String iconCloseSolidRed = 'assets/icons/svg/icon-close-solid-red.svg';
   static const String iconClose = 'assets/icons/svg/icon-close.svg';
-  static const String iconCloudBottom =
-      'assets/icons/svg/icon-cloud-bottom.svg';
-  static const String iconCollaboration =
-      'assets/icons/svg/icon-collaboration.svg';
-  static const String iconCollapsibleCollapsed =
-      'assets/icons/svg/icon-collapsible-collapsed.svg';
-  static const String iconCollapsibleExpanded =
-      'assets/icons/svg/icon-collapsible-expanded.svg';
+  static const String iconCloudBottom = 'assets/icons/svg/icon-cloud-bottom.svg';
+  static const String iconCollaboration = 'assets/icons/svg/icon-collaboration.svg';
+  static const String iconCollapsibleCollapsed = 'assets/icons/svg/icon-collapsible-collapsed.svg';
+  static const String iconCollapsibleExpanded = 'assets/icons/svg/icon-collapsible-expanded.svg';
   static const String iconComment = 'assets/icons/svg/icon-comment.svg';
   static const String iconComputer = 'assets/icons/svg/icon-computer.svg';
   static const String iconCopy = 'assets/icons/svg/icon-copy.svg';
@@ -122,101 +79,67 @@ abstract class AppIcons {
   static const String iconCoupon = 'assets/icons/svg/icon-coupon.svg';
   static const String iconCrosshair = 'assets/icons/svg/icon-crosshair.svg';
   static const String iconDocTeam = 'assets/icons/svg/icon-doc-team.svg';
+  static const String iconDocumentCheck = 'assets/icons/svg/icon-document-check.svg';
   static const String iconDocument = 'assets/icons/svg/icon-document.svg';
   static const String iconDocx = 'assets/icons/svg/icon-docx.svg';
-  static const String iconDonationLutd =
-      'assets/icons/svg/icon-donation-lutd.svg';
-  static const String iconDoubleMapPin =
-      'assets/icons/svg/icon-double-map-pin.svg';
+  static const String iconDonationLutd = 'assets/icons/svg/icon-donation-lutd.svg';
+  static const String iconDoubleMapPin = 'assets/icons/svg/icon-double-map-pin.svg';
   static const String iconDownload = 'assets/icons/svg/icon-download.svg';
-  static const String iconEarsipBorrowInactive =
-      'assets/icons/svg/icon-earsip-borrow-inactive.svg';
-  static const String iconEarsipBorrow =
-      'assets/icons/svg/icon-earsip-borrow.svg';
-  static const String iconEarsipReturnInactive =
-      'assets/icons/svg/icon-earsip-return-inactive.svg';
-  static const String iconEarsipReturn =
-      'assets/icons/svg/icon-earsip-return.svg';
-  static const String iconEarsipSearchInactive =
-      'assets/icons/svg/icon-earsip-search-inactive.svg';
-  static const String iconEarsipSearch =
-      'assets/icons/svg/icon-earsip-search.svg';
+  static const String iconEarsipBorrowInactive = 'assets/icons/svg/icon-earsip-borrow-inactive.svg';
+  static const String iconEarsipBorrow = 'assets/icons/svg/icon-earsip-borrow.svg';
+  static const String iconEarsipReturnInactive = 'assets/icons/svg/icon-earsip-return-inactive.svg';
+  static const String iconEarsipReturn = 'assets/icons/svg/icon-earsip-return.svg';
+  static const String iconEarsipSearchInactive = 'assets/icons/svg/icon-earsip-search-inactive.svg';
+  static const String iconEarsipSearch = 'assets/icons/svg/icon-earsip-search.svg';
   static const String iconEcc2 = 'assets/icons/svg/icon-ecc-2.svg';
-  static const String iconEccChatInactive =
-      'assets/icons/svg/icon-ecc-chat-inactive.svg';
+  static const String iconEccChatInactive = 'assets/icons/svg/icon-ecc-chat-inactive.svg';
   static const String iconEccChat = 'assets/icons/svg/icon-ecc-chat.svg';
   static const String iconEditBox = 'assets/icons/svg/icon-edit-box.svg';
   static const String iconEditDoc = 'assets/icons/svg/icon-edit-doc.svg';
   static const String iconEdit = 'assets/icons/svg/icon-edit.svg';
-  static const String iconExchangeShiftDetail =
-      'assets/icons/svg/icon-exchange-shift-detail.svg';
-  static const String iconExploreOutlined =
-      'assets/icons/svg/icon-explore-outlined.svg';
-  static const String iconExploreSolid =
-      'assets/icons/svg/icon-explore-solid.svg';
+  static const String iconExchangeShiftDetail = 'assets/icons/svg/icon-exchange-shift-detail.svg';
+  static const String iconExploreOutlined = 'assets/icons/svg/icon-explore-outlined.svg';
+  static const String iconExploreSolid = 'assets/icons/svg/icon-explore-solid.svg';
   static const String iconFavorite = 'assets/icons/svg/icon-favorite.svg';
-  static const String iconFileDigitalSign =
-      'assets/icons/svg/icon-file-digital-sign.svg';
-  static const String iconFileNotFound =
-      'assets/icons/svg/icon-file-not-found.svg';
-  static const String iconFileSignature =
-      'assets/icons/svg/icon-file-signature.svg';
-  static const String iconFileStandart =
-      'assets/icons/svg/icon-file-standart.svg';
-  static const String iconFilterSetting =
-      'assets/icons/svg/icon-filter-setting.svg';
+  static const String iconFileDigitalSign = 'assets/icons/svg/icon-file-digital-sign.svg';
+  static const String iconFileNotFound = 'assets/icons/svg/icon-file-not-found.svg';
+  static const String iconFileSignature = 'assets/icons/svg/icon-file-signature.svg';
+  static const String iconFileStandart = 'assets/icons/svg/icon-file-standart.svg';
+  static const String iconFilterSetting = 'assets/icons/svg/icon-filter-setting.svg';
   static const String iconFilter = 'assets/icons/svg/icon-filter.svg';
   static const String iconFood = 'assets/icons/svg/icon-food.svg';
-  static const String iconForkSpoonDisabled =
-      'assets/icons/svg/icon-fork-spoon-disabled.svg';
+  static const String iconForkSpoonDisabled = 'assets/icons/svg/icon-fork-spoon-disabled.svg';
   static const String iconForkSpoon = 'assets/icons/svg/icon-fork-spoon.svg';
-  static const String iconFreeDelivery =
-      'assets/icons/svg/icon-free-delivery.svg';
+  static const String iconFreeDelivery = 'assets/icons/svg/icon-free-delivery.svg';
   static const String iconGrid = 'assets/icons/svg/icon-grid.svg';
-  static const String iconHelpHeadset =
-      'assets/icons/svg/icon-help-headset.svg';
-  static const String iconHistoryAttendance =
-      'assets/icons/svg/icon-history-attendance.svg';
-  static const String iconHistorySquareWorkingTime =
-      'assets/icons/svg/icon-history-square-working-time.svg';
-  static const String iconHistorySquare =
-      'assets/icons/svg/icon-history-square.svg';
-  static const String iconHomeHybridWorking =
-      'assets/icons/svg/icon-home-hybrid-working.svg';
-  static const String iconHomeOutlined =
-      'assets/icons/svg/icon-home-outlined.svg';
+  static const String iconHelpHeadset = 'assets/icons/svg/icon-help-headset.svg';
+  static const String iconHistoryAttendance = 'assets/icons/svg/icon-history-attendance.svg';
+  static const String iconHistorySquareWorkingTime = 'assets/icons/svg/icon-history-square-working-time.svg';
+  static const String iconHistorySquare = 'assets/icons/svg/icon-history-square.svg';
+  static const String iconHomeHybridWorking = 'assets/icons/svg/icon-home-hybrid-working.svg';
+  static const String iconHomeOutlined = 'assets/icons/svg/icon-home-outlined.svg';
   static const String iconHomeSolid = 'assets/icons/svg/icon-home-solid.svg';
   static const String iconHotel = 'assets/icons/svg/icon-hotel.svg';
-  static const String iconHybridWorkNotif =
-      'assets/icons/svg/icon-hybrid-work-notif.svg';
-  static const String iconHybridWorkingNotif =
-      'assets/icons/svg/icon-hybrid-working-notif.svg';
-  static const String iconIamAuthenticatorInactive =
-      'assets/icons/svg/icon-iam-authenticator-inactive.svg';
-  static const String iconIamAuthenticator =
-      'assets/icons/svg/icon-iam-authenticator.svg';
-  static const String iconIamQrInactive =
-      'assets/icons/svg/icon-iam-qr-inactive.svg';
+  static const String iconHybridWorkNotif = 'assets/icons/svg/icon-hybrid-work-notif.svg';
+  static const String iconHybridWorkingNotif = 'assets/icons/svg/icon-hybrid-working-notif.svg';
+  static const String iconIamAuthenticatorInactive = 'assets/icons/svg/icon-iam-authenticator-inactive.svg';
+  static const String iconIamAuthenticator = 'assets/icons/svg/icon-iam-authenticator.svg';
+  static const String iconIamQrInactive = 'assets/icons/svg/icon-iam-qr-inactive.svg';
   static const String iconIamQr = 'assets/icons/svg/icon-iam-qr.svg';
   static const String iconImage = 'assets/icons/svg/icon-image.svg';
   static const String iconInfo = 'assets/icons/svg/icon-info.svg';
-  static const String iconInformationNotif =
-      'assets/icons/svg/icon-information-notif.svg';
+  static const String iconInformationNotif = 'assets/icons/svg/icon-information-notif.svg';
   static const String iconInformation = 'assets/icons/svg/icon-information.svg';
   static const String iconIntersect = 'assets/icons/svg/icon-intersect.svg';
   static const String iconJpg = 'assets/icons/svg/icon-jpg.svg';
   static const String iconKendaraan = 'assets/icons/svg/icon-kendaraan.svg';
   static const String iconLaptop2 = 'assets/icons/svg/icon-laptop-2.svg';
-  static const String iconLaptopItemsInactive =
-      'assets/icons/svg/icon-laptop-items-inactive.svg';
-  static const String iconLaptopItems =
-      'assets/icons/svg/icon-laptop-items.svg';
+  static const String iconLaptopItemsInactive = 'assets/icons/svg/icon-laptop-items-inactive.svg';
+  static const String iconLaptopItems = 'assets/icons/svg/icon-laptop-items.svg';
   static const String iconLeftRight = 'assets/icons/svg/icon-left-right.svg';
   static const String iconListDetail = 'assets/icons/svg/icon-list-detail.svg';
-  static const String iconListOverview =
-      'assets/icons/svg/icon-list-overview.svg';
-  static const String iconLmsDetailBg =
-      'assets/icons/svg/icon-lms-detail-bg.svg';
+  static const String iconListOverview = 'assets/icons/svg/icon-list-overview.svg';
+  static const String iconLmsDetailBg = 'assets/icons/svg/icon-lms-detail-bg.svg';
   static const String iconLmsNotif = 'assets/icons/svg/icon-lms-notif.svg';
   static const String iconLogin = 'assets/icons/svg/icon-login.svg';
   static const String iconLogout = 'assets/icons/svg/icon-logout.svg';
@@ -226,779 +149,447 @@ abstract class AppIcons {
   static const String iconMailSent = 'assets/icons/svg/icon-mail-sent.svg';
   static const String iconMail = 'assets/icons/svg/icon-mail.svg';
   static const String iconMailTo = 'assets/icons/svg/icon-mail-to.svg';
-  static const String iconManagerGrayscale =
-      'assets/icons/svg/icon-manager-grayscale.svg';
+  static const String iconManagerGrayscale = 'assets/icons/svg/icon-manager-grayscale.svg';
   static const String iconMapMarker = 'assets/icons/svg/icon-map-marker.svg';
   static const String iconMapPinThin = 'assets/icons/svg/icon-map-pin-thin.svg';
   static const String iconMapPin = 'assets/icons/svg/icon-map-pin.svg';
   static const String iconMarketplace = 'assets/icons/svg/icon-marketplace.svg';
-  static const String iconMeetingMyInactive =
-      'assets/icons/svg/icon-meeting-my-inactive.svg';
+  static const String iconMeetingMyInactive = 'assets/icons/svg/icon-meeting-my-inactive.svg';
   static const String iconMeetingMy = 'assets/icons/svg/icon-meeting-my.svg';
   static const String iconMember = 'assets/icons/svg/icon-member.svg';
-  static const String iconMinusCircle =
-      'assets/icons/svg/icon-minus-circle.svg';
+  static const String iconMinusCircle = 'assets/icons/svg/icon-minus-circle.svg';
   static const String iconMinus = 'assets/icons/svg/icon-minus.svg';
   static const String iconMkpCar = 'assets/icons/svg/icon-mkp-car.svg';
   static const String iconMkpCart = 'assets/icons/svg/icon-mkp-cart.svg';
   static const String iconMkpCc = 'assets/icons/svg/icon-mkp-cc.svg';
-  static const String iconMkpChatProduct =
-      'assets/icons/svg/icon-mkp-chat-product.svg';
+  static const String iconMkpChatProduct = 'assets/icons/svg/icon-mkp-chat-product.svg';
   static const String iconMkpChat = 'assets/icons/svg/icon-mkp-chat.svg';
   static const String iconMkpClothes = 'assets/icons/svg/icon-mkp-clothes.svg';
-  static const String iconMkpEditCart =
-      'assets/icons/svg/icon-mkp-edit-cart.svg';
+  static const String iconMkpEditCart = 'assets/icons/svg/icon-mkp-edit-cart.svg';
   static const String iconMkpFood = 'assets/icons/svg/icon-mkp-food.svg';
   static const String iconMkpGrid = 'assets/icons/svg/icon-mkp-grid.svg';
   static const String iconMkpNew = 'assets/icons/svg/icon-mkp-new.svg';
   static const String iconMkpPanel = 'assets/icons/svg/icon-mkp-panel.svg';
   static const String iconMkpPhone = 'assets/icons/svg/icon-mkp-phone.svg';
   static const String iconMkpScissor = 'assets/icons/svg/icon-mkp-scissor.svg';
-  static const String iconMkpSparepart =
-      'assets/icons/svg/icon-mkp-sparepart.svg';
-  static const String iconMkpTruckDelivery =
-      'assets/icons/svg/icon-mkp-truck-delivery.svg';
+  static const String iconMkpSparepart = 'assets/icons/svg/icon-mkp-sparepart.svg';
+  static const String iconMkpTruckDelivery = 'assets/icons/svg/icon-mkp-truck-delivery.svg';
   static const String iconMkpTrx = 'assets/icons/svg/icon-mkp-trx.svg';
-  static const String iconMoveHorizontal =
-      'assets/icons/svg/icon-move-horizontal.svg';
+  static const String iconMoveHorizontal = 'assets/icons/svg/icon-move-horizontal.svg';
   static const String iconMtmNotif = 'assets/icons/svg/icon-mtm-notif.svg';
   static const String iconMyDonation = 'assets/icons/svg/icon-my-donation.svg';
-  static const String iconMyTeamPlnDailyInactive =
-      'assets/icons/svg/icon-my-team-pln-daily-inactive.svg';
-  static const String iconMyTeamPlnDaily =
-      'assets/icons/svg/icon-my-team-pln-daily.svg';
-  static const String iconMyTeamTeamScheduleInactive =
-      'assets/icons/svg/icon-my-team-team-schedule-inactive.svg';
-  static const String iconMyTeamTeamSchedule =
-      'assets/icons/svg/icon-my-team-team-schedule.svg';
+  static const String iconMyTeamPlnDailyInactive = 'assets/icons/svg/icon-my-team-pln-daily-inactive.svg';
+  static const String iconMyTeamPlnDaily = 'assets/icons/svg/icon-my-team-pln-daily.svg';
+  static const String iconMyTeamTeamScheduleInactive = 'assets/icons/svg/icon-my-team-team-schedule-inactive.svg';
+  static const String iconMyTeamTeamSchedule = 'assets/icons/svg/icon-my-team-team-schedule.svg';
   static const String iconNotes = 'assets/icons/svg/icon-notes.svg';
-  static const String iconNotificationHome =
-      'assets/icons/svg/icon-notification-home.svg';
-  static const String iconNotificationOutlined =
-      'assets/icons/svg/icon-notification-outlined.svg';
-  static const String iconNotificationSolid =
-      'assets/icons/svg/icon-notification-solid.svg';
-  static const String iconObsecureDigitalsign =
-      'assets/icons/svg/icon-obsecure-digitalsign.svg';
-  static const String iconOfficeSuppliesComputerInactive =
-      'assets/icons/svg/icon-office-supplies-computer-inactive.svg';
-  static const String iconOfficeSuppliesComputer =
-      'assets/icons/svg/icon-office-supplies-computer.svg';
-  static const String iconOfficeSuppliesSpecialInactive =
-      'assets/icons/svg/icon-office-supplies-special-inactive.svg';
-  static const String iconOfficeSuppliesSpecial =
-      'assets/icons/svg/icon-office-supplies-special.svg';
-  static const String iconOfficeSuppliesStationeryInactive =
-      'assets/icons/svg/icon-office-supplies-stationery-inactive.svg';
-  static const String iconOfficeSuppliesStationery =
-      'assets/icons/svg/icon-office-supplies-stationery.svg';
+  static const String iconNotificationHome = 'assets/icons/svg/icon-notification-home.svg';
+  static const String iconNotificationOutlined = 'assets/icons/svg/icon-notification-outlined.svg';
+  static const String iconNotificationSolid = 'assets/icons/svg/icon-notification-solid.svg';
+  static const String iconObsecureDigitalsign = 'assets/icons/svg/icon-obsecure-digitalsign.svg';
+  static const String iconOfficeSuppliesComputerInactive = 'assets/icons/svg/icon-office-supplies-computer-inactive.svg';
+  static const String iconOfficeSuppliesComputer = 'assets/icons/svg/icon-office-supplies-computer.svg';
+  static const String iconOfficeSuppliesSpecialInactive = 'assets/icons/svg/icon-office-supplies-special-inactive.svg';
+  static const String iconOfficeSuppliesSpecial = 'assets/icons/svg/icon-office-supplies-special.svg';
+  static const String iconOfficeSuppliesStationeryInactive = 'assets/icons/svg/icon-office-supplies-stationery-inactive.svg';
+  static const String iconOfficeSuppliesStationery = 'assets/icons/svg/icon-office-supplies-stationery.svg';
   static const String iconOprahQuotes = 'assets/icons/svg/icon-oprahQuotes.svg';
-  static const String iconOvertimeAssignmentInactive =
-      'assets/icons/svg/icon-overtime-assignment-inactive.svg';
-  static const String iconOvertimeAssignment =
-      'assets/icons/svg/icon-overtime-assignment.svg';
-  static const String iconOvertimeEvaluationInactive =
-      'assets/icons/svg/icon-overtime-evaluation-inactive.svg';
-  static const String iconOvertimeEvaluationPlanInactive =
-      'assets/icons/svg/icon-overtime-evaluation-plan-inactive.svg';
-  static const String iconOvertimeEvaluationPlan =
-      'assets/icons/svg/icon-overtime-evaluation-plan.svg';
-  static const String iconOvertimeEvaluation =
-      'assets/icons/svg/icon-overtime-evaluation.svg';
-  static const String iconOvertimeMyInactive =
-      'assets/icons/svg/icon-overtime-my-inactive.svg';
+  static const String iconOvertimeAssignmentInactive = 'assets/icons/svg/icon-overtime-assignment-inactive.svg';
+  static const String iconOvertimeAssignment = 'assets/icons/svg/icon-overtime-assignment.svg';
+  static const String iconOvertimeEvaluationInactive = 'assets/icons/svg/icon-overtime-evaluation-inactive.svg';
+  static const String iconOvertimeEvaluationPlanInactive = 'assets/icons/svg/icon-overtime-evaluation-plan-inactive.svg';
+  static const String iconOvertimeEvaluationPlan = 'assets/icons/svg/icon-overtime-evaluation-plan.svg';
+  static const String iconOvertimeEvaluation = 'assets/icons/svg/icon-overtime-evaluation.svg';
+  static const String iconOvertimeMyInactive = 'assets/icons/svg/icon-overtime-my-inactive.svg';
   static const String iconOvertimeMy = 'assets/icons/svg/icon-overtime-my.svg';
-  static const String iconOvertimePlanInactive =
-      'assets/icons/svg/icon-overtime-plan-inactive.svg';
-  static const String iconOvertimePlan =
-      'assets/icons/svg/icon-overtime-plan.svg';
-  static const String iconOvertimeRealisationInactive =
-      'assets/icons/svg/icon-overtime-realisation-inactive.svg';
-  static const String iconOvertimeRealisation =
-      'assets/icons/svg/icon-overtime-realisation.svg';
+  static const String iconOvertimePlanInactive = 'assets/icons/svg/icon-overtime-plan-inactive.svg';
+  static const String iconOvertimePlan = 'assets/icons/svg/icon-overtime-plan.svg';
+  static const String iconOvertimeRealisationInactive = 'assets/icons/svg/icon-overtime-realisation-inactive.svg';
+  static const String iconOvertimeRealisation = 'assets/icons/svg/icon-overtime-realisation.svg';
   static const String iconPaperplane = 'assets/icons/svg/icon-paperplane.svg';
-  static const String iconParkingSquare =
-      'assets/icons/svg/icon-parking-square.svg';
-  static const String iconPasswordOff =
-      'assets/icons/svg/icon-password-off.svg';
+  static const String iconParkingSquare = 'assets/icons/svg/icon-parking-square.svg';
+  static const String iconPasswordOff = 'assets/icons/svg/icon-password-off.svg';
   static const String iconPasswordOn = 'assets/icons/svg/icon-password-on.svg';
   static const String iconPdf = 'assets/icons/svg/icon-pdf.svg';
-  static const String iconPencilRulerNotif =
-      'assets/icons/svg/icon-pencil-ruler-notif.svg';
-  static const String iconPencilRuler =
-      'assets/icons/svg/icon-pencil-ruler.svg';
-  static const String iconPengajuanAbsen =
-      'assets/icons/svg/icon-pengajuanAbsen.svg';
-  static const String iconPeopleGroupMeeting =
-      'assets/icons/svg/icon-people-group-meeting.svg';
-  static const String iconPeopleGroup =
-      'assets/icons/svg/icon-people-group.svg';
-  static const String iconPeriodePenukaran =
-      'assets/icons/svg/icon-periode-penukaran.svg';
-  static const String iconPlaneFlight =
-      'assets/icons/svg/icon-plane-flight.svg';
+  static const String iconPencilRulerNotif = 'assets/icons/svg/icon-pencil-ruler-notif.svg';
+  static const String iconPencilRuler = 'assets/icons/svg/icon-pencil-ruler.svg';
+  static const String iconPengajuanAbsen = 'assets/icons/svg/icon-pengajuanAbsen.svg';
+  static const String iconPeopleGroupMeeting = 'assets/icons/svg/icon-people-group-meeting.svg';
+  static const String iconPeopleGroup = 'assets/icons/svg/icon-people-group.svg';
+  static const String iconPeriodePenukaran = 'assets/icons/svg/icon-periode-penukaran.svg';
+  static const String iconPlaneFlight = 'assets/icons/svg/icon-plane-flight.svg';
   static const String iconPlaystore2 = 'assets/icons/svg/icon-playstore-2.svg';
   static const String iconPlusCircle = 'assets/icons/svg/icon-plus-circle.svg';
   static const String iconPlus = 'assets/icons/svg/icon-plus.svg';
-  static const String iconPopupAttendanceSaya =
-      'assets/icons/svg/icon-popup-attendance-saya.svg';
+  static const String iconPopupAttendanceSaya = 'assets/icons/svg/icon-popup-attendance-saya.svg';
   static const String iconPp = 'assets/icons/svg/icon-pp.svg';
-  static const String iconPrinterNotif =
-      'assets/icons/svg/icon-printer-notif.svg';
+  static const String iconPrinterNotif = 'assets/icons/svg/icon-printer-notif.svg';
   static const String iconPrinter = 'assets/icons/svg/icon-printer.svg';
-  static const String iconPriorityHigh =
-      'assets/icons/svg/icon-priority-high.svg';
-  static const String iconPriorityLow =
-      'assets/icons/svg/icon-priority-low.svg';
-  static const String iconPriorityNormal =
-      'assets/icons/svg/icon-priority-normal.svg';
-  static const String iconPriorityUrgent =
-      'assets/icons/svg/icon-priority-urgent.svg';
-  static const String iconProfileAtasan =
-      'assets/icons/svg/icon-profile-atasan.svg';
-  static const String iconProfileOutlined =
-      'assets/icons/svg/icon-profile-outlined.svg';
-  static const String iconProfileSolid =
-      'assets/icons/svg/icon-profile-solid.svg';
-  static const String iconRabNotEnough =
-      'assets/icons/svg/icon-rab-not-enough.svg';
-  static const String iconRecentActivity =
-      'assets/icons/svg/icon-recent-activity.svg';
+  static const String iconPriorityHigh = 'assets/icons/svg/icon-priority-high.svg';
+  static const String iconPriorityLow = 'assets/icons/svg/icon-priority-low.svg';
+  static const String iconPriorityNormal = 'assets/icons/svg/icon-priority-normal.svg';
+  static const String iconPriorityUrgent = 'assets/icons/svg/icon-priority-urgent.svg';
+  static const String iconProfileAtasan = 'assets/icons/svg/icon-profile-atasan.svg';
+  static const String iconProfileOutlined = 'assets/icons/svg/icon-profile-outlined.svg';
+  static const String iconProfileSolid = 'assets/icons/svg/icon-profile-solid.svg';
+  static const String iconRabNotEnough = 'assets/icons/svg/icon-rab-not-enough.svg';
+  static const String iconRecentActivity = 'assets/icons/svg/icon-recent-activity.svg';
+  static const String iconRefreshSolidPurple = 'assets/icons/svg/icon-refresh-solid-purple.svg';
   static const String iconReimburse = 'assets/icons/svg/icon-reimburse.svg';
   static const String iconRemoveRed = 'assets/icons/svg/icon-remove-red.svg';
-  static const String iconRightDirection =
-      'assets/icons/svg/icon-right-direction.svg';
-  static const String iconRoomBuilding =
-      'assets/icons/svg/icon-room-building.svg';
-  static const String iconRoomWorkInactive =
-      'assets/icons/svg/icon-room-work-inactive.svg';
+  static const String iconRightDirection = 'assets/icons/svg/icon-right-direction.svg';
+  static const String iconRoomBuilding = 'assets/icons/svg/icon-room-building.svg';
+  static const String iconRoomWorkInactive = 'assets/icons/svg/icon-room-work-inactive.svg';
   static const String iconRoomWork = 'assets/icons/svg/icon-room-work.svg';
   static const String iconRotateLeft = 'assets/icons/svg/icon-rotate-left.svg';
-  static const String iconRotateRight =
-      'assets/icons/svg/icon-rotate-right.svg';
+  static const String iconRotateRight = 'assets/icons/svg/icon-rotate-right.svg';
   static const String iconScan = 'assets/icons/svg/icon-scan.svg';
   static const String iconSearch2 = 'assets/icons/svg/icon-search-2.svg';
   static const String iconSearch = 'assets/icons/svg/icon-search.svg';
   static const String iconSeat = 'assets/icons/svg/icon-seat.svg';
-  static const String iconSekretarisDisable =
-      'assets/icons/svg/icon-sekretaris-disable.svg';
+  static const String iconSekretarisDisable = 'assets/icons/svg/icon-sekretaris-disable.svg';
   static const String iconSekretaris = 'assets/icons/svg/icon-sekretaris.svg';
   static const String iconService = 'assets/icons/svg/icon-service.svg';
   static const String iconSession = 'assets/icons/svg/icon-session.svg';
-  static const String iconSettingFilter =
-      'assets/icons/svg/icon-setting-filter.svg';
-  static const String iconSettingOutlined =
-      'assets/icons/svg/icon-setting-outlined.svg';
-  static const String iconSettingSolid =
-      'assets/icons/svg/icon-setting-solid.svg';
+  static const String iconSettingFilter = 'assets/icons/svg/icon-setting-filter.svg';
+  static const String iconSettingOutlined = 'assets/icons/svg/icon-setting-outlined.svg';
+  static const String iconSettingSolid = 'assets/icons/svg/icon-setting-solid.svg';
   static const String iconSetting = 'assets/icons/svg/icon-setting.svg';
   static const String iconShield = 'assets/icons/svg/icon-shield.svg';
-  static const String iconShiftActivity =
-      'assets/icons/svg/icon-shift-activity.svg';
-  static const String iconShiftChangeInactive =
-      'assets/icons/svg/icon-shift-change-inactive.svg';
-  static const String iconShiftChange =
-      'assets/icons/svg/icon-shift-change.svg';
-  static const String iconShiftMyScheduleInactive =
-      'assets/icons/svg/icon-shift-my-schedule-inactive.svg';
-  static const String iconShiftMySchedule =
-      'assets/icons/svg/icon-shift-my-schedule.svg';
-  static const String iconShiftSetScheduleInactive =
-      'assets/icons/svg/icon-shift-set-schedule-inactive.svg';
-  static const String iconShiftSetSchedule =
-      'assets/icons/svg/icon-shift-set-schedule.svg';
-  static const String iconShiftTeamScheduleInactive =
-      'assets/icons/svg/icon-shift-team-schedule-inactive.svg';
-  static const String iconShiftTeamSchedule =
-      'assets/icons/svg/icon-shift-team-schedule.svg';
+  static const String iconShiftActivity = 'assets/icons/svg/icon-shift-activity.svg';
+  static const String iconShiftChangeInactive = 'assets/icons/svg/icon-shift-change-inactive.svg';
+  static const String iconShiftChange = 'assets/icons/svg/icon-shift-change.svg';
+  static const String iconShiftMyScheduleInactive = 'assets/icons/svg/icon-shift-my-schedule-inactive.svg';
+  static const String iconShiftMySchedule = 'assets/icons/svg/icon-shift-my-schedule.svg';
+  static const String iconShiftSetScheduleInactive = 'assets/icons/svg/icon-shift-set-schedule-inactive.svg';
+  static const String iconShiftSetSchedule = 'assets/icons/svg/icon-shift-set-schedule.svg';
+  static const String iconShiftTeamScheduleInactive = 'assets/icons/svg/icon-shift-team-schedule-inactive.svg';
+  static const String iconShiftTeamSchedule = 'assets/icons/svg/icon-shift-team-schedule.svg';
   static const String iconSisaKuota = 'assets/icons/svg/icon-sisa-kuota.svg';
   static const String iconSlidersV = 'assets/icons/svg/icon-sliders-v.svg';
   static const String iconSort = 'assets/icons/svg/icon-sort.svg';
-  static const String iconSppdActiveInactive =
-      'assets/icons/svg/icon-sppd-active-inactive.svg';
+  static const String iconSppdActiveInactive = 'assets/icons/svg/icon-sppd-active-inactive.svg';
   static const String iconSppdActive = 'assets/icons/svg/icon-sppd-active.svg';
-  static const String iconSppdHistoryInactive =
-      'assets/icons/svg/icon-sppd-history-inactive.svg';
-  static const String iconSppdHistory =
-      'assets/icons/svg/icon-sppd-history.svg';
-  static const String iconSppdMonitoringInactive =
-      'assets/icons/svg/icon-sppd-monitoring-inactive.svg';
-  static const String iconSppdMonitoring =
-      'assets/icons/svg/icon-sppd-monitoring.svg';
-  static const String iconSppdReimburseInactive =
-      'assets/icons/svg/icon-sppd-reimburse-inactive.svg';
-  static const String iconSppdReimburse =
-      'assets/icons/svg/icon-sppd-reimburse.svg';
-  static const String iconSppdSubmitInactive =
-      'assets/icons/svg/icon-sppd-submit-inactive.svg';
+  static const String iconSppdHistoryInactive = 'assets/icons/svg/icon-sppd-history-inactive.svg';
+  static const String iconSppdHistory = 'assets/icons/svg/icon-sppd-history.svg';
+  static const String iconSppdMonitoringInactive = 'assets/icons/svg/icon-sppd-monitoring-inactive.svg';
+  static const String iconSppdMonitoring = 'assets/icons/svg/icon-sppd-monitoring.svg';
+  static const String iconSppdReimburseInactive = 'assets/icons/svg/icon-sppd-reimburse-inactive.svg';
+  static const String iconSppdReimburse = 'assets/icons/svg/icon-sppd-reimburse.svg';
+  static const String iconSppdSubmitInactive = 'assets/icons/svg/icon-sppd-submit-inactive.svg';
   static const String iconSppdSubmit = 'assets/icons/svg/icon-sppd-submit.svg';
   static const String iconStarOff = 'assets/icons/svg/icon-star-off.svg';
   static const String iconStarOn = 'assets/icons/svg/icon-star-on.svg';
   static const String iconStar = 'assets/icons/svg/icon-star.svg';
   static const String iconSuitcase = 'assets/icons/svg/icon-suitcase.svg';
-  static const String iconSwimmingPool =
-      'assets/icons/svg/icon-swimming-pool.svg';
+  static const String iconSwimmingPool = 'assets/icons/svg/icon-swimming-pool.svg';
   static const String iconSwitchEn = 'assets/icons/svg/icon-switch-en.svg';
   static const String iconSwitchId = 'assets/icons/svg/icon-switch-id.svg';
   static const String iconSwitchLang = 'assets/icons/svg/icon-switch-lang.svg';
-  static const String iconTaskManagementCalendarActive =
-      'assets/icons/svg/icon-task-management-calendar-active.svg';
-  static const String iconTaskManagementCalendar =
-      'assets/icons/svg/icon-task-management-calendar.svg';
-  static const String iconTaskManagementHistoryActive =
-      'assets/icons/svg/icon-task-management-history-active.svg';
-  static const String iconTaskManagementHistory =
-      'assets/icons/svg/icon-task-management-history.svg';
-  static const String iconTaskManagementHomeActive =
-      'assets/icons/svg/icon-task-management-home-active.svg';
-  static const String iconTaskManagementHome =
-      'assets/icons/svg/icon-task-management-home.svg';
-  static const String iconTaskManagementMyInactive =
-      'assets/icons/svg/icon-task-management-my-inactive.svg';
-  static const String iconTaskManagementProjectActive =
-      'assets/icons/svg/icon-task-management-project-active.svg';
-  static const String iconTaskManagementProject =
-      'assets/icons/svg/icon-task-management-project.svg';
-  static const String iconTaskManagementTeamInactive =
-      'assets/icons/svg/icon-task-management-team-inactive.svg';
-  static const String iconTaskManagement =
-      'assets/icons/svg/icon-task-management.svg';
+  static const String iconTaskManagementCalendarActive = 'assets/icons/svg/icon-task-management-calendar-active.svg';
+  static const String iconTaskManagementCalendar = 'assets/icons/svg/icon-task-management-calendar.svg';
+  static const String iconTaskManagementHistoryActive = 'assets/icons/svg/icon-task-management-history-active.svg';
+  static const String iconTaskManagementHistory = 'assets/icons/svg/icon-task-management-history.svg';
+  static const String iconTaskManagementHomeActive = 'assets/icons/svg/icon-task-management-home-active.svg';
+  static const String iconTaskManagementHome = 'assets/icons/svg/icon-task-management-home.svg';
+  static const String iconTaskManagementMyInactive = 'assets/icons/svg/icon-task-management-my-inactive.svg';
+  static const String iconTaskManagementProjectActive = 'assets/icons/svg/icon-task-management-project-active.svg';
+  static const String iconTaskManagementProject = 'assets/icons/svg/icon-task-management-project.svg';
+  static const String iconTaskManagementTeamInactive = 'assets/icons/svg/icon-task-management-team-inactive.svg';
+  static const String iconTaskManagement = 'assets/icons/svg/icon-task-management.svg';
   static const String iconTaskMy = 'assets/icons/svg/icon-task-my.svg';
   static const String iconTaskNotif = 'assets/icons/svg/icon-task-notif.svg';
   static const String iconTasksNotif = 'assets/icons/svg/icon-tasks-notif.svg';
   static const String iconTasks = 'assets/icons/svg/icon-tasks.svg';
-  static const String iconTracePlnDaily =
-      'assets/icons/svg/icon-trace-pln-daily.svg';
-  static const String iconTransportDisable =
-      'assets/icons/svg/icon-transport-disable.svg';
+  static const String iconTracePlnDaily = 'assets/icons/svg/icon-trace-pln-daily.svg';
+  static const String iconTransportDisable = 'assets/icons/svg/icon-transport-disable.svg';
   static const String iconTrash2 = 'assets/icons/svg/icon-trash-2.svg';
   static const String iconUpDown = 'assets/icons/svg/icon-up-down.svg';
   static const String iconUpload = 'assets/icons/svg/icon-upload.svg';
   static const String iconUser = 'assets/icons/svg/icon-user.svg';
-  static const String iconVehicleTransportationInactive =
-      'assets/icons/svg/icon-vehicle-transportation-inactive.svg';
-  static const String iconVehicleTransportation =
-      'assets/icons/svg/icon-vehicle-transportation.svg';
+  static const String iconVehicleTransportationInactive = 'assets/icons/svg/icon-vehicle-transportation-inactive.svg';
+  static const String iconVehicleTransportation = 'assets/icons/svg/icon-vehicle-transportation.svg';
   static const String iconVideo = 'assets/icons/svg/icon-video.svg';
-  static const String iconWalletPaguTidakCukup =
-      'assets/icons/svg/icon-wallet-pagu-tidak-cukup.svg';
+  static const String iconWalletPaguTidakCukup = 'assets/icons/svg/icon-wallet-pagu-tidak-cukup.svg';
   static const String iconWallet = 'assets/icons/svg/icon-wallet.svg';
-  static const String iconWarningIllusion =
-      'assets/icons/svg/icon-warning-illusion.svg';
+  static const String iconWarningIllusion = 'assets/icons/svg/icon-warning-illusion.svg';
   static const String iconWifi = 'assets/icons/svg/icon-wifi.svg';
-  static const String iconWorkroomImagePlaceholder =
-      'assets/icons/svg/icon-workroom-image-placeholder.svg';
+  static const String iconWorkroomImagePlaceholder = 'assets/icons/svg/icon-workroom-image-placeholder.svg';
   static const String iconWorkroom = 'assets/icons/svg/icon-workroom.svg';
+  static const String illustrationDocumentCheck = 'assets/icons/svg/illustration-document-check.svg';
 
   // Group: PNG
-  static const String iconAirplaneRejectGrey =
-      'assets/icons/png/icon-airplane-reject-grey.png';
-  static const String iconAttendanceIn =
-      'assets/icons/png/icon-attendance-in.png';
-  static const String iconAttendanceOut =
-      'assets/icons/png/icon-attendance-out.png';
-  static const String iconAttendanceWait =
-      'assets/icons/png/icon-attendance-wait.png';
-  static const String iconAuthenticator1 =
-      'assets/icons/png/icon-authenticator-1.png';
-  static const String iconBuildingEntry =
-      'assets/icons/png/icon-building-entry.png';
+  static const String iconAirplaneRejectGrey = 'assets/icons/png/icon-airplane-reject-grey.png';
+  static const String iconAttendanceIn = 'assets/icons/png/icon-attendance-in.png';
+  static const String iconAttendanceOut = 'assets/icons/png/icon-attendance-out.png';
+  static const String iconAttendanceWait = 'assets/icons/png/icon-attendance-wait.png';
+  static const String iconAuthenticator1 = 'assets/icons/png/icon-authenticator-1.png';
+  static const String iconBuildingEntry = 'assets/icons/png/icon-building-entry.png';
   static const String iconCalendar1 = 'assets/icons/png/icon-calendar-1.png';
-  static const String iconCalendarWithBlueArrowLeft =
-      'assets/icons/png/icon-calendar-with-blue-arrow-left.png';
-  static const String iconCalendarWithBlueArrowRight =
-      'assets/icons/png/icon-calendar-with-blue-arrow-right.png';
+  static const String iconCalendarWithBlueArrowLeft = 'assets/icons/png/icon-calendar-with-blue-arrow-left.png';
+  static const String iconCalendarWithBlueArrowRight = 'assets/icons/png/icon-calendar-with-blue-arrow-right.png';
   static const String iconCameraRed = 'assets/icons/png/icon-camera-red.png';
   static const String iconChat1 = 'assets/icons/png/icon-chat-1.png';
-  static const String iconCheckCircleChoco =
-      'assets/icons/png/icon-check-circle-choco.png';
-  static const String iconCheckCircleGreen =
-      'assets/icons/png/icon-check-circle-green.png';
+  static const String iconCheckCircleChoco = 'assets/icons/png/icon-check-circle-choco.png';
+  static const String iconCheckCircleGreen = 'assets/icons/png/icon-check-circle-green.png';
   static const String iconCloseRed = 'assets/icons/png/icon-close-red.png';
   static const String iconDelete = 'assets/icons/png/icon-delete.png';
   static const String iconDonation = 'assets/icons/png/icon-donation.png';
   static const String iconEcc1 = 'assets/icons/png/icon-ecc-1.png';
-  static const String iconEmployeeContact =
-      'assets/icons/png/icon-employee-contact.png';
+  static const String iconEmployeeContact = 'assets/icons/png/icon-employee-contact.png';
   static const String iconFileYellow = 'assets/icons/png/icon-file-yellow.png';
   static const String iconGalleryRed = 'assets/icons/png/icon-gallery-red.png';
-  static const String iconHealthCheckup =
-      'assets/icons/png/icon-health-checkup.png';
+  static const String iconHealthCheckup = 'assets/icons/png/icon-health-checkup.png';
   static const String iconHome = 'assets/icons/png/icon-home.png';
-  static const String iconLineVerticalBlue =
-      'assets/icons/png/icon-line-vertical-blue.png';
-  static const String iconMultitripBgblue =
-      'assets/icons/png/icon-multitrip-bgblue.png';
+  static const String iconLineVerticalBlue = 'assets/icons/png/icon-line-vertical-blue.png';
+  static const String iconMultitripBgblue = 'assets/icons/png/icon-multitrip-bgblue.png';
   static const String iconRedCircle = 'assets/icons/png/icon-red-circle.png';
   static const String iconScanQr1 = 'assets/icons/png/icon-scan-qr-1.png';
-  static const String iconUserEmployee =
-      'assets/icons/png/icon-user-employee.png';
-  static const String iconUserNonEmployee =
-      'assets/icons/png/icon-user-non-employee.png';
-  static const String iconWavyWarningChoco =
-      'assets/icons/png/icon-wavy-warning-choco.png';
-  static const String iconWavyWarningOrange =
-      'assets/icons/png/icon-wavy-warning-orange.png';
-  static const String iconWavyWarningRed =
-      'assets/icons/png/icon-wavy-warning-red.png';
-  static const String iconWavyWarningYellow =
-      'assets/icons/png/icon-wavy-warning-yellow.png';
+  static const String iconUserEmployee = 'assets/icons/png/icon-user-employee.png';
+  static const String iconUserNonEmployee = 'assets/icons/png/icon-user-non-employee.png';
+  static const String iconWavyWarningChoco = 'assets/icons/png/icon-wavy-warning-choco.png';
+  static const String iconWavyWarningOrange = 'assets/icons/png/icon-wavy-warning-orange.png';
+  static const String iconWavyWarningRed = 'assets/icons/png/icon-wavy-warning-red.png';
+  static const String iconWavyWarningYellow = 'assets/icons/png/icon-wavy-warning-yellow.png';
 
   // Group: BRANDS
-  static const String iconAppstore1 =
-      'assets/icons/png/brands/icon-appstore-1.png';
-  static const String iconBluebird1 =
-      'assets/icons/png/brands/icon-bluebird-1.png';
+  static const String iconAppstore1 = 'assets/icons/png/brands/icon-appstore-1.png';
+  static const String iconBluebird1 = 'assets/icons/png/brands/icon-bluebird-1.png';
   static const String iconGojek1 = 'assets/icons/png/brands/icon-gojek-1.png';
   static const String iconGrab1 = 'assets/icons/png/brands/icon-grab-1.png';
   static const String iconM = 'assets/icons/png/brands/icon-m.png';
-  static const String iconPlaystore1 =
-      'assets/icons/png/brands/icon-playstore-1.png';
+  static const String iconPlaystore1 = 'assets/icons/png/brands/icon-playstore-1.png';
   static const String iconPln2 = 'assets/icons/png/brands/icon-pln-2.png';
   static const String iconPln3 = 'assets/icons/png/brands/icon-pln-3.png';
   static const String iconPln = 'assets/icons/png/brands/icon-pln.png';
 
   // Group: OUTLINED
-  static const String iconAddFriendsOutlined =
-      'assets/icons/svg/outlined/icon-add-friends-outlined.svg';
-  static const String iconAddStickerOutlined =
-      'assets/icons/svg/outlined/icon-add-sticker.svg';
-  static const String iconAirConditionerOutlined =
-      'assets/icons/svg/outlined/icon-air-conditioner.svg';
-  static const String iconAirplaneGreyOutlined =
-      'assets/icons/svg/outlined/icon-airplane-grey.svg';
-  static const String iconArrangeOutlined =
-      'assets/icons/svg/outlined/icon-arrange.svg';
-  static const String iconArrowRightOutlined =
-      'assets/icons/svg/outlined/icon-arrow-right.svg';
-  static const String iconBiPhoneOutlined =
-      'assets/icons/svg/outlined/icon-bi-phone.svg';
-  static const String iconBookDeskOutlined =
-      'assets/icons/svg/outlined/icon-book-desk.svg';
-  static const String iconCalendarOutlined =
-      'assets/icons/svg/outlined/icon-calendar-outlined.svg';
-  static const String iconCarOutlined =
-      'assets/icons/svg/outlined/icon-car-outlined.svg';
-  static const String iconChecklistSquareOutlineOutlined =
-      'assets/icons/svg/outlined/icon-checklist-square-outline.svg';
-  static const String iconChevronDownOutlined =
-      'assets/icons/svg/outlined/icon-chevron-down.svg';
-  static const String iconChevronUpOutlined =
-      'assets/icons/svg/outlined/icon-chevron-up.svg';
-  static const String iconCloseOutlined =
-      'assets/icons/svg/outlined/icon-close.svg';
-  static const String iconDocumentFrameOutlined =
-      'assets/icons/svg/outlined/icon-document-frame-outlined.svg';
-  static const String iconEditLineOutlined =
-      'assets/icons/svg/outlined/icon-edit-line.svg';
-  static const String iconElevatorOutlined =
-      'assets/icons/svg/outlined/icon-elevator-outlined.svg';
-  static const String iconHoursLineOutlined =
-      'assets/icons/svg/outlined/icon-hours-line.svg';
-  static const String iconImageFrameOutlined =
-      'assets/icons/svg/outlined/icon-image-frame-outlined.svg';
-  static const String iconListOutlined =
-      'assets/icons/svg/outlined/icon-list.svg';
-  static const String iconMailOutlined =
-      'assets/icons/svg/outlined/icon-mail-outlined.svg';
-  static const String iconManagerOutlined =
-      'assets/icons/svg/outlined/icon-manager-outlined.svg';
-  static const String iconOfficeOutlined =
-      'assets/icons/svg/outlined/icon-office-outlined.svg';
-  static const String iconOuterlineOutlined =
-      'assets/icons/svg/outlined/icon-outerline.svg';
-  static const String iconPeopleOutlined =
-      'assets/icons/svg/outlined/icon-people-outlined.svg';
-  static const String iconPhoneOutlined =
-      'assets/icons/svg/outlined/icon-phone-outlined.svg';
-  static const String iconUserOutlined =
-      'assets/icons/svg/outlined/icon-user-outlined.svg';
-  static const String iconVerticalDottedLineOutlined =
-      'assets/icons/svg/outlined/icon-vertical-dotted-line.svg';
-  static const String iconWarningLineOutlined =
-      'assets/icons/svg/outlined/icon-warning-line.svg';
+  static const String iconAddFriendsOutlined = 'assets/icons/svg/outlined/icon-add-friends-outlined.svg';
+  static const String iconAddStickerOutlined = 'assets/icons/svg/outlined/icon-add-sticker.svg';
+  static const String iconAirConditionerOutlined = 'assets/icons/svg/outlined/icon-air-conditioner.svg';
+  static const String iconAirplaneGreyOutlined = 'assets/icons/svg/outlined/icon-airplane-grey.svg';
+  static const String iconArrangeOutlined = 'assets/icons/svg/outlined/icon-arrange.svg';
+  static const String iconArrowRightOutlined = 'assets/icons/svg/outlined/icon-arrow-right.svg';
+  static const String iconBiPhoneOutlined = 'assets/icons/svg/outlined/icon-bi-phone.svg';
+  static const String iconBookDeskOutlined = 'assets/icons/svg/outlined/icon-book-desk.svg';
+  static const String iconCalendarOutlined = 'assets/icons/svg/outlined/icon-calendar-outlined.svg';
+  static const String iconCarOutlined = 'assets/icons/svg/outlined/icon-car-outlined.svg';
+  static const String iconChecklistSquareOutlineOutlined = 'assets/icons/svg/outlined/icon-checklist-square-outline.svg';
+  static const String iconChevronDownOutlined = 'assets/icons/svg/outlined/icon-chevron-down.svg';
+  static const String iconChevronUpOutlined = 'assets/icons/svg/outlined/icon-chevron-up.svg';
+  static const String iconCloseOutlined = 'assets/icons/svg/outlined/icon-close.svg';
+  static const String iconDocumentFrameOutlined = 'assets/icons/svg/outlined/icon-document-frame-outlined.svg';
+  static const String iconEditLineOutlined = 'assets/icons/svg/outlined/icon-edit-line.svg';
+  static const String iconElevatorOutlined = 'assets/icons/svg/outlined/icon-elevator-outlined.svg';
+  static const String iconHoursLineOutlined = 'assets/icons/svg/outlined/icon-hours-line.svg';
+  static const String iconImageFrameOutlined = 'assets/icons/svg/outlined/icon-image-frame-outlined.svg';
+  static const String iconListOutlined = 'assets/icons/svg/outlined/icon-list.svg';
+  static const String iconMailOutlined = 'assets/icons/svg/outlined/icon-mail-outlined.svg';
+  static const String iconManagerOutlined = 'assets/icons/svg/outlined/icon-manager-outlined.svg';
+  static const String iconOfficeOutlined = 'assets/icons/svg/outlined/icon-office-outlined.svg';
+  static const String iconOuterlineOutlined = 'assets/icons/svg/outlined/icon-outerline.svg';
+  static const String iconPeopleOutlined = 'assets/icons/svg/outlined/icon-people-outlined.svg';
+  static const String iconPhoneOutlined = 'assets/icons/svg/outlined/icon-phone-outlined.svg';
+  static const String iconUserOutlined = 'assets/icons/svg/outlined/icon-user-outlined.svg';
+  static const String iconVerticalDottedLineOutlined = 'assets/icons/svg/outlined/icon-vertical-dotted-line.svg';
+  static const String iconWarningLineOutlined = 'assets/icons/svg/outlined/icon-warning-line.svg';
 
   // Group: SOLID
   static const String iconAddDocs = 'assets/icons/svg/solid/icon-add-docs.svg';
   static const String iconAtkCart = 'assets/icons/svg/solid/icon-atk-cart.svg';
-  static const String iconChecklistSquare =
-      'assets/icons/svg/solid/icon-checklist-square.svg';
-  static const String iconDocumentBold =
-      'assets/icons/svg/solid/icon-document-bold.svg';
-  static const String iconMapMarkerBold =
-      'assets/icons/svg/solid/icon-map-marker-bold.svg';
-  static const String iconOfficeSolid =
-      'assets/icons/svg/solid/icon-office-solid.svg';
-  static const String iconSAttachmentNullSolid =
-      'assets/icons/svg/solid/icon-s-attachment-null-solid.svg';
-  static const String iconStarCircleFill =
-      'assets/icons/svg/solid/icon-star-circle-fill.svg';
-  static const String iconTableGiftFilledActive =
-      'assets/icons/svg/solid/icon-table-gift-filled-active.svg';
-  static const String iconTableGiftFilled =
-      'assets/icons/svg/solid/icon-table-gift-filled.svg';
-  static const String iconWarningSolid =
-      'assets/icons/svg/solid/icon-warning-solid.svg';
+  static const String iconChecklistSquare = 'assets/icons/svg/solid/icon-checklist-square.svg';
+  static const String iconDocumentBold = 'assets/icons/svg/solid/icon-document-bold.svg';
+  static const String iconMapMarkerBold = 'assets/icons/svg/solid/icon-map-marker-bold.svg';
+  static const String iconOfficeSolid = 'assets/icons/svg/solid/icon-office-solid.svg';
+  static const String iconSAttachmentNullSolid = 'assets/icons/svg/solid/icon-s-attachment-null-solid.svg';
+  static const String iconStarCircleFill = 'assets/icons/svg/solid/icon-star-circle-fill.svg';
+  static const String iconTableGiftFilledActive = 'assets/icons/svg/solid/icon-table-gift-filled-active.svg';
+  static const String iconTableGiftFilled = 'assets/icons/svg/solid/icon-table-gift-filled.svg';
+  static const String iconWarningSolid = 'assets/icons/svg/solid/icon-warning-solid.svg';
 
   // Group: COLORED
-  static const String iconAddWithRectangleColored =
-      'assets/icons/svg/colored/icon-add-with-rectangle.svg';
-  static const String iconAirPlaneFillColored =
-      'assets/icons/svg/colored/icon-air-plane-fill.svg';
-  static const String iconAirPlaneColored =
-      'assets/icons/svg/colored/icon-air-plane.svg';
-  static const String iconAirplaneAddColored =
-      'assets/icons/svg/colored/icon-airplane-add.svg';
-  static const String iconApprovalColored =
-      'assets/icons/svg/colored/icon-approval.svg';
-  static const String iconAppsColored =
-      'assets/icons/svg/colored/icon-apps.svg';
-  static const String iconAppstore2Colored =
-      'assets/icons/svg/colored/icon-appstore-2.svg';
-  static const String iconArrowDownRightColored =
-      'assets/icons/svg/colored/icon-arrow-down-right.svg';
-  static const String iconArrowRightLeftColored =
-      'assets/icons/svg/colored/icon-arrow-right-left.svg';
-  static const String iconArrowUpRightColored =
-      'assets/icons/svg/colored/icon-arrow-up-right.svg';
-  static const String iconAuthenticator2Colored =
-      'assets/icons/svg/colored/icon-authenticator-2.svg';
-  static const String iconBacklogColored =
-      'assets/icons/svg/colored/icon-backlog.svg';
-  static const String iconBarangKhususColored =
-      'assets/icons/svg/colored/icon-barang-khusus.svg';
-  static const String iconBluebird2Colored =
-      'assets/icons/svg/colored/icon-bluebird-2.svg';
-  static const String iconCalendarShiftColored =
-      'assets/icons/svg/colored/icon-calendar-shift.svg';
-  static const String iconChargerStationColored =
-      'assets/icons/svg/colored/icon-charger-station.svg';
-  static const String iconCheckBlueColored =
-      'assets/icons/svg/colored/icon-check-blue.svg';
-  static const String iconChecklistColored =
-      'assets/icons/svg/colored/icon-checklist.svg';
-  static const String iconChevronDownLineColored =
-      'assets/icons/svg/colored/icon-chevron-down-line.svg';
-  static const String iconClipboardListColored =
-      'assets/icons/svg/colored/icon-clipboard-list.svg';
-  static const String iconClockBlueColored =
-      'assets/icons/svg/colored/icon-clock-blue.svg';
-  static const String iconClockInColored =
-      'assets/icons/svg/colored/icon-clock-in.svg';
-  static const String iconClockOutColored =
-      'assets/icons/svg/colored/icon-clock-out.svg';
-  static const String iconDriverlessColored =
-      'assets/icons/svg/colored/icon-driverless.svg';
-  static const String iconExchangeShiftDetailColorsColored =
-      'assets/icons/svg/colored/icon-exchange-shift-detail-colors.svg';
-  static const String iconExternalLinkColored =
-      'assets/icons/svg/colored/icon-external-link.svg';
-  static const String iconFilterBlackColored =
-      'assets/icons/svg/colored/icon-filter-black.svg';
-  static const String iconGojek2Colored =
-      'assets/icons/svg/colored/icon-gojek-2.svg';
-  static const String iconGrab2Colored =
-      'assets/icons/svg/colored/icon-grab-2.svg';
-  static const String iconHelpHeadsetBlueColored =
-      'assets/icons/svg/colored/icon-help-headset-blue.svg';
-  static const String iconInfoShieldColored =
-      'assets/icons/svg/colored/icon-info-shield.svg';
-  static const String iconKendaraanPoolColored =
-      'assets/icons/svg/colored/icon-kendaraan-pool.svg';
-  static const String iconLaptop1Colored =
-      'assets/icons/svg/colored/icon-laptop-1.svg';
-  static const String iconLocationPinRedColored =
-      'assets/icons/svg/colored/icon-location-pin-red.svg';
-  static const String iconMailBlueColored =
-      'assets/icons/svg/colored/icon-mail-blue.svg';
-  static const String iconMyDonationBlackColored =
-      'assets/icons/svg/colored/icon-my-donation-black.svg';
-  static const String iconNoWifiColored =
-      'assets/icons/svg/colored/icon-no-wifi.svg';
-  static const String iconPdfGrayscaleColored =
-      'assets/icons/svg/colored/icon-pdf-grayscale.svg';
-  static const String iconPencarianDocumentColored =
-      'assets/icons/svg/colored/icon-pencarian-document.svg';
-  static const String iconPencilRulerGreyColored =
-      'assets/icons/svg/colored/icon-pencil-ruler-grey.svg';
-  static const String iconPermintaanKhususColored =
-      'assets/icons/svg/colored/icon-permintaan-khusus.svg';
-  static const String iconPhoneCrackedColored =
-      'assets/icons/svg/colored/icon-phone-cracked.svg';
-  static const String iconPhotoProfileColored =
-      'assets/icons/svg/colored/icon-photo-profile.svg';
-  static const String iconPoolColored =
-      'assets/icons/svg/colored/icon-pool.svg';
-  static const String iconPrinterGreyColored =
-      'assets/icons/svg/colored/icon-printer-grey.svg';
-  static const String iconRedCircularColored =
-      'assets/icons/svg/colored/icon-red-circular.svg';
-  static const String iconSpecialItemsColored =
-      'assets/icons/svg/colored/icon-special-items.svg';
-  static const String iconStarredColored =
-      'assets/icons/svg/colored/icon-starred.svg';
-  static const String iconTeamActivityColored =
-      'assets/icons/svg/colored/icon-team-activity.svg';
-  static const String iconTrash1Colored =
-      'assets/icons/svg/colored/icon-trash-1.svg';
-  static const String iconWhatsappBlueColored =
-      'assets/icons/svg/colored/icon-whatsapp-blue.svg';
-  static const String iconWorkroomFullColorColored =
-      'assets/icons/svg/colored/icon-workroom-full-color.svg';
-  static const String iconYoutubeGrayscaleColored =
-      'assets/icons/svg/colored/icon-youtube-grayscale.svg';
+  static const String iconAddWithRectangleColored = 'assets/icons/svg/colored/icon-add-with-rectangle.svg';
+  static const String iconAirPlaneFillColored = 'assets/icons/svg/colored/icon-air-plane-fill.svg';
+  static const String iconAirPlaneColored = 'assets/icons/svg/colored/icon-air-plane.svg';
+  static const String iconAirplaneAddColored = 'assets/icons/svg/colored/icon-airplane-add.svg';
+  static const String iconApprovalColored = 'assets/icons/svg/colored/icon-approval.svg';
+  static const String iconAppsColored = 'assets/icons/svg/colored/icon-apps.svg';
+  static const String iconAppstore2Colored = 'assets/icons/svg/colored/icon-appstore-2.svg';
+  static const String iconArrowDownRightColored = 'assets/icons/svg/colored/icon-arrow-down-right.svg';
+  static const String iconArrowRightLeftColored = 'assets/icons/svg/colored/icon-arrow-right-left.svg';
+  static const String iconArrowUpRightColored = 'assets/icons/svg/colored/icon-arrow-up-right.svg';
+  static const String iconAuthenticator2Colored = 'assets/icons/svg/colored/icon-authenticator-2.svg';
+  static const String iconBacklogColored = 'assets/icons/svg/colored/icon-backlog.svg';
+  static const String iconBarangKhususColored = 'assets/icons/svg/colored/icon-barang-khusus.svg';
+  static const String iconBluebird2Colored = 'assets/icons/svg/colored/icon-bluebird-2.svg';
+  static const String iconCalendarShiftColored = 'assets/icons/svg/colored/icon-calendar-shift.svg';
+  static const String iconChargerStationColored = 'assets/icons/svg/colored/icon-charger-station.svg';
+  static const String iconCheckBlueColored = 'assets/icons/svg/colored/icon-check-blue.svg';
+  static const String iconChecklistColored = 'assets/icons/svg/colored/icon-checklist.svg';
+  static const String iconChevronDownLineColored = 'assets/icons/svg/colored/icon-chevron-down-line.svg';
+  static const String iconClipboardListColored = 'assets/icons/svg/colored/icon-clipboard-list.svg';
+  static const String iconClockBlueColored = 'assets/icons/svg/colored/icon-clock-blue.svg';
+  static const String iconClockInColored = 'assets/icons/svg/colored/icon-clock-in.svg';
+  static const String iconClockOutColored = 'assets/icons/svg/colored/icon-clock-out.svg';
+  static const String iconDriverlessColored = 'assets/icons/svg/colored/icon-driverless.svg';
+  static const String iconExchangeShiftDetailColorsColored = 'assets/icons/svg/colored/icon-exchange-shift-detail-colors.svg';
+  static const String iconExternalLinkColored = 'assets/icons/svg/colored/icon-external-link.svg';
+  static const String iconFilterBlackColored = 'assets/icons/svg/colored/icon-filter-black.svg';
+  static const String iconGojek2Colored = 'assets/icons/svg/colored/icon-gojek-2.svg';
+  static const String iconGrab2Colored = 'assets/icons/svg/colored/icon-grab-2.svg';
+  static const String iconHelpHeadsetBlueColored = 'assets/icons/svg/colored/icon-help-headset-blue.svg';
+  static const String iconInfoShieldColored = 'assets/icons/svg/colored/icon-info-shield.svg';
+  static const String iconKendaraanPoolColored = 'assets/icons/svg/colored/icon-kendaraan-pool.svg';
+  static const String iconLaptop1Colored = 'assets/icons/svg/colored/icon-laptop-1.svg';
+  static const String iconLocationPinRedColored = 'assets/icons/svg/colored/icon-location-pin-red.svg';
+  static const String iconMailBlueColored = 'assets/icons/svg/colored/icon-mail-blue.svg';
+  static const String iconMyDonationBlackColored = 'assets/icons/svg/colored/icon-my-donation-black.svg';
+  static const String iconNoWifiColored = 'assets/icons/svg/colored/icon-no-wifi.svg';
+  static const String iconPdfGrayscaleColored = 'assets/icons/svg/colored/icon-pdf-grayscale.svg';
+  static const String iconPencarianDocumentColored = 'assets/icons/svg/colored/icon-pencarian-document.svg';
+  static const String iconPencilRulerGreyColored = 'assets/icons/svg/colored/icon-pencil-ruler-grey.svg';
+  static const String iconPermintaanKhususColored = 'assets/icons/svg/colored/icon-permintaan-khusus.svg';
+  static const String iconPhoneCrackedColored = 'assets/icons/svg/colored/icon-phone-cracked.svg';
+  static const String iconPhotoProfileColored = 'assets/icons/svg/colored/icon-photo-profile.svg';
+  static const String iconPoolColored = 'assets/icons/svg/colored/icon-pool.svg';
+  static const String iconPrinterGreyColored = 'assets/icons/svg/colored/icon-printer-grey.svg';
+  static const String iconRedCircularColored = 'assets/icons/svg/colored/icon-red-circular.svg';
+  static const String iconSpecialItemsColored = 'assets/icons/svg/colored/icon-special-items.svg';
+  static const String iconStarredColored = 'assets/icons/svg/colored/icon-starred.svg';
+  static const String iconTeamActivityColored = 'assets/icons/svg/colored/icon-team-activity.svg';
+  static const String iconTrash1Colored = 'assets/icons/svg/colored/icon-trash-1.svg';
+  static const String iconWhatsappBlueColored = 'assets/icons/svg/colored/icon-whatsapp-blue.svg';
+  static const String iconWorkroomFullColorColored = 'assets/icons/svg/colored/icon-workroom-full-color.svg';
+  static const String iconYoutubeGrayscaleColored = 'assets/icons/svg/colored/icon-youtube-grayscale.svg';
 
   // Group: MENU
-  static const String iconEarsipActive =
-      'assets/icons/svg/menu/icon-earsip-active.svg';
-  static const String iconEarsipError =
-      'assets/icons/svg/menu/icon-earsip-error.svg';
-  static const String iconEarsipNonactive =
-      'assets/icons/svg/menu/icon-earsip-nonactive.svg';
-  static const String iconFacilityBerhasil =
-      'assets/icons/svg/menu/icon-facility-berhasil.svg';
-  static const String iconHomeAbsensi =
-      'assets/icons/svg/menu/icon-home-absensi.svg';
+  static const String iconEarsipActive = 'assets/icons/svg/menu/icon-earsip-active.svg';
+  static const String iconEarsipError = 'assets/icons/svg/menu/icon-earsip-error.svg';
+  static const String iconEarsipNonactive = 'assets/icons/svg/menu/icon-earsip-nonactive.svg';
+  static const String iconFacilityBerhasil = 'assets/icons/svg/menu/icon-facility-berhasil.svg';
+  static const String iconHomeAbsensi = 'assets/icons/svg/menu/icon-home-absensi.svg';
   static const String iconHomeAms = 'assets/icons/svg/menu/icon-home-ams.svg';
-  static const String iconHomeDigitalcard =
-      'assets/icons/svg/menu/icon-home-digitalcard.svg';
-  static const String iconHomeFasilitas =
-      'assets/icons/svg/menu/icon-home-fasilitas.svg';
-  static const String iconHomeMeeting =
-      'assets/icons/svg/menu/icon-home-meeting.svg';
+  static const String iconHomeDigitalcard = 'assets/icons/svg/menu/icon-home-digitalcard.svg';
+  static const String iconHomeFasilitas = 'assets/icons/svg/menu/icon-home-fasilitas.svg';
+  static const String iconHomeMeeting = 'assets/icons/svg/menu/icon-home-meeting.svg';
   static const String iconHomeTask = 'assets/icons/svg/menu/icon-home-task.svg';
-  static const String iconMenuAbsence =
-      'assets/icons/svg/menu/icon-menu-absence.svg';
+  static const String iconMenuAbsence = 'assets/icons/svg/menu/icon-menu-absence.svg';
   static const String iconMenuAll = 'assets/icons/svg/menu/icon-menu-all.svg';
-  static const String iconMenuAmsCorporate =
-      'assets/icons/svg/menu/icon-menu-ams-corporate.svg';
-  static const String iconMenuAttendance =
-      'assets/icons/svg/menu/icon-menu-attendance.svg';
-  static const String iconMenuAuthenticator =
-      'assets/icons/svg/menu/icon-menu-authenticator.svg';
-  static const String iconMenuCalendar =
-      'assets/icons/svg/menu/icon-menu-calendar.svg';
-  static const String iconMenuEarchive =
-      'assets/icons/svg/menu/icon-menu-earchive.svg';
-  static const String iconMenuEmployee =
-      'assets/icons/svg/menu/icon-menu-employee.svg';
-  static const String iconMenuEsppd =
-      'assets/icons/svg/menu/icon-menu-esppd.svg';
-  static const String iconMenuLaptop =
-      'assets/icons/svg/menu/icon-menu-laptop.svg';
-  static const String iconMenuMeeting =
-      'assets/icons/svg/menu/icon-menu-meeting.svg';
-  static const String iconMenuMyteam =
-      'assets/icons/svg/menu/icon-menu-myteam.svg';
-  static const String iconMenuOvertime =
-      'assets/icons/svg/menu/icon-menu-overtime.svg';
+  static const String iconMenuAmsCorporate = 'assets/icons/svg/menu/icon-menu-ams-corporate.svg';
+  static const String iconMenuAttendance = 'assets/icons/svg/menu/icon-menu-attendance.svg';
+  static const String iconMenuAuthenticator = 'assets/icons/svg/menu/icon-menu-authenticator.svg';
+  static const String iconMenuCalendar = 'assets/icons/svg/menu/icon-menu-calendar.svg';
+  static const String iconMenuEarchive = 'assets/icons/svg/menu/icon-menu-earchive.svg';
+  static const String iconMenuEmployee = 'assets/icons/svg/menu/icon-menu-employee.svg';
+  static const String iconMenuEsppd = 'assets/icons/svg/menu/icon-menu-esppd.svg';
+  static const String iconMenuLaptop = 'assets/icons/svg/menu/icon-menu-laptop.svg';
+  static const String iconMenuMeeting = 'assets/icons/svg/menu/icon-menu-meeting.svg';
+  static const String iconMenuMyteam = 'assets/icons/svg/menu/icon-menu-myteam.svg';
+  static const String iconMenuOvertime = 'assets/icons/svg/menu/icon-menu-overtime.svg';
   static const String iconMenuRoom = 'assets/icons/svg/menu/icon-menu-room.svg';
-  static const String iconMenuShift =
-      'assets/icons/svg/menu/icon-menu-shift.svg';
-  static const String iconMenuStationery =
-      'assets/icons/svg/menu/icon-menu-stationery.svg';
+  static const String iconMenuShift = 'assets/icons/svg/menu/icon-menu-shift.svg';
+  static const String iconMenuStationery = 'assets/icons/svg/menu/icon-menu-stationery.svg';
   static const String iconMenuTask = 'assets/icons/svg/menu/icon-menu-task.svg';
-  static const String iconMenuTransportation =
-      'assets/icons/svg/menu/icon-menu-transportation.svg';
+  static const String iconMenuTransportation = 'assets/icons/svg/menu/icon-menu-transportation.svg';
   static const String iconScanQr2 = 'assets/icons/svg/menu/icon-scan-qr-2.svg';
-  static const String iconSubmenuAbsenceSubmit =
-      'assets/icons/svg/menu/icon-submenu-absence-submit.svg';
-  static const String iconSubmenuAll =
-      'assets/icons/svg/menu/icon-submenu-all.svg';
-  static const String iconSubmenuAmsDigitalSign =
-      'assets/icons/svg/menu/icon-submenu-ams-digital-sign.svg';
-  static const String iconSubmenuAmsLetterMemoIncoming =
-      'assets/icons/svg/menu/icon-submenu-ams-letter-memo-incoming.svg';
-  static const String iconSubmenuAmsLetterMemoSent =
-      'assets/icons/svg/menu/icon-submenu-ams-letter-memo-sent.svg';
-  static const String iconSubmenuAmsLetterTrack =
-      'assets/icons/svg/menu/icon-submenu-ams-letter-track.svg';
-  static const String iconSubmenuAmsMySecretary =
-      'assets/icons/svg/menu/icon-submenu-ams-my-secretary.svg';
-  static const String iconSubmenuAmsOfficialDocumentOther =
-      'assets/icons/svg/menu/icon-submenu-ams-official-document-other.svg';
-  static const String iconSubmenuAttendanceBacklog =
-      'assets/icons/svg/menu/icon-submenu-attendance-backlog.svg';
-  static const String iconSubmenuAttendanceCico =
-      'assets/icons/svg/menu/icon-submenu-attendance-cico.svg';
-  static const String iconSubmenuAttendanceCorrection =
-      'assets/icons/svg/menu/icon-submenu-attendance-correction.svg';
-  static const String iconSubmenuAttendanceHistory =
-      'assets/icons/svg/menu/icon-submenu-attendance-history.svg';
-  static const String iconSubmenuAttendanceMy =
-      'assets/icons/svg/menu/icon-submenu-attendance-my.svg';
-  static const String iconSubmenuAttendanceWorkTime =
-      'assets/icons/svg/menu/icon-submenu-attendance-work-time.svg';
-  static const String iconSubmenuCalendarMyTeam =
-      'assets/icons/svg/menu/icon-submenu-calendar-my-team.svg';
-  static const String iconSubmenuCalendarMy =
-      'assets/icons/svg/menu/icon-submenu-calendar-my.svg';
-  static const String iconSubmenuEarsipBorrow =
-      'assets/icons/svg/menu/icon-submenu-earsip-borrow.svg';
-  static const String iconSubmenuEarsipReturn =
-      'assets/icons/svg/menu/icon-submenu-earsip-return.svg';
-  static const String iconSubmenuEarsipSearch =
-      'assets/icons/svg/menu/icon-submenu-earsip-search.svg';
-  static const String iconSubmenuEccChat =
-      'assets/icons/svg/menu/icon-submenu-ecc-chat.svg';
-  static const String iconSubmenuIamAuthenticator =
-      'assets/icons/svg/menu/icon-submenu-iam-authenticator.svg';
-  static const String iconSubmenuIamQr =
-      'assets/icons/svg/menu/icon-submenu-iam-qr.svg';
-  static const String iconSubmenuLaptopItems =
-      'assets/icons/svg/menu/icon-submenu-laptop-items.svg';
-  static const String iconSubmenuMeetingMy =
-      'assets/icons/svg/menu/icon-submenu-meeting-my.svg';
-  static const String iconSubmenuMyTeamPlnDaily =
-      'assets/icons/svg/menu/icon-submenu-my-team-pln-daily.svg';
-  static const String iconSubmenuMyTeamTeamSchedule =
-      'assets/icons/svg/menu/icon-submenu-my-team-team-schedule.svg';
-  static const String iconSubmenuNotSet =
-      'assets/icons/svg/menu/icon-submenu-not-set.svg';
-  static const String iconSubmenuOfficeSuppliesComputer =
-      'assets/icons/svg/menu/icon-submenu-office-supplies-computer.svg';
-  static const String iconSubmenuOfficeSuppliesSpecial =
-      'assets/icons/svg/menu/icon-submenu-office-supplies-special.svg';
-  static const String iconSubmenuOfficeSuppliesStationery =
-      'assets/icons/svg/menu/icon-submenu-office-supplies-stationery.svg';
-  static const String iconSubmenuOvertimeAssignment =
-      'assets/icons/svg/menu/icon-submenu-overtime-assignment.svg';
-  static const String iconSubmenuOvertimeEvaluationPlan =
-      'assets/icons/svg/menu/icon-submenu-overtime-evaluation-plan.svg';
-  static const String iconSubmenuOvertimeEvaluation =
-      'assets/icons/svg/menu/icon-submenu-overtime-evaluation.svg';
-  static const String iconSubmenuOvertimeMy =
-      'assets/icons/svg/menu/icon-submenu-overtime-my.svg';
-  static const String iconSubmenuOvertimePlan =
-      'assets/icons/svg/menu/icon-submenu-overtime-plan.svg';
-  static const String iconSubmenuOvertimeRealisation =
-      'assets/icons/svg/menu/icon-submenu-overtime-realisation.svg';
-  static const String iconSubmenuRoomCollaboration =
-      'assets/icons/svg/menu/icon-submenu-room-collaboration.svg';
-  static const String iconSubmenuRoomWork =
-      'assets/icons/svg/menu/icon-submenu-room-work.svg';
-  static const String iconSubmenuShiftChange =
-      'assets/icons/svg/menu/icon-submenu-shift-change.svg';
-  static const String iconSubmenuShiftMySchedule =
-      'assets/icons/svg/menu/icon-submenu-shift-my-schedule.svg';
-  static const String iconSubmenuShiftSetSchedule =
-      'assets/icons/svg/menu/icon-submenu-shift-set-schedule.svg';
-  static const String iconSubmenuShiftTeamSchedule =
-      'assets/icons/svg/menu/icon-submenu-shift-team-schedule.svg';
-  static const String iconSubmenuSppdActive =
-      'assets/icons/svg/menu/icon-submenu-sppd-active.svg';
-  static const String iconSubmenuSppdHistory =
-      'assets/icons/svg/menu/icon-submenu-sppd-history.svg';
-  static const String iconSubmenuSppdMonitoring =
-      'assets/icons/svg/menu/icon-submenu-sppd-monitoring.svg';
-  static const String iconSubmenuSppdReimburse =
-      'assets/icons/svg/menu/icon-submenu-sppd-reimburse.svg';
-  static const String iconSubmenuSppdSubmit =
-      'assets/icons/svg/menu/icon-submenu-sppd-submit.svg';
-  static const String iconSubmenuTaskManagementMy =
-      'assets/icons/svg/menu/icon-submenu-task-management-my.svg';
-  static const String iconSubmenuTaskManagementTeam =
-      'assets/icons/svg/menu/icon-submenu-task-management-team.svg';
-  static const String iconSubmenuVehicleTransportation =
-      'assets/icons/svg/menu/icon-submenu-vehicle-transportation.svg';
-  static const String iconSubmenuWhiteAbsenceSubmit =
-      'assets/icons/svg/menu/icon-submenu-white-absence-submit.svg';
-  static const String iconSubmenuWhiteAmsDigitalSign =
-      'assets/icons/svg/menu/icon-submenu-white-ams-digital-sign.svg';
-  static const String iconSubmenuWhiteAmsLetterMemoIncoming =
-      'assets/icons/svg/menu/icon-submenu-white-ams-letter-memo-incoming.svg';
-  static const String iconSubmenuWhiteAmsLetterMemoSent =
-      'assets/icons/svg/menu/icon-submenu-white-ams-letter-memo-sent.svg';
-  static const String iconSubmenuWhiteAmsLetterTrack =
-      'assets/icons/svg/menu/icon-submenu-white-ams-letter-track.svg';
-  static const String iconSubmenuWhiteAmsMySecretary =
-      'assets/icons/svg/menu/icon-submenu-white-ams-my-secretary.svg';
-  static const String iconSubmenuWhiteAmsOfficialDocumentOther =
-      'assets/icons/svg/menu/icon-submenu-white-ams-official-document-other.svg';
-  static const String iconSubmenuWhiteAttendanceBacklog =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-backlog.svg';
-  static const String iconSubmenuWhiteAttendanceCico =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-cico.svg';
-  static const String iconSubmenuWhiteAttendanceCorrection =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-correction.svg';
-  static const String iconSubmenuWhiteAttendanceHistory =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-history.svg';
-  static const String iconSubmenuWhiteAttendanceMy =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-my.svg';
-  static const String iconSubmenuWhiteAttendanceWorkTime =
-      'assets/icons/svg/menu/icon-submenu-white-attendance-work-time.svg';
-  static const String iconSubmenuWhiteCalendarMyTeam =
-      'assets/icons/svg/menu/icon-submenu-white-calendar-my-team.svg';
-  static const String iconSubmenuWhiteCalendarMy =
-      'assets/icons/svg/menu/icon-submenu-white-calendar-my.svg';
-  static const String iconSubmenuWhiteEarsipBorrow =
-      'assets/icons/svg/menu/icon-submenu-white-earsip-borrow.svg';
-  static const String iconSubmenuWhiteEarsipReturn =
-      'assets/icons/svg/menu/icon-submenu-white-earsip-return.svg';
-  static const String iconSubmenuWhiteEarsipSearch =
-      'assets/icons/svg/menu/icon-submenu-white-earsip-search.svg';
-  static const String iconSubmenuWhiteEccChat =
-      'assets/icons/svg/menu/icon-submenu-white-ecc-chat.svg';
-  static const String iconSubmenuWhiteIamAuthenticator =
-      'assets/icons/svg/menu/icon-submenu-white-iam-authenticator.svg';
-  static const String iconSubmenuWhiteIamQr =
-      'assets/icons/svg/menu/icon-submenu-white-iam-qr.svg';
-  static const String iconSubmenuWhiteLaptopItems =
-      'assets/icons/svg/menu/icon-submenu-white-laptop-items.svg';
-  static const String iconSubmenuWhiteMeetingMy =
-      'assets/icons/svg/menu/icon-submenu-white-meeting-my.svg';
-  static const String iconSubmenuWhiteMyTeamPlnDaily =
-      'assets/icons/svg/menu/icon-submenu-white-my-team-pln-daily.svg';
-  static const String iconSubmenuWhiteMyTeamTeamSchedule =
-      'assets/icons/svg/menu/icon-submenu-white-my-team-team-schedule.svg';
-  static const String iconSubmenuWhiteOfficeSuppliesComputer =
-      'assets/icons/svg/menu/icon-submenu-white-office-supplies-computer.svg';
-  static const String iconSubmenuWhiteOfficeSuppliesSpecial =
-      'assets/icons/svg/menu/icon-submenu-white-office-supplies-special.svg';
-  static const String iconSubmenuWhiteOfficeSuppliesStationery =
-      'assets/icons/svg/menu/icon-submenu-white-office-supplies-stationery.svg';
-  static const String iconSubmenuWhiteOvertimeAssignment =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-assignment.svg';
-  static const String iconSubmenuWhiteOvertimeEvaluationPlan =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-evaluation-plan.svg';
-  static const String iconSubmenuWhiteOvertimeEvaluation =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-evaluation.svg';
-  static const String iconSubmenuWhiteOvertimeMy =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-my.svg';
-  static const String iconSubmenuWhiteOvertimePlan =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-plan.svg';
-  static const String iconSubmenuWhiteOvertimeRealisation =
-      'assets/icons/svg/menu/icon-submenu-white-overtime-realisation.svg';
-  static const String iconSubmenuWhiteRoomCollaboration =
-      'assets/icons/svg/menu/icon-submenu-white-room-collaboration.svg';
-  static const String iconSubmenuWhiteRoomWork =
-      'assets/icons/svg/menu/icon-submenu-white-room-work.svg';
-  static const String iconSubmenuWhiteShiftChange =
-      'assets/icons/svg/menu/icon-submenu-white-shift-change.svg';
-  static const String iconSubmenuWhiteShiftMySchedule =
-      'assets/icons/svg/menu/icon-submenu-white-shift-my-schedule.svg';
-  static const String iconSubmenuWhiteShiftSetSchedule =
-      'assets/icons/svg/menu/icon-submenu-white-shift-set-schedule.svg';
-  static const String iconSubmenuWhiteShiftTeamSchedule =
-      'assets/icons/svg/menu/icon-submenu-white-shift-team-schedule.svg';
-  static const String iconSubmenuWhiteSppdActive =
-      'assets/icons/svg/menu/icon-submenu-white-sppd-active.svg';
-  static const String iconSubmenuWhiteSppdHistory =
-      'assets/icons/svg/menu/icon-submenu-white-sppd-history.svg';
-  static const String iconSubmenuWhiteSppdMonitoring =
-      'assets/icons/svg/menu/icon-submenu-white-sppd-monitoring.svg';
-  static const String iconSubmenuWhiteSppdReimburse =
-      'assets/icons/svg/menu/icon-submenu-white-sppd-reimburse.svg';
-  static const String iconSubmenuWhiteSppdSubmit =
-      'assets/icons/svg/menu/icon-submenu-white-sppd-submit.svg';
-  static const String iconSubmenuWhiteTaskManagementMy =
-      'assets/icons/svg/menu/icon-submenu-white-task-management-my.svg';
-  static const String iconSubmenuWhiteTaskManagementTeam =
-      'assets/icons/svg/menu/icon-submenu-white-task-management-team.svg';
-  static const String iconSubmenuWhiteVehicleTransportation =
-      'assets/icons/svg/menu/icon-submenu-white-vehicle-transportation.svg';
-  static const String iconTaskManagementMy =
-      'assets/icons/svg/menu/icon-task-management-my.svg';
-  static const String iconTaskManagementTeam =
-      'assets/icons/svg/menu/icon-task-management-team.svg';
+  static const String iconSubmenuAbsenceSubmit = 'assets/icons/svg/menu/icon-submenu-absence-submit.svg';
+  static const String iconSubmenuAll = 'assets/icons/svg/menu/icon-submenu-all.svg';
+  static const String iconSubmenuAmsDigitalSign = 'assets/icons/svg/menu/icon-submenu-ams-digital-sign.svg';
+  static const String iconSubmenuAmsLetterMemoIncoming = 'assets/icons/svg/menu/icon-submenu-ams-letter-memo-incoming.svg';
+  static const String iconSubmenuAmsLetterMemoSent = 'assets/icons/svg/menu/icon-submenu-ams-letter-memo-sent.svg';
+  static const String iconSubmenuAmsLetterTrack = 'assets/icons/svg/menu/icon-submenu-ams-letter-track.svg';
+  static const String iconSubmenuAmsMySecretary = 'assets/icons/svg/menu/icon-submenu-ams-my-secretary.svg';
+  static const String iconSubmenuAmsOfficialDocumentOther = 'assets/icons/svg/menu/icon-submenu-ams-official-document-other.svg';
+  static const String iconSubmenuAttendanceBacklog = 'assets/icons/svg/menu/icon-submenu-attendance-backlog.svg';
+  static const String iconSubmenuAttendanceCico = 'assets/icons/svg/menu/icon-submenu-attendance-cico.svg';
+  static const String iconSubmenuAttendanceCorrection = 'assets/icons/svg/menu/icon-submenu-attendance-correction.svg';
+  static const String iconSubmenuAttendanceHistory = 'assets/icons/svg/menu/icon-submenu-attendance-history.svg';
+  static const String iconSubmenuAttendanceMy = 'assets/icons/svg/menu/icon-submenu-attendance-my.svg';
+  static const String iconSubmenuAttendanceWorkTime = 'assets/icons/svg/menu/icon-submenu-attendance-work-time.svg';
+  static const String iconSubmenuCalendarMyTeam = 'assets/icons/svg/menu/icon-submenu-calendar-my-team.svg';
+  static const String iconSubmenuCalendarMy = 'assets/icons/svg/menu/icon-submenu-calendar-my.svg';
+  static const String iconSubmenuEarsipBorrow = 'assets/icons/svg/menu/icon-submenu-earsip-borrow.svg';
+  static const String iconSubmenuEarsipReturn = 'assets/icons/svg/menu/icon-submenu-earsip-return.svg';
+  static const String iconSubmenuEarsipSearch = 'assets/icons/svg/menu/icon-submenu-earsip-search.svg';
+  static const String iconSubmenuEccChat = 'assets/icons/svg/menu/icon-submenu-ecc-chat.svg';
+  static const String iconSubmenuIamAuthenticator = 'assets/icons/svg/menu/icon-submenu-iam-authenticator.svg';
+  static const String iconSubmenuIamQr = 'assets/icons/svg/menu/icon-submenu-iam-qr.svg';
+  static const String iconSubmenuLaptopItems = 'assets/icons/svg/menu/icon-submenu-laptop-items.svg';
+  static const String iconSubmenuMeetingMy = 'assets/icons/svg/menu/icon-submenu-meeting-my.svg';
+  static const String iconSubmenuMyTeamPlnDaily = 'assets/icons/svg/menu/icon-submenu-my-team-pln-daily.svg';
+  static const String iconSubmenuMyTeamTeamSchedule = 'assets/icons/svg/menu/icon-submenu-my-team-team-schedule.svg';
+  static const String iconSubmenuNotSet = 'assets/icons/svg/menu/icon-submenu-not-set.svg';
+  static const String iconSubmenuOfficeSuppliesComputer = 'assets/icons/svg/menu/icon-submenu-office-supplies-computer.svg';
+  static const String iconSubmenuOfficeSuppliesSpecial = 'assets/icons/svg/menu/icon-submenu-office-supplies-special.svg';
+  static const String iconSubmenuOfficeSuppliesStationery = 'assets/icons/svg/menu/icon-submenu-office-supplies-stationery.svg';
+  static const String iconSubmenuOvertimeAssignment = 'assets/icons/svg/menu/icon-submenu-overtime-assignment.svg';
+  static const String iconSubmenuOvertimeEvaluationPlan = 'assets/icons/svg/menu/icon-submenu-overtime-evaluation-plan.svg';
+  static const String iconSubmenuOvertimeEvaluation = 'assets/icons/svg/menu/icon-submenu-overtime-evaluation.svg';
+  static const String iconSubmenuOvertimeMy = 'assets/icons/svg/menu/icon-submenu-overtime-my.svg';
+  static const String iconSubmenuOvertimePlan = 'assets/icons/svg/menu/icon-submenu-overtime-plan.svg';
+  static const String iconSubmenuOvertimeRealisation = 'assets/icons/svg/menu/icon-submenu-overtime-realisation.svg';
+  static const String iconSubmenuRoomCollaboration = 'assets/icons/svg/menu/icon-submenu-room-collaboration.svg';
+  static const String iconSubmenuRoomWork = 'assets/icons/svg/menu/icon-submenu-room-work.svg';
+  static const String iconSubmenuShiftChange = 'assets/icons/svg/menu/icon-submenu-shift-change.svg';
+  static const String iconSubmenuShiftMySchedule = 'assets/icons/svg/menu/icon-submenu-shift-my-schedule.svg';
+  static const String iconSubmenuShiftSetSchedule = 'assets/icons/svg/menu/icon-submenu-shift-set-schedule.svg';
+  static const String iconSubmenuShiftTeamSchedule = 'assets/icons/svg/menu/icon-submenu-shift-team-schedule.svg';
+  static const String iconSubmenuSppdActive = 'assets/icons/svg/menu/icon-submenu-sppd-active.svg';
+  static const String iconSubmenuSppdHistory = 'assets/icons/svg/menu/icon-submenu-sppd-history.svg';
+  static const String iconSubmenuSppdMonitoring = 'assets/icons/svg/menu/icon-submenu-sppd-monitoring.svg';
+  static const String iconSubmenuSppdReimburse = 'assets/icons/svg/menu/icon-submenu-sppd-reimburse.svg';
+  static const String iconSubmenuSppdSubmit = 'assets/icons/svg/menu/icon-submenu-sppd-submit.svg';
+  static const String iconSubmenuTaskManagementMy = 'assets/icons/svg/menu/icon-submenu-task-management-my.svg';
+  static const String iconSubmenuTaskManagementTeam = 'assets/icons/svg/menu/icon-submenu-task-management-team.svg';
+  static const String iconSubmenuVehicleTransportation = 'assets/icons/svg/menu/icon-submenu-vehicle-transportation.svg';
+  static const String iconSubmenuWhiteAbsenceSubmit = 'assets/icons/svg/menu/icon-submenu-white-absence-submit.svg';
+  static const String iconSubmenuWhiteAmsDigitalSign = 'assets/icons/svg/menu/icon-submenu-white-ams-digital-sign.svg';
+  static const String iconSubmenuWhiteAmsLetterMemoIncoming = 'assets/icons/svg/menu/icon-submenu-white-ams-letter-memo-incoming.svg';
+  static const String iconSubmenuWhiteAmsLetterMemoSent = 'assets/icons/svg/menu/icon-submenu-white-ams-letter-memo-sent.svg';
+  static const String iconSubmenuWhiteAmsLetterTrack = 'assets/icons/svg/menu/icon-submenu-white-ams-letter-track.svg';
+  static const String iconSubmenuWhiteAmsMySecretary = 'assets/icons/svg/menu/icon-submenu-white-ams-my-secretary.svg';
+  static const String iconSubmenuWhiteAmsOfficialDocumentOther = 'assets/icons/svg/menu/icon-submenu-white-ams-official-document-other.svg';
+  static const String iconSubmenuWhiteAttendanceBacklog = 'assets/icons/svg/menu/icon-submenu-white-attendance-backlog.svg';
+  static const String iconSubmenuWhiteAttendanceCico = 'assets/icons/svg/menu/icon-submenu-white-attendance-cico.svg';
+  static const String iconSubmenuWhiteAttendanceCorrection = 'assets/icons/svg/menu/icon-submenu-white-attendance-correction.svg';
+  static const String iconSubmenuWhiteAttendanceHistory = 'assets/icons/svg/menu/icon-submenu-white-attendance-history.svg';
+  static const String iconSubmenuWhiteAttendanceMy = 'assets/icons/svg/menu/icon-submenu-white-attendance-my.svg';
+  static const String iconSubmenuWhiteAttendanceWorkTime = 'assets/icons/svg/menu/icon-submenu-white-attendance-work-time.svg';
+  static const String iconSubmenuWhiteCalendarMyTeam = 'assets/icons/svg/menu/icon-submenu-white-calendar-my-team.svg';
+  static const String iconSubmenuWhiteCalendarMy = 'assets/icons/svg/menu/icon-submenu-white-calendar-my.svg';
+  static const String iconSubmenuWhiteEarsipBorrow = 'assets/icons/svg/menu/icon-submenu-white-earsip-borrow.svg';
+  static const String iconSubmenuWhiteEarsipReturn = 'assets/icons/svg/menu/icon-submenu-white-earsip-return.svg';
+  static const String iconSubmenuWhiteEarsipSearch = 'assets/icons/svg/menu/icon-submenu-white-earsip-search.svg';
+  static const String iconSubmenuWhiteEccChat = 'assets/icons/svg/menu/icon-submenu-white-ecc-chat.svg';
+  static const String iconSubmenuWhiteIamAuthenticator = 'assets/icons/svg/menu/icon-submenu-white-iam-authenticator.svg';
+  static const String iconSubmenuWhiteIamQr = 'assets/icons/svg/menu/icon-submenu-white-iam-qr.svg';
+  static const String iconSubmenuWhiteLaptopItems = 'assets/icons/svg/menu/icon-submenu-white-laptop-items.svg';
+  static const String iconSubmenuWhiteMeetingMy = 'assets/icons/svg/menu/icon-submenu-white-meeting-my.svg';
+  static const String iconSubmenuWhiteMyTeamPlnDaily = 'assets/icons/svg/menu/icon-submenu-white-my-team-pln-daily.svg';
+  static const String iconSubmenuWhiteMyTeamTeamSchedule = 'assets/icons/svg/menu/icon-submenu-white-my-team-team-schedule.svg';
+  static const String iconSubmenuWhiteOfficeSuppliesComputer = 'assets/icons/svg/menu/icon-submenu-white-office-supplies-computer.svg';
+  static const String iconSubmenuWhiteOfficeSuppliesSpecial = 'assets/icons/svg/menu/icon-submenu-white-office-supplies-special.svg';
+  static const String iconSubmenuWhiteOfficeSuppliesStationery = 'assets/icons/svg/menu/icon-submenu-white-office-supplies-stationery.svg';
+  static const String iconSubmenuWhiteOvertimeAssignment = 'assets/icons/svg/menu/icon-submenu-white-overtime-assignment.svg';
+  static const String iconSubmenuWhiteOvertimeEvaluationPlan = 'assets/icons/svg/menu/icon-submenu-white-overtime-evaluation-plan.svg';
+  static const String iconSubmenuWhiteOvertimeEvaluation = 'assets/icons/svg/menu/icon-submenu-white-overtime-evaluation.svg';
+  static const String iconSubmenuWhiteOvertimeMy = 'assets/icons/svg/menu/icon-submenu-white-overtime-my.svg';
+  static const String iconSubmenuWhiteOvertimePlan = 'assets/icons/svg/menu/icon-submenu-white-overtime-plan.svg';
+  static const String iconSubmenuWhiteOvertimeRealisation = 'assets/icons/svg/menu/icon-submenu-white-overtime-realisation.svg';
+  static const String iconSubmenuWhiteRoomCollaboration = 'assets/icons/svg/menu/icon-submenu-white-room-collaboration.svg';
+  static const String iconSubmenuWhiteRoomWork = 'assets/icons/svg/menu/icon-submenu-white-room-work.svg';
+  static const String iconSubmenuWhiteShiftChange = 'assets/icons/svg/menu/icon-submenu-white-shift-change.svg';
+  static const String iconSubmenuWhiteShiftMySchedule = 'assets/icons/svg/menu/icon-submenu-white-shift-my-schedule.svg';
+  static const String iconSubmenuWhiteShiftSetSchedule = 'assets/icons/svg/menu/icon-submenu-white-shift-set-schedule.svg';
+  static const String iconSubmenuWhiteShiftTeamSchedule = 'assets/icons/svg/menu/icon-submenu-white-shift-team-schedule.svg';
+  static const String iconSubmenuWhiteSppdActive = 'assets/icons/svg/menu/icon-submenu-white-sppd-active.svg';
+  static const String iconSubmenuWhiteSppdHistory = 'assets/icons/svg/menu/icon-submenu-white-sppd-history.svg';
+  static const String iconSubmenuWhiteSppdMonitoring = 'assets/icons/svg/menu/icon-submenu-white-sppd-monitoring.svg';
+  static const String iconSubmenuWhiteSppdReimburse = 'assets/icons/svg/menu/icon-submenu-white-sppd-reimburse.svg';
+  static const String iconSubmenuWhiteSppdSubmit = 'assets/icons/svg/menu/icon-submenu-white-sppd-submit.svg';
+  static const String iconSubmenuWhiteTaskManagementMy = 'assets/icons/svg/menu/icon-submenu-white-task-management-my.svg';
+  static const String iconSubmenuWhiteTaskManagementTeam = 'assets/icons/svg/menu/icon-submenu-white-task-management-team.svg';
+  static const String iconSubmenuWhiteVehicleTransportation = 'assets/icons/svg/menu/icon-submenu-white-vehicle-transportation.svg';
+  static const String iconTaskManagementMy = 'assets/icons/svg/menu/icon-task-management-my.svg';
+  static const String iconTaskManagementTeam = 'assets/icons/svg/menu/icon-task-management-team.svg';
 }
