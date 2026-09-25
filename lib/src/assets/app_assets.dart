@@ -73,6 +73,7 @@ abstract class AppAssets {
   static const iconClock = '$_basePath/${AppIcons.iconClock}';
   static const iconClockinClockout = '$_basePath/${AppIcons.iconClockinClockout}';
   static const iconCloseOutlinedCircleRed = '$_basePath/${AppIcons.iconCloseOutlinedCircleRed}';
+  static const iconCloseRedSvg = '$_basePath/${AppIcons.iconCloseRedSvg}';
   static const iconCloseSolidRed = '$_basePath/${AppIcons.iconCloseSolidRed}';
   static const iconClose = '$_basePath/${AppIcons.iconClose}';
   static const iconCloudBottom = '$_basePath/${AppIcons.iconCloudBottom}';
@@ -133,6 +134,7 @@ abstract class AppAssets {
   static const iconIamAuthenticator = '$_basePath/${AppIcons.iconIamAuthenticator}';
   static const iconIamQrInactive = '$_basePath/${AppIcons.iconIamQrInactive}';
   static const iconIamQr = '$_basePath/${AppIcons.iconIamQr}';
+  static const iconIdtInactive = '$_basePath/${AppIcons.iconIdtInactive}';
   static const iconImage = '$_basePath/${AppIcons.iconImage}';
   static const iconInfo = '$_basePath/${AppIcons.iconInfo}';
   static const iconInformationNotif = '$_basePath/${AppIcons.iconInformationNotif}';
@@ -154,6 +156,7 @@ abstract class AppAssets {
   static const iconMailInbox = '$_basePath/${AppIcons.iconMailInbox}';
   static const iconMailSearch = '$_basePath/${AppIcons.iconMailSearch}';
   static const iconMailSent = '$_basePath/${AppIcons.iconMailSent}';
+  static const iconMailTo = '$_basePath/${AppIcons.iconMailTo}';
   static const iconMail = '$_basePath/${AppIcons.iconMail}';
   static const iconManagerGrayscale = '$_basePath/${AppIcons.iconManagerGrayscale}';
   static const iconMapMarker = '$_basePath/${AppIcons.iconMapMarker}';
@@ -163,6 +166,7 @@ abstract class AppAssets {
   static const iconMeetingMyInactive = '$_basePath/${AppIcons.iconMeetingMyInactive}';
   static const iconMeetingMy = '$_basePath/${AppIcons.iconMeetingMy}';
   static const iconMember = '$_basePath/${AppIcons.iconMember}';
+  static const iconMenuIdt = '$_basePath/${AppIcons.iconMenuIdt}';
   static const iconMinusCircle = '$_basePath/${AppIcons.iconMinusCircle}';
   static const iconMinus = '$_basePath/${AppIcons.iconMinus}';
   static const iconMkpCar = '$_basePath/${AppIcons.iconMkpCar}';
@@ -287,6 +291,7 @@ abstract class AppAssets {
   static const iconStarOff = '$_basePath/${AppIcons.iconStarOff}';
   static const iconStarOn = '$_basePath/${AppIcons.iconStarOn}';
   static const iconStar = '$_basePath/${AppIcons.iconStar}';
+  static const iconSubmenuIdt = '$_basePath/${AppIcons.iconSubmenuIdt}';
   static const iconSuitcase = '$_basePath/${AppIcons.iconSuitcase}';
   static const iconSwimmingPool = '$_basePath/${AppIcons.iconSwimmingPool}';
   static const iconSwitchEn = '$_basePath/${AppIcons.iconSwitchEn}';
@@ -385,7 +390,6 @@ abstract class AppAssets {
   static const iconImageFrameOutlined = '$_basePath/${AppIcons.iconImageFrameOutlined}';
   static const iconListOutlined = '$_basePath/${AppIcons.iconListOutlined}';
   static const iconMailOutlined = '$_basePath/${AppIcons.iconMailOutlined}';
-  static const iconMailTo = '$_basePath/${AppIcons.iconMailTo}';
   static const iconManagerOutlined = '$_basePath/${AppIcons.iconManagerOutlined}';
   static const iconOfficeOutlined = '$_basePath/${AppIcons.iconOfficeOutlined}';
   static const iconOuterlineOutlined = '$_basePath/${AppIcons.iconOuterlineOutlined}';
@@ -468,23 +472,53 @@ abstract class AppAssets {
   static const iconHomeFasilitas = '$_basePath/${AppIcons.iconHomeFasilitas}';
   static const iconHomeMeeting = '$_basePath/${AppIcons.iconHomeMeeting}';
   static const iconHomeTask = '$_basePath/${AppIcons.iconHomeTask}';
+  static const iconMenuAbsen = '$_basePath/${AppIcons.iconMenuAbsen}';
+  static const iconMenuAbsenceActive = '$_basePath/${AppIcons.iconMenuAbsenceActive}';
   static const iconMenuAbsence = '$_basePath/${AppIcons.iconMenuAbsence}';
+  static const iconMenuAllActive = '$_basePath/${AppIcons.iconMenuAllActive}';
   static const iconMenuAll = '$_basePath/${AppIcons.iconMenuAll}';
   static const iconMenuAmsCorporate = '$_basePath/${AppIcons.iconMenuAmsCorporate}';
+  static const iconMenuApps = '$_basePath/${AppIcons.iconMenuApps}';
+  static const iconMenuAttendanceActive = '$_basePath/${AppIcons.iconMenuAttendanceActive}';
   static const iconMenuAttendance = '$_basePath/${AppIcons.iconMenuAttendance}';
   static const iconMenuAuthenticator = '$_basePath/${AppIcons.iconMenuAuthenticator}';
+  static const iconMenuBalikNama = '$_basePath/${AppIcons.iconMenuBalikNama}';
+  static const iconMenuCalendarActive = '$_basePath/${AppIcons.iconMenuCalendarActive}';
   static const iconMenuCalendar = '$_basePath/${AppIcons.iconMenuCalendar}';
+  static const iconMenuECalendarActive = '$_basePath/${AppIcons.iconMenuECalendarActive}';
+  static const iconMenuECalendar = '$_basePath/${AppIcons.iconMenuECalendar}';
   static const iconMenuEarchive = '$_basePath/${AppIcons.iconMenuEarchive}';
   static const iconMenuEmployee = '$_basePath/${AppIcons.iconMenuEmployee}';
+  static const iconMenuEntryBuildingActive = '$_basePath/${AppIcons.iconMenuEntryBuildingActive}';
+  static const iconMenuEntryBuilding = '$_basePath/${AppIcons.iconMenuEntryBuilding}';
   static const iconMenuEsppd = '$_basePath/${AppIcons.iconMenuEsppd}';
+  static const iconMenuFacilityActive = '$_basePath/${AppIcons.iconMenuFacilityActive}';
+  static const iconMenuFacility = '$_basePath/${AppIcons.iconMenuFacility}';
+  static const iconMenuFundraisingActive = '$_basePath/${AppIcons.iconMenuFundraisingActive}';
+  static const iconMenuFundraising = '$_basePath/${AppIcons.iconMenuFundraising}';
+  static const iconMenuHealthActive = '$_basePath/${AppIcons.iconMenuHealthActive}';
+  static const iconMenuHealth = '$_basePath/${AppIcons.iconMenuHealth}';
   static const iconMenuLaptop = '$_basePath/${AppIcons.iconMenuLaptop}';
+  static const iconMenuMailActive = '$_basePath/${AppIcons.iconMenuMailActive}';
+  static const iconMenuMail = '$_basePath/${AppIcons.iconMenuMail}';
+  static const iconMenuMeetingActive = '$_basePath/${AppIcons.iconMenuMeetingActive}';
   static const iconMenuMeeting = '$_basePath/${AppIcons.iconMenuMeeting}';
+  static const iconMenuMkpActive = '$_basePath/${AppIcons.iconMenuMkpActive}';
+  static const iconMenuMkp = '$_basePath/${AppIcons.iconMenuMkp}';
   static const iconMenuMyteam = '$_basePath/${AppIcons.iconMenuMyteam}';
   static const iconMenuOvertime = '$_basePath/${AppIcons.iconMenuOvertime}';
+  static const iconMenuRoomActive = '$_basePath/${AppIcons.iconMenuRoomActive}';
   static const iconMenuRoom = '$_basePath/${AppIcons.iconMenuRoom}';
+  static const iconMenuShiftActive = '$_basePath/${AppIcons.iconMenuShiftActive}';
+  static const iconMenuShiftDisable = '$_basePath/${AppIcons.iconMenuShiftDisable}';
   static const iconMenuShift = '$_basePath/${AppIcons.iconMenuShift}';
+  static const iconMenuSppdActive = '$_basePath/${AppIcons.iconMenuSppdActive}';
+  static const iconMenuSppd = '$_basePath/${AppIcons.iconMenuSppd}';
   static const iconMenuStationery = '$_basePath/${AppIcons.iconMenuStationery}';
+  static const iconMenuTaskActive = '$_basePath/${AppIcons.iconMenuTaskActive}';
   static const iconMenuTask = '$_basePath/${AppIcons.iconMenuTask}';
+  static const iconMenuTeamActive = '$_basePath/${AppIcons.iconMenuTeamActive}';
+  static const iconMenuTeam = '$_basePath/${AppIcons.iconMenuTeam}';
   static const iconMenuTransportation = '$_basePath/${AppIcons.iconMenuTransportation}';
   static const iconScanQr2 = '$_basePath/${AppIcons.iconScanQr2}';
   static const iconSubmenuAbsenceSubmit = '$_basePath/${AppIcons.iconSubmenuAbsenceSubmit}';
@@ -687,6 +721,7 @@ abstract class AppAssets {
   static const imageIllustrationFailedReimburse = '$_basePath/${AppImages.imageIllustrationFailedReimburse}';
   static const imageIllustrationHelp = '$_basePath/${AppImages.imageIllustrationHelp}';
   static const imageIllustrationInfo2 = '$_basePath/${AppImages.imageIllustrationInfo2}';
+  static const imageIllustrationLocationDistance = '$_basePath/${AppImages.imageIllustrationLocationDistance}';
   static const imageIllustrationLocationPermission = '$_basePath/${AppImages.imageIllustrationLocationPermission}';
   static const imageIllustrationNoPhonenumber = '$_basePath/${AppImages.imageIllustrationNoPhonenumber}';
   static const imageIllustrationNotYetBisaLogin = '$_basePath/${AppImages.imageIllustrationNotYetBisaLogin}';
@@ -700,7 +735,6 @@ abstract class AppAssets {
   static const imageIllustrationSuccessFacility = '$_basePath/${AppImages.imageIllustrationSuccessFacility}';
   static const imageIllustrationSuccessMultitrip = '$_basePath/${AppImages.imageIllustrationSuccessMultitrip}';
   static const imageIllustrationWarning = '$_basePath/${AppImages.imageIllustrationWarning}';
-  static const imageIllustrationLocationDistance = '$_basePath/${AppImages.imageIllustrationLocationDistance}';
   static const imageInfo = '$_basePath/${AppImages.imageInfo}';
   static const imageKuotaDonation = '$_basePath/${AppImages.imageKuotaDonation}';
   static const imageLaptop = '$_basePath/${AppImages.imageLaptop}';
@@ -764,4 +798,5 @@ abstract class AppAssets {
 
   // --- AppSounds Mapping ---
   static const soundChargingCompletion = '$_basePath/${AppSounds.chargingCompletion}';
+
 }
