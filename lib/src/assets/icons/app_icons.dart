@@ -321,6 +321,7 @@ abstract class AppIcons {
   static const String iconWorkroomImagePlaceholder = 'assets/icons/svg/icon-workroom-image-placeholder.svg';
   static const String iconWorkroom = 'assets/icons/svg/icon-workroom.svg';
   static const String illustrationDocumentCheck = 'assets/icons/svg/illustration-document-check.svg';
+  static const String illustrationEmptyFolder = 'assets/icons/svg/illustration-empty-folder.svg';
 
   // Group: PNG
   static const String iconAirplaneRejectGrey = 'assets/icons/png/icon-airplane-reject-grey.png';

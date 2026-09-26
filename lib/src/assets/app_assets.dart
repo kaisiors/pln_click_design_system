@@ -328,6 +328,7 @@ abstract class AppAssets {
   static const iconWorkroomImagePlaceholder = '$_basePath/${AppIcons.iconWorkroomImagePlaceholder}';
   static const iconWorkroom = '$_basePath/${AppIcons.iconWorkroom}';
   static const iconIllustrationDocumentCheck = '$_basePath/${AppIcons.illustrationDocumentCheck}';
+  static const iconIllustrationEmptyFolder = '$_basePath/${AppIcons.illustrationEmptyFolder}';
   static const iconAirplaneRejectGrey = '$_basePath/${AppIcons.iconAirplaneRejectGrey}';
   static const iconAttendanceIn = '$_basePath/${AppIcons.iconAttendanceIn}';
   static const iconAttendanceOut = '$_basePath/${AppIcons.iconAttendanceOut}';
