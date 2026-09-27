@@ -292,6 +292,7 @@ abstract class AppAssets {
   static const iconStarOn = '$_basePath/${AppIcons.iconStarOn}';
   static const iconStar = '$_basePath/${AppIcons.iconStar}';
   static const iconSubmenuIdt = '$_basePath/${AppIcons.iconSubmenuIdt}';
+  static const iconSubmenuWhiteIdt = '$_basePath/${AppIcons.iconSubmenuWhiteIdt}';
   static const iconSuitcase = '$_basePath/${AppIcons.iconSuitcase}';
   static const iconSwimmingPool = '$_basePath/${AppIcons.iconSwimmingPool}';
   static const iconSwitchEn = '$_basePath/${AppIcons.iconSwitchEn}';

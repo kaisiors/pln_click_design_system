@@ -285,6 +285,7 @@ abstract class AppIcons {
   static const String iconStarOn = 'assets/icons/svg/icon-star-on.svg';
   static const String iconStar = 'assets/icons/svg/icon-star.svg';
   static const String iconSubmenuIdt = 'assets/icons/svg/icon-submenu-idt.svg';
+  static const String iconSubmenuWhiteIdt = 'assets/icons/svg/icon-submenu-white-idt.svg';
   static const String iconSuitcase = 'assets/icons/svg/icon-suitcase.svg';
   static const String iconSwimmingPool = 'assets/icons/svg/icon-swimming-pool.svg';
   static const String iconSwitchEn = 'assets/icons/svg/icon-switch-en.svg';
