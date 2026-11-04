@@ -67,6 +67,7 @@ abstract class AppAssets {
   static const iconChevronLeft = '$_basePath/${AppIcons.iconChevronLeft}';
   static const iconChevronRight = '$_basePath/${AppIcons.iconChevronRight}';
   static const iconChevronUp = '$_basePath/${AppIcons.iconChevronUp}';
+  static const iconCircleDocument = '$_basePath/${AppIcons.iconCircleDocument}';
   static const iconClipper = '$_basePath/${AppIcons.iconClipper}';
   static const iconClockSchedule = '$_basePath/${AppIcons.iconClockSchedule}';
   static const iconClockTeam = '$_basePath/${AppIcons.iconClockTeam}';

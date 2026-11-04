@@ -60,6 +60,7 @@ abstract class AppIcons {
   static const String iconChevronLeft = 'assets/icons/svg/icon-chevron-left.svg';
   static const String iconChevronRight = 'assets/icons/svg/icon-chevron-right.svg';
   static const String iconChevronUp = 'assets/icons/svg/icon-chevron-up.svg';
+  static const String iconCircleDocument = 'assets/icons/svg/icon-circle-document.svg';
   static const String iconClipper = 'assets/icons/svg/icon-clipper.svg';
   static const String iconClockSchedule = 'assets/icons/svg/icon-clock-schedule.svg';
   static const String iconClockTeam = 'assets/icons/svg/icon-clock-team.svg';
