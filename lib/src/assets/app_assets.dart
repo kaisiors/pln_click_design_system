@@ -227,6 +227,7 @@ abstract class AppAssets {
   static const iconPeopleGroupMeeting = '$_basePath/${AppIcons.iconPeopleGroupMeeting}';
   static const iconPeopleGroup = '$_basePath/${AppIcons.iconPeopleGroup}';
   static const iconPeriodePenukaran = '$_basePath/${AppIcons.iconPeriodePenukaran}';
+  static const iconPersonOutlined = '$_basePath/${AppIcons.iconPersonOutlined}';
   static const iconPlaneFlight = '$_basePath/${AppIcons.iconPlaneFlight}';
   static const iconPlaystore2 = '$_basePath/${AppIcons.iconPlaystore2}';
   static const iconPlusCircle = '$_basePath/${AppIcons.iconPlusCircle}';

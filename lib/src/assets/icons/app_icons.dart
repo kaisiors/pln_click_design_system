@@ -220,6 +220,7 @@ abstract class AppIcons {
   static const String iconPeopleGroupMeeting = 'assets/icons/svg/icon-people-group-meeting.svg';
   static const String iconPeopleGroup = 'assets/icons/svg/icon-people-group.svg';
   static const String iconPeriodePenukaran = 'assets/icons/svg/icon-periode-penukaran.svg';
+  static const String iconPersonOutlined = 'assets/icons/svg/icon-person-outlined.svg';
   static const String iconPlaneFlight = 'assets/icons/svg/icon-plane-flight.svg';
   static const String iconPlaystore2 = 'assets/icons/svg/icon-playstore-2.svg';
   static const String iconPlusCircle = 'assets/icons/svg/icon-plus-circle.svg';
