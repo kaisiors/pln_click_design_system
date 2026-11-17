@@ -113,6 +113,7 @@ abstract class AppIcons {
   static const String iconForkSpoonDisabled = 'assets/icons/svg/icon-fork-spoon-disabled.svg';
   static const String iconForkSpoon = 'assets/icons/svg/icon-fork-spoon.svg';
   static const String iconFreeDelivery = 'assets/icons/svg/icon-free-delivery.svg';
+  static const String iconGrabfood = 'assets/icons/svg/icon-grabfood.svg';
   static const String iconGrid = 'assets/icons/svg/icon-grid.svg';
   static const String iconHelpHeadset = 'assets/icons/svg/icon-help-headset.svg';
   static const String iconHistoryAttendance = 'assets/icons/svg/icon-history-attendance.svg';

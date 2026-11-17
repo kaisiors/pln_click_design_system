@@ -120,6 +120,7 @@ abstract class AppAssets {
   static const iconForkSpoonDisabled = '$_basePath/${AppIcons.iconForkSpoonDisabled}';
   static const iconForkSpoon = '$_basePath/${AppIcons.iconForkSpoon}';
   static const iconFreeDelivery = '$_basePath/${AppIcons.iconFreeDelivery}';
+  static const iconGrabfood = '$_basePath/${AppIcons.iconGrabfood}';
   static const iconGrid = '$_basePath/${AppIcons.iconGrid}';
   static const iconHelpHeadset = '$_basePath/${AppIcons.iconHelpHeadset}';
   static const iconHistoryAttendance = '$_basePath/${AppIcons.iconHistoryAttendance}';
