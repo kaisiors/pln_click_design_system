@@ -330,6 +330,7 @@ abstract class AppAssets {
   static const iconWifi = '$_basePath/${AppIcons.iconWifi}';
   static const iconWorkroomImagePlaceholder = '$_basePath/${AppIcons.iconWorkroomImagePlaceholder}';
   static const iconWorkroom = '$_basePath/${AppIcons.iconWorkroom}';
+  static const iconZoom = '$_basePath/${AppIcons.iconZoom}';
   static const iconIllustrationDocumentCheck = '$_basePath/${AppIcons.illustrationDocumentCheck}';
   static const iconIllustrationEmptyFolder = '$_basePath/${AppIcons.illustrationEmptyFolder}';
   static const iconAirplaneRejectGrey = '$_basePath/${AppIcons.iconAirplaneRejectGrey}';

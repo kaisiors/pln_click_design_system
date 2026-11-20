@@ -323,6 +323,7 @@ abstract class AppIcons {
   static const String iconWifi = 'assets/icons/svg/icon-wifi.svg';
   static const String iconWorkroomImagePlaceholder = 'assets/icons/svg/icon-workroom-image-placeholder.svg';
   static const String iconWorkroom = 'assets/icons/svg/icon-workroom.svg';
+  static const String iconZoom = 'assets/icons/svg/icon-zoom.svg';
   static const String illustrationDocumentCheck = 'assets/icons/svg/illustration-document-check.svg';
   static const String illustrationEmptyFolder = 'assets/icons/svg/illustration-empty-folder.svg';
 
