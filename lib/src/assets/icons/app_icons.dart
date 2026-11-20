@@ -366,6 +366,7 @@ abstract class AppIcons {
   static const String iconBluebird1 = 'assets/icons/png/brands/icon-bluebird-1.png';
   static const String iconGojek1 = 'assets/icons/png/brands/icon-gojek-1.png';
   static const String iconGrab1 = 'assets/icons/png/brands/icon-grab-1.png';
+  static const String iconGrabfood = 'assets/icons/png/brands/icon-grabfood.png';
   static const String iconM = 'assets/icons/png/brands/icon-m.png';
   static const String iconPlaystore1 = 'assets/icons/png/brands/icon-playstore-1.png';
   static const String iconPln2 = 'assets/icons/png/brands/icon-pln-2.png';

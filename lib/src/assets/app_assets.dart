@@ -369,6 +369,7 @@ abstract class AppAssets {
   static const iconBluebird1 = '$_basePath/${AppIcons.iconBluebird1}';
   static const iconGojek1 = '$_basePath/${AppIcons.iconGojek1}';
   static const iconGrab1 = '$_basePath/${AppIcons.iconGrab1}';
+  static const iconGrabfood = '$_basePath/${AppIcons.iconGrabfood}';
   static const iconM = '$_basePath/${AppIcons.iconM}';
   static const iconPlaystore1 = '$_basePath/${AppIcons.iconPlaystore1}';
   static const iconPln2 = '$_basePath/${AppIcons.iconPln2}';
@@ -803,5 +804,4 @@ abstract class AppAssets {
 
   // --- AppSounds Mapping ---
   static const soundChargingCompletion = '$_basePath/${AppSounds.chargingCompletion}';
-
 }
